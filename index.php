@@ -1,5 +1,5 @@
 <html>
 <?php
-  header("location:stemSubjectPreff.php");
+  header("location:WebPage/stemSubjectPreff.php");
 ?>
 </html>
