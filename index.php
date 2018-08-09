@@ -21,7 +21,7 @@
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    
     background-color: #f1f1f1;
     min-width: 300px;
     overflow: auto;
