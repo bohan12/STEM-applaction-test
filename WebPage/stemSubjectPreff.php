@@ -52,7 +52,7 @@
 	
 </br>
 
-<button onclick="biologyDropdown()" class="dropbtn">Biology</button>
+<button onmouseover="biologyDropdown()" class="dropbtn">Biology</button>
   <div id="myDropdown1" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
