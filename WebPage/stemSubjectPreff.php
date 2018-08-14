@@ -157,9 +157,9 @@
   <input type="hidden" name="phyrating" id="phyrating" value="1">
   <input type="hidden" name="starating" id="starating" value="1">
 
-  <input type="submit" value="Submit" name="submit_rating">
-
 </div>
+
+  <input type="submit" value="Submit" name="submit_rating">
 
 </div>
 
