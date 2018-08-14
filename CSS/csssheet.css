@@ -19,7 +19,7 @@ divbumper2 {
 }
 
 body {
-    background: linear-gradient(to bottom, black 0%,black 50%,#000000 50%,white 50%,white 100%);
+    background: linear-gradient(to bottom, #ff4400 5.00%, #ff6600 5.00%, #ff6600 10.00%, #ff8800 10.00%);
     margin-top: 150px;
     margin-bottom: 150px;
     margin-right: 150px;
