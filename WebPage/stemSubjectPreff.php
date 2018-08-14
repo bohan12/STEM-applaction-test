@@ -38,16 +38,16 @@
 
 <form method="post">
 <div class="div">
-	  <input type="hidden" id="abc1_hidden" value="1">
-	  <img src="star2.png" onmouseover="change(this.id);" id="abc1" class="abc">
-	  <input type="hidden" id="abc2_hidden" value="2">
-	  <img src="star2.png" onmouseover="change(this.id);" id="abc2" class="abc">
-	  <input type="hidden" id="abc3_hidden" value="3">
-	  <img src="star2.png" onmouseover="change(this.id);" id="abc3" class="abc">
-	  <input type="hidden" id="abc4_hidden" value="4">
-	  <img src="star2.png" onmouseover="change(this.id);" id="abc4" class="abc">
-	  <input type="hidden" id="abc5_hidden" value="5">
-	  <img src="star2.png" onmouseover="change(this.id);" id="abc5" class="abc">
+	  <input type="hidden" id="alg1_hidden" value="1">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg1" class="alg">
+	  <input type="hidden" id="alg2_hidden" value="2">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg2" class="alg">
+	  <input type="hidden" id="alg3_hidden" value="3">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg3" class="alg">
+	  <input type="hidden" id="alg4_hidden" value="4">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg4" class="alg">
+	  <input type="hidden" id="alg5_hidden" value="5">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg5" class="alg">
 </div>	
 	
 </br>
@@ -61,16 +61,16 @@
   </div>
 
 <div class="div">
-	  <input type="hidden" id="asp1_hidden" value="1">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asp1" class="asp">
-	  <input type="hidden" id="asp2_hidden" value="2">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asp2" class="asp">
-	  <input type="hidden" id="asp3_hidden" value="3">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asp3" class="asp">
-	  <input type="hidden" id="asp4_hidden" value="4">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asp4" class="asp">
-	  <input type="hidden" id="asp5_hidden" value="5">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asp5" class="asp">
+	  <input type="hidden" id="bio1_hidden" value="1">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="bio1" class="bio">
+	  <input type="hidden" id="bio2_hidden" value="2">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="bio2" class="bio">
+	  <input type="hidden" id="bio3_hidden" value="3">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="bio3" class="bio">
+	  <input type="hidden" id="bio4_hidden" value="4">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="bio4" class="bio">
+	  <input type="hidden" id="bio5_hidden" value="5">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="bio5" class="bio">
 </div>
 
 </br>
@@ -84,16 +84,16 @@
   </div>
 
 <div class="div">
-	  <input type="hidden" id="asb1_hidden" value="1">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asb1" class="asb">
-	  <input type="hidden" id="asb2_hidden" value="2">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asb2" class="asb">
-	  <input type="hidden" id="asb3_hidden" value="3">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asb3" class="asb">
-	  <input type="hidden" id="asb4_hidden" value="4">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asb4" class="asb">
-	  <input type="hidden" id="asb5_hidden" value="5">
-	  <img src="star1.png" onmouseover="change(this.id);" id="asb5" class="asb">
+	  <input type="hidden" id="cal1_hidden" value="1">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="cal1" class="cal">
+	  <input type="hidden" id="cal2_hidden" value="2">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="cal2" class="cal">
+	  <input type="hidden" id="cal3_hidden" value="3">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="cal3" class="cal">
+	  <input type="hidden" id="cal4_hidden" value="4">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="cal4" class="cal">
+	  <input type="hidden" id="cal5_hidden" value="5">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="cal5" class="cal">
   </div>
 	
 </br>
@@ -105,6 +105,19 @@
 <p>description</p>
 <p>description</p>
   </div>
+	
+<div class="div">
+	  <input type="hidden" id="che1_hidden" value="1">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="che1" class="che">
+	  <input type="hidden" id="che2_hidden" value="2">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="che2" class="che">
+	  <input type="hidden" id="che3_hidden" value="3">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="che3" class="che">
+	  <input type="hidden" id="che4_hidden" value="4">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="che4" class="che">
+	  <input type="hidden" id="che5_hidden" value="5">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="che5" class="che">
+</div>
 
 </br>
 
@@ -114,6 +127,19 @@
 <p>description</p>
 <p>description</p>
 <p>description</p>
+  </div>
+
+<div class="div">
+	  <input type="hidden" id="phy1_hidden" value="1">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="phy1" class="phy">
+	  <input type="hidden" id="phy2_hidden" value="2">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="phy2" class="phy">
+	  <input type="hidden" id="phy3_hidden" value="3">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="phy3" class="phy">
+	  <input type="hidden" id="phy4_hidden" value="4">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="phy4" class="phy">
+	  <input type="hidden" id="phy5_hidden" value="5">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="phy5" class="phy">
   </div>
 
 </br>
@@ -128,22 +154,23 @@
 
 <div class="div">
   	  
-	  <input type="hidden" id="jsp1_hidden" value="1">
-	  <img src="star1.png" onmouseover="change(this.id);" id="jsp1" class="jsp">
-	  <input type="hidden" id="jsp2_hidden" value="2">
-	  <img src="star1.png" onmouseover="change(this.id);" id="jsp2" class="jsp">
-	  <input type="hidden" id="jsp3_hidden" value="3">
-	  <img src="star1.png" onmouseover="change(this.id);" id="jsp3" class="jsp">
-	  <input type="hidden" id="jsp4_hidden" value="4">
-	  <img src="star1.png" onmouseover="change(this.id);" id="jsp4" class="jsp">
-	  <input type="hidden" id="jsp5_hidden" value="5">
-	  <img src="star1.png" onmouseover="change(this.id);" id="jsp5" class="jsp">
+	  <input type="hidden" id="sta1_hidden" value="1">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="sta1" class="sta">
+	  <input type="hidden" id="sta2_hidden" value="2">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="sta2" class="sta">
+	  <input type="hidden" id="sta3_hidden" value="3">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="sta3" class="sta">
+	  <input type="hidden" id="sta4_hidden" value="4">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="sta4" class="sta">
+	  <input type="hidden" id="sta5_hidden" value="5">
+	  <img src="images/star1.png" onmouseover="change(this.id);" id="sta5" class="sta">
   </div>
- <input type="hidden" name="abcrating" id="abcrating" value="0">
-  <input type="hidden" name="asprating" id="asprating" value="0">
-  <input type="hidden" name="asbrating" id="asbrating" value="0">
-
-  <input type="hidden" name="jsprating" id="jsprating" value="0">
+  <input type="hidden" name="algrating" id="algrating" value="0">
+  <input type="hidden" name="biorating" id="biorating" value="0">
+  <input type="hidden" name="calrating" id="calrating" value="0">
+  <input type="hidden" name="cherating" id="cherating" value="0">
+  <input type="hidden" name="phyrating" id="phyrating" value="0">
+  <input type="hidden" name="starating" id="starating" value="0">
 
   <input type="submit" value="Submit" name="submit_rating">
 
