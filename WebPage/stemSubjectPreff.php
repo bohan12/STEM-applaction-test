@@ -62,15 +62,15 @@
 
 <div class="div">
 	  <input type="hidden" id="bio1_hidden" value="1">
-	  <img src="images/star1.png" onclickover="change(this.id);" id="bio1" class="bio">
+	  <img src="images/star1.png" onclick="change(this.id);" id="bio1" class="bio">
 	  <input type="hidden" id="bio2_hidden" value="2">
-	  <img src="images/star1.png" onclickover="change(this.id);" id="bio2" class="bio">
+	  <img src="images/star1.png" onclick="change(this.id);" id="bio2" class="bio">
 	  <input type="hidden" id="bio3_hidden" value="3">
-	  <img src="images/star1.png" onclickover="change(this.id);" id="bio3" class="bio">
+	  <img src="images/star1.png" onclick="change(this.id);" id="bio3" class="bio">
 	  <input type="hidden" id="bio4_hidden" value="4">
-	  <img src="images/star1.png" onclickover="change(this.id);" id="bio4" class="bio">
+	  <img src="images/star1.png" onclick="change(this.id);" id="bio4" class="bio">
 	  <input type="hidden" id="bio5_hidden" value="5">
-	  <img src="images/star1.png" onclickover="change(this.id);" id="bio5" class="bio">
+	  <img src="images/star1.png" onclick="change(this.id);" id="bio5" class="bio">
 </div>
 
 </br>
