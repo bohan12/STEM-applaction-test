@@ -2,8 +2,24 @@ div {
     color : white;
 }
 
+divbumper1 {
+    background-color: #ff4400;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+divbumper2 {
+    background-color: #ff6600;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
 body {
-    background-color: #ff5500;
+    background-color: #ff8800;
     margin-top: 150px;
     margin-bottom: 150px;
     margin-right: 150px;
