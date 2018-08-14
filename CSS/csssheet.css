@@ -2,7 +2,7 @@ div {
     color : white;
 }
 
-divbumper1 {
+.divbumper1 {
     background-color: #ff4400;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -10,7 +10,7 @@ divbumper1 {
     margin-left: 150px;
 }
 
-divbumper2 {
+.divbumper2 {
     background-color: #ff6600;
     margin-top: 150px;
     margin-bottom: 150px;
