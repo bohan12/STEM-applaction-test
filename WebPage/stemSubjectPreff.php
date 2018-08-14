@@ -14,7 +14,7 @@
 	</form>
 	<p>Question</p>
 <div class="dropdown">
-<button onclick="algebraDropdown()" class="dropbtn">Subject</button>
+<button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
   <div id="myDropdown" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -25,7 +25,7 @@
 
 </br>
 
-<button onclick="biologyDropdown()" class="dropbtn">Subject</button>
+<button onclick="biologyDropdown()" class="dropbtn">Biology</button>
   <div id="myDropdown1" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -35,7 +35,7 @@
   </div>
 </br>
 
-<button onclick="calculusDropdown()" class="dropbtn">Subject</button>
+<button onclick="calculusDropdown()" class="dropbtn">Calculus</button>
   <div id="myDropdown2" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -45,8 +45,28 @@
   </div>
 </br>
 
-<button onclick="chemistryDropdown()" class="dropbtn">Subject</button>
+<button onclick="chemistryDropdown()" class="dropbtn">Chemistry</button>
   <div id="myDropdown3" class="dropdown-content">
+    <p>description</p><p>description</p>
+<p>description</p>
+<p>description</p>
+<p>description</p>
+
+  </div>
+</br>
+
+<button onclick="physicsDropdown()" class="dropbtn">Physics</button>
+  <div id="myDropdown4" class="dropdown-content">
+    <p>description</p><p>description</p>
+<p>description</p>
+<p>description</p>
+<p>description</p>
+
+  </div>
+</br>
+
+<button onclick="statisticsDropdown()" class="dropbtn">Statistics</button>
+  <div id="myDropdown5" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
@@ -72,6 +92,12 @@ function calculusDropdown() {
 }
 function chemistryDropdown() {
     document.getElementById("myDropdown3").classList.toggle("show");
+}
+function physicsDropdown() {
+    document.getElementById("myDropdown4").classList.toggle("show");
+}
+function statisticsDropdown() {
+    document.getElementById("myDropdown5").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
