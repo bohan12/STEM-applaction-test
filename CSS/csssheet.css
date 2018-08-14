@@ -22,15 +22,14 @@ body {
 
 
 .dropdown {
-    margin-top: -5px;
     position: relative;
     display: inline-block;
 }
 
 .dropdown-content {
     display: none;
-    
-    background-color: #ff4400;
+    margin-top: -5px;
+    background-color: #ff5500;
     min-width: 300px;
     overflow: auto;
     
