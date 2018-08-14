@@ -1,3 +1,15 @@
+h1 {
+	color: black;
+	font-family: Verdana;
+	fone-size: 38px; 
+}
+
+h2 {
+	color: grey; black;
+	font-family: Verdana;
+	font-size: 26px;
+}
+
 div {
     color : black;
 }
@@ -67,14 +79,3 @@ body {
 	float:left;
 }*/
 
-h1 {
-	color: black;
-	font-family: Verdana;
-	fone-size: 38px; 
-}
-
-h2 {
-	color: grey; black;
-	font-family: Verdana;
-	font-size: 26px;
-}
