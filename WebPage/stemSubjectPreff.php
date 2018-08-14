@@ -14,7 +14,7 @@
 	</form>
 	<p>Question</p>
 <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Subject</button>
+<button onclick="algebraDropdown()" class="dropbtn">Subject</button>
   <div id="myDropdown" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -25,7 +25,7 @@
 
 </br>
 
-<button onclick="myFunction1()" class="dropbtn">Subject</button>
+<button onclick="biologyDropdown()" class="dropbtn">Subject</button>
   <div id="myDropdown1" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -35,7 +35,7 @@
   </div>
 </br>
 
-<button onclick="myFunction2()" class="dropbtn">Subject</button>
+<button onclick="calculusDropdown()" class="dropbtn">Subject</button>
   <div id="myDropdown2" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -45,7 +45,7 @@
   </div>
 </br>
 
-<button onclick="myFunction3()" class="dropbtn">Subject</button>
+<button onclick="chemistryDropdown()" class="dropbtn">Subject</button>
   <div id="myDropdown3" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -61,16 +61,16 @@
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
+function algebraDropdown() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-function myFunction1() {
+function biologyDropdown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
-function myFunction2() {
+function calculusDropdown() {
     document.getElementById("myDropdown2").classList.toggle("show");
 }
-function myFunction3() {
+function chemistryDropdown() {
     document.getElementById("myDropdown3").classList.toggle("show");
 }
 
