@@ -159,6 +159,8 @@
 
 </div>
 
+</br>
+
   <input type="submit" value="Submit" name="submit_rating">
 
 </div>
