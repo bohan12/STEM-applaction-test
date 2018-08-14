@@ -5,12 +5,6 @@
         <title>First Page</title>
 	<link href="../CSS/csssheet.css" media="screen" rel="stylesheet" type="text/css"/>
 </head>
-<div id = ".divbumper1">
-	<p>description</p>
-</div>
-<div id = ".divbumper2">
-	<p>description</p>
-</div>
 <body>
       <img src="../images/STEM.png" alt="stem">
       <h1>Index Page</h1>
