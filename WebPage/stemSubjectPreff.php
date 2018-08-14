@@ -52,7 +52,7 @@
 	
 </br>
 
-<button onmouseover="biologyDropdown()" class="dropbtn">Biology</button>
+<hidden onmouseover="biologyDropdown()" class="dropbtn">Biology</button>
   <div id="myDropdown1" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -75,7 +75,7 @@
 
 </br>
 
-<button onclick="calculusDropdown()" class="dropbtn">Calculus</button>
+<hidden onmouseover="calculusDropdown()" class="dropbtn">Calculus</button>
   <div id="myDropdown2" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -98,7 +98,7 @@
 	
 </br>
 
-<button onclick="chemistryDropdown()" class="dropbtn">Chemistry</button>
+<hidden onmouseover="chemistryDropdown()" class="dropbtn">Chemistry</button>
   <div id="myDropdown3" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -121,7 +121,7 @@
 
 </br>
 
-<button onclick="physicsDropdown()" class="dropbtn">Physics</button>
+<hidden onmouseover="physicsDropdown()" class="dropbtn">Physics</button>
   <div id="myDropdown4" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -144,7 +144,7 @@
 
 </br>
 
-<button onclick="statisticsDropdown()" class="dropbtn">Statistics</button>
+<button onmouseover="statisticsDropdown()" class="dropbtn">Statistics</button>
   <div id="myDropdown5" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
