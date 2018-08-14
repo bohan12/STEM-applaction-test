@@ -3,8 +3,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>First Page</title>
-	<style>
 	<link href="../CSS/csssheet.css" media="screen" rel="stylesheet" type="text/css"/>
+	<style>
+	
 .dropbtn {
     background-color: white;
     color: ;
