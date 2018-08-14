@@ -14,9 +14,9 @@ body {
     background-color: #ff6600;
     color: ;
     margin-top: 5px;
-    padding: 20px 40px;
+    padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 8px;
     cursor: pointer;
 }
 
