@@ -5,7 +5,7 @@ div {
 body {
     background: linear-gradient(to bottom, #ff4400 70px, #ff6600 70px, #ff6600 140px, #ff8800 140px);
     font-family: verdana;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 150px;
@@ -15,7 +15,7 @@ body {
 .dropbtn {
     background-color: #ff6600;
     font-family: verdana;
-    font-size: 11px;
+    font-size: 12px;
     color: ;
     margin-top: 5px;
     padding: 16px;
@@ -33,7 +33,7 @@ body {
 .dropdown-content {
     display: none;
     font-family: verdana;
-    font-size: 11px;
+    font-size: 12px;
     background-color: #ff5500;
     min-width: 300px;
     overflow: auto;
@@ -43,7 +43,7 @@ body {
 
 .dropdown-content a {
     font-family: verdana;
-    font-size: 11px;
+    font-size: 12px;
     color: black;
     padding: 20px 20px;
     text-decoration: none;
