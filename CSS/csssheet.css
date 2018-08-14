@@ -3,7 +3,7 @@ div {
 }
 
 body {
-    background: linear-gradient(to top, #ff4400 70px, #ff6600 70px, #ff6600 140px, #ff8800 140px);
+    background: linear-gradient(to bottom, #ff4400 70px, #ff6600 70px, #ff6600 140px, #ff8800 140px);
     margin-top: 0px;
     margin-bottom: 150px;
     margin-right: 150px;
