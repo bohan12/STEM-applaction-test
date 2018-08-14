@@ -71,6 +71,8 @@
 
 </div>
 
+</br>
+
 <form action="second.php">
 	<button type="submit" formaction = "second.php">Second page</button>
 </form>
