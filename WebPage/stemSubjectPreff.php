@@ -24,8 +24,8 @@
 </head>
 <body>
       <img src="../images/STEM.png" alt="stem">
-	<h4>Please rate your favourite subjects from 1 to 5</h4>
-	<p>Click on the subjects for their description</p>
+	<h1>Please rate your favourite subjects from 1 to 5</h1>
+	<h2>Click on the subjects for their description</h2>
 <div class="dropdown">
 	
 <button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
