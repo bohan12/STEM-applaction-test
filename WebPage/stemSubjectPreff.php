@@ -7,8 +7,7 @@
 </head>
 <body>
       <img src="../images/STEM.png" alt="stem">
-      <h1>Index Page</h1>
-	<h3>Please rate your favourite subjects from 1 to 5</h3>
+	<h4>Please rate your favourite subjects from 1 to 5</h4>
 	<p>Click on the subjects for their description</p>
 <div class="dropdown">
 <button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
