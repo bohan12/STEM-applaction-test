@@ -39,13 +39,13 @@
 <form method="post">
 <div class="div">
 	  <input type="hidden" id="alg1_hidden" value="1">
-	  <img src="images/star2.png" onclick="change(this.id);" id="alg1" class="alg">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg1" class="alg">
 	  <input type="hidden" id="alg2_hidden" value="2">
-	  <img src="images/star2.png" onclick="change(this.id);" id="alg2" class="alg">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg2" class="alg">
 	  <input type="hidden" id="alg3_hidden" value="3">
-	  <img src="images/star2.png" onclick="change(this.id);" id="alg3" class="alg">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg3" class="alg">
 	  <input type="hidden" id="alg4_hidden" value="4">
-	  <img src="images/star2.png" onclick="change(this.id);" id="alg4" class="alg">
+	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg4" class="alg">
 	  <input type="hidden" id="alg5_hidden" value="5">
 	  <img src="images/star2.png" onmouseover="change(this.id);" id="alg5" class="alg">
 </div>	
