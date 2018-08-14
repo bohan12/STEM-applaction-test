@@ -43,6 +43,7 @@
 </style>
 </head>
 <body>
+      <img src="../images/stem.png" alt="stem">
       <h1>Index Page</h1>
 	<p><a href="second.php">Second page </a> <br /> - Went to second page</p>
 	<form action="second.php">
