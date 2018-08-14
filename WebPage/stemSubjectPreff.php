@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>First Page</title>
 	<style>
-		<link rel="stylesheet" href="../CSS/csssheet.css">
+		<link href="../CSS/csssheet.css" media="screen" rel="stylesheet" type="text/css">
 .dropbtn {
     background-color: white;
     color: ;
