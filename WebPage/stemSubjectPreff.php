@@ -29,7 +29,6 @@
 <div class="dropdown">
 	
 <button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
-	  <form method="post">
     	  <input type="hidden" id="alg1_hidden" value="1">
 	  <img src="../images/star2.png" onclick="change(this.id);" id="alg1" class="alg">
 	  <input type="hidden" id="alg2_hidden" value="2">
@@ -175,8 +174,6 @@
   <input type="submit" value="Submit" name="submit_rating">
 
 </div>
-
-</form>
 
 </div>
 
