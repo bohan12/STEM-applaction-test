@@ -10,16 +10,14 @@
 	<h4>Please rate your favourite subjects from 1 to 5</h4>
 	<p>Click on the subjects for their description</p>
 <div class="dropdown">
+	
 <button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
   <div id="myDropdown" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
 <p>description</p>
-
   </div>
-
-</br>
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
   <div id="myDropdown1" class="dropdown-content">
@@ -27,9 +25,7 @@
 <p>description</p>
 <p>description</p>
 <p>description</p>
-
   </div>
-</br>
 
 <button onclick="calculusDropdown()" class="dropbtn">Calculus</button>
   <div id="myDropdown2" class="dropdown-content">
@@ -37,9 +33,7 @@
 <p>description</p>
 <p>description</p>
 <p>description</p>
-
   </div>
-</br>
 
 <button onclick="chemistryDropdown()" class="dropbtn">Chemistry</button>
   <div id="myDropdown3" class="dropdown-content">
@@ -47,9 +41,7 @@
 <p>description</p>
 <p>description</p>
 <p>description</p>
-
   </div>
-</br>
 
 <button onclick="physicsDropdown()" class="dropbtn">Physics</button>
   <div id="myDropdown4" class="dropdown-content">
@@ -57,9 +49,7 @@
 <p>description</p>
 <p>description</p>
 <p>description</p>
-
   </div>
-</br>
 
 <button onclick="statisticsDropdown()" class="dropbtn">Statistics</button>
   <div id="myDropdown5" class="dropdown-content">
@@ -67,9 +57,7 @@
 <p>description</p>
 <p>description</p>
 <p>description</p>
-
   </div>
-
 
 </div>
 
