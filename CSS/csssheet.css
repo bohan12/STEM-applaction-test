@@ -2,7 +2,7 @@ div {
     color : white;
 }
 
-.divbumper1 {
+divbumper1 {
     background-color: #ff4400;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -10,7 +10,7 @@ div {
     margin-left: 0px;
 }
 
-.divbumper2 {
+divbumper2 {
     background-color: #ff6600;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -19,7 +19,7 @@ div {
 }
 
 body {
-    background-color: #ff8800;
+    background: linear-gradient(to bottom, black 0%,black 50%,#000000 50%,white 50%,white 100%);
     margin-top: 150px;
     margin-bottom: 150px;
     margin-right: 150px;
