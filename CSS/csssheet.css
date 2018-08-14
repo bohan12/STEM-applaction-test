@@ -4,6 +4,10 @@ div {
 
 body {
     background-color: #ff5500;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .dropbtn {
