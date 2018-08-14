@@ -4,45 +4,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>First Page</title>
 	<link href="../CSS/csssheet.css" media="screen" rel="stylesheet" type="text/css"/>
-	<style>
-	
-.dropbtn {
-    background-color: white;
-    color: ;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    
-    background-color: #f1f1f1;
-    min-width: 300px;
-    overflow: auto;
-    
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 20px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-
-</style>
 </head>
 <body>
       <img src="../images/STEM.png" alt="stem">
