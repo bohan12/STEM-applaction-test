@@ -41,9 +41,6 @@
 	  <img src="images/star2.png" onclick="change(this.id);" id="alg5" class="alg">
 	
 <form method="post">
-<div class="div">
-	
-</div>	
 	
 <div id="myDropdown" class="dropdown-content">
     <p>description</p><p>description</p>
