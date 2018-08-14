@@ -71,10 +71,9 @@
 
 </div>
 
-<p><a href="second.php">Second page </a> <br /> - Went to second page</p>
-	<form action="second.php">
+<form action="second.php">
 	<button type="submit" formaction = "second.php">Second page</button>
-	</form>
+</form>
 
 <script>
 /* When the user clicks on the button, 
