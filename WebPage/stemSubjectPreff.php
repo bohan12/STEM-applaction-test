@@ -28,7 +28,7 @@
 	<p>Click on the subjects for their description</p>
 <div class="dropdown">
 	
-<hidden onmouseover="algebraDropdown()" class="dropbtn">Algebra</button>
+<button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
 	  <form method="post">
     	  <input type="hidden" id="alg1_hidden" value="1">
 	  <img src="../images/star2.png" onclick="change(this.id);" id="alg1" class="alg">
@@ -52,7 +52,7 @@
 	
 </br>
 
-<hidden onmouseover="biologyDropdown()" class="dropbtn">Biology</button>
+<button onclick="biologyDropdown()" class="dropbtn">Biology</button>
   <div id="myDropdown1" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -75,7 +75,7 @@
 
 </br>
 
-<hidden onmouseover="calculusDropdown()" class="dropbtn">Calculus</button>
+<button onmouseover="calculusDropdown()" class="dropbtn">Calculus</button>
   <div id="myDropdown2" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -98,7 +98,7 @@
 	
 </br>
 
-<hidden onmouseover="chemistryDropdown()" class="dropbtn">Chemistry</button>
+<button onmouseover="chemistryDropdown()" class="dropbtn">Chemistry</button>
   <div id="myDropdown3" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
@@ -121,7 +121,7 @@
 
 </br>
 
-<hidden onmouseover="physicsDropdown()" class="dropbtn">Physics</button>
+<button onmouseover="physicsDropdown()" class="dropbtn">Physics</button>
   <div id="myDropdown4" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
