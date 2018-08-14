@@ -52,14 +52,6 @@
 </br>
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
-  <div id="myDropdown1" class="dropdown-content">
-    <p>description</p><p>description</p>
-<p>description</p>
-<p>description</p>
-<p>description</p>
-  </div>
-
-<div class="div">
 	  <input type="hidden" id="bio1_hidden" value="1">
 	  <img src="images/star1.png" onclick="change(this.id);" id="bio1" class="bio">
 	  <input type="hidden" id="bio2_hidden" value="2">
@@ -70,19 +62,17 @@
 	  <img src="images/star1.png" onclick="change(this.id);" id="bio4" class="bio">
 	  <input type="hidden" id="bio5_hidden" value="5">
 	  <img src="images/star1.png" onclick="change(this.id);" id="bio5" class="bio">
-</div>
-
-</br>
-
-<button onmouseover="calculusDropdown()" class="dropbtn">Calculus</button>
-  <div id="myDropdown2" class="dropdown-content">
+	
+  <div id="myDropdown1" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
 <p>description</p>
   </div>
 
-<div class="div">
+</br>
+
+<button onmouseover="calculusDropdown()" class="dropbtn">Calculus</button>
 	  <input type="hidden" id="cal1_hidden" value="1">
 	  <img src="images/star1.png" onclick="change(this.id);" id="cal1" class="cal">
 	  <input type="hidden" id="cal2_hidden" value="2">
@@ -93,19 +83,16 @@
 	  <img src="images/star1.png" onclick="change(this.id);" id="cal4" class="cal">
 	  <input type="hidden" id="cal5_hidden" value="5">
 	  <img src="images/star1.png" onclick="change(this.id);" id="cal5" class="cal">
-  </div>
-	
-</br>
-
-<button onmouseover="chemistryDropdown()" class="dropbtn">Chemistry</button>
-  <div id="myDropdown3" class="dropdown-content">
+  <div id="myDropdown2" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
 <p>description</p>
   </div>
 	
-<div class="div">
+</br>
+
+<button onclick="chemistryDropdown()" class="dropbtn">Chemistry</button>
 	  <input type="hidden" id="che1_hidden" value="1">
 	  <img src="images/star1.png" onclick="change(this.id);" id="che1" class="che">
 	  <input type="hidden" id="che2_hidden" value="2">
@@ -116,19 +103,16 @@
 	  <img src="images/star1.png" onclick="change(this.id);" id="che4" class="che">
 	  <input type="hidden" id="che5_hidden" value="5">
 	  <img src="images/star1.png" onclick="change(this.id);" id="che5" class="che">
-</div>
-
-</br>
-
-<button onmouseover="physicsDropdown()" class="dropbtn">Physics</button>
-  <div id="myDropdown4" class="dropdown-content">
+  <div id="myDropdown3" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
 <p>description</p>
   </div>
 
-<div class="div">
+</br>
+
+<button onclick="physicsDropdown()" class="dropbtn">Physics</button>
 	  <input type="hidden" id="phy1_hidden" value="1">
 	  <img src="images/star1.png" onclick="change(this.id);" id="phy1" class="phy">
 	  <input type="hidden" id="phy2_hidden" value="2">
@@ -139,21 +123,17 @@
 	  <img src="images/star1.png" onclick="change(this.id);" id="phy4" class="phy">
 	  <input type="hidden" id="phy5_hidden" value="5">
 	  <img src="images/star1.png" onclick="change(this.id);" id="phy5" class="phy">
-  </div>
-
-</br>
-
-<button onmouseover="statisticsDropdown()" class="dropbtn">Statistics</button>
-  <div id="myDropdown5" class="dropdown-content">
+  <div id="myDropdown4" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
 <p>description</p>
   </div>
 
-<div class="div">
-  	  
-	  <input type="hidden" id="sta1_hidden" value="1">
+</br>
+
+<button onclick="statisticsDropdown()" class="dropbtn">Statistics</button>\
+	<input type="hidden" id="sta1_hidden" value="1">
 	  <img src="images/star1.png" onclick="change(this.id);" id="sta1" class="sta">
 	  <input type="hidden" id="sta2_hidden" value="2">
 	  <img src="images/star1.png" onclick="change(this.id);" id="sta2" class="sta">
@@ -163,7 +143,13 @@
 	  <img src="images/star1.png" onclick="change(this.id);" id="sta4" class="sta">
 	  <input type="hidden" id="sta5_hidden" value="5">
 	  <img src="images/star1.png" onclick="change(this.id);" id="sta5" class="sta">
+  <div id="myDropdown5" class="dropdown-content">
+    <p>description</p><p>description</p>
+<p>description</p>
+<p>description</p>
+<p>description</p>
   </div>
+
   <input type="hidden" name="algrating" id="algrating" value="0">
   <input type="hidden" name="biorating" id="biorating" value="0">
   <input type="hidden" name="calrating" id="calrating" value="0">
