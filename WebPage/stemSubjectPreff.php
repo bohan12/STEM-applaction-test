@@ -29,10 +29,7 @@
 <div class="dropdown">
 	
 <button onclick="algebraDropdown()" class="dropbtn">Algebra</button>
-	
-<form method="post">
-<div class="div">
-	  <input type="hidden" id="alg1_hidden" value="1">
+    <input type="hidden" id="alg1_hidden" value="1">
 	  <img src="images/star2.png" onclick="change(this.id);" id="alg1" class="alg">
 	  <input type="hidden" id="alg2_hidden" value="2">
 	  <img src="images/star2.png" onclick="change(this.id);" id="alg2" class="alg">
@@ -42,14 +39,18 @@
 	  <img src="images/star2.png" onclick="change(this.id);" id="alg4" class="alg">
 	  <input type="hidden" id="alg5_hidden" value="5">
 	  <img src="images/star2.png" onclick="change(this.id);" id="alg5" class="alg">
+	
+<form method="post">
+<div class="div">
+	
 </div>	
 	
-  <div id="myDropdown" class="dropdown-content">
+<div id="myDropdown" class="dropdown-content">
     <p>description</p><p>description</p>
 <p>description</p>
 <p>description</p>
 <p>description</p>
-  </div>
+</div>
 	
 </br>
 
