@@ -23,9 +23,11 @@ body {
 }
 
 .dropbtn {
-    background-color: #457312;
+    border-radius: 4px;
+    background-color: #D93B20;
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
     padding: 16px;
     width: 110px;
     font-size: 16px;
