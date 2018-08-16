@@ -137,7 +137,7 @@
 
 </br>
 
-  <input type="submit" formaction = "second.php" value="Submit" name="testfesjffshjhgfshtfsh">
+  <input type="submit" value="Submit" name="Submit">
 
 </div>
 
