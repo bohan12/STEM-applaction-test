@@ -25,7 +25,7 @@
 <body>
       <img src="../images/STEM.png" alt="stem">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
-	<h2>Click on the subjects for their description</h2>
+	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
 <div class="dropdown">
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
