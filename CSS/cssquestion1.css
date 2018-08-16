@@ -23,6 +23,7 @@ body {
 }
 
 .dropbtn {
+    border-radius: 4px;
     background-color: #D93B20;
     color: #ffffff;
     margin-top: 5px;
@@ -39,6 +40,7 @@ body {
 }
 
 .dropdown-content {
+    border-radius: 4px;
     display: none;
     background-color: #666666;
     min-width: 300px;
