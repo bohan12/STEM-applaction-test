@@ -23,7 +23,7 @@ body {
 }
 
 .dropbtn {
-    background-color: #F26522;
+    background-color: #FD93B20;
     color: #ffffff;
     margin-top: 5px;
     padding: 16px;
@@ -40,7 +40,7 @@ body {
 
 .dropdown-content {
     display: none;
-    background-color: #777777;
+    background-color: #666666;
     min-width: 300px;
     overflow: auto;
     
