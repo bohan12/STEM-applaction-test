@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
 <head>
  <title>Second Page</title>
+ <link href="../CSS/cssquestion2.css" media="screen" rel="stylesheet" type="text/css"/>
 </head>
+<body>
+<img src="../images/STEM.png" alt="stem">
 <h1>Second Page</h1>
 <?php
 echo "this is the second page";
