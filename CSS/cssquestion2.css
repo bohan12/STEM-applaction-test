@@ -1,1 +1,80 @@
+h1 {
+	color: black;
+	font-family: Verdana;
+	fone-size: 38px; 
+}
 
+h2 {
+	color: grey; black;
+	font-family: Verdana;
+	font-size: 26px;
+}
+
+div {
+    color : black;
+}
+
+body {
+    background: linear-gradient(to bottom, #457312 70px, #5c9021 70px, #5c9021 140px, #76b729 140px);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.dropbtn {
+    background-color: #ff6600;
+    color: ;
+    margin-top: 5px;
+    padding: 16px;
+    width: 110px;
+    font-size: 16px;
+    border: 8px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #ff5500;
+    min-width: 300px;
+    overflow: auto;
+    
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#total_votes
+{
+	font-size:30px;
+	color:#FE2E2E;
+	font-weight:bold;
+}
+
+.div p
+{
+	margin:0px;
+	font-size:20px;
+	text-align:left;
+	color:#E6E6E6;
+}
+
+/*img
+{
+	margin-right:10px;
+	float:left;
+}*/
