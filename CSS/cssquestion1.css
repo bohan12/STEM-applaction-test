@@ -4,7 +4,7 @@ h1 {
 	fone-size: 38px; 
 }
 
-h2 {
+h3 {
 	color: grey; black;
 	font-family: Verdana;
 	font-size: 26px;
@@ -40,7 +40,7 @@ body {
 
 .dropdown-content {
     display: none;
-    background-color: #555555;
+    background-color: #777777;
     min-width: 300px;
     overflow: auto;
     
