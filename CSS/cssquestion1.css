@@ -40,7 +40,7 @@ body {
 
 .dropdown-content {
     display: none;
-    background-color: #777777;
+    background-color: #888888;
     min-width: 300px;
     overflow: auto;
     
@@ -71,6 +71,11 @@ body {
 	font-size:20px;
 	text-align:left;
 	color:#E6E6E6;
+}
+
+p
+{
+	color: ffffff;
 }
 
 /*img
