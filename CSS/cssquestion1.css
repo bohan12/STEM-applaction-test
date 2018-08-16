@@ -15,7 +15,7 @@ div {
 }
 
 body {
-    background: linear-gradient(to bottom, #ff4400 70px, #ff6600 70px, #ff6600 140px, #ff8800 140px);
+    background: linear-gradient(to bottom, #D93B20 70px, #F26522 70px, #F26522 140px, #F07D00 140px);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 150px;
@@ -23,7 +23,7 @@ body {
 }
 
 .dropbtn {
-    background-color: #ff6600;
+    background-color: #F26522;
     color: ;
     margin-top: 5px;
     padding: 16px;
@@ -54,7 +54,7 @@ body {
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: #F26522;}
 
 .show {display: block;}
 
