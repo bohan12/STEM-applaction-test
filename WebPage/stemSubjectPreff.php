@@ -143,8 +143,8 @@
 
 </br>
 
-<form action="second.php">
-	<button type="submit" formaction = "second.php">Second page</button>
+<form action="2.php">
+	<button type="submit" formaction = "2.php">Second page</button>
 </form>
 
 <script>
