@@ -150,9 +150,6 @@
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function algebraDropdown() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 function biologyDropdown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
