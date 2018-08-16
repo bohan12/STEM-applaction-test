@@ -38,7 +38,7 @@ function test_input($data) {
   $data = stripslashes($data);
   $data = htmlspecialchars($data);
   return $data;
-
+}
 ?> 
 <p><a href="third.php">third page </a> <br /> - Went to third page</p>
 
