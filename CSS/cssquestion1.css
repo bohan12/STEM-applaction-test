@@ -40,7 +40,7 @@ body {
 
 .dropdown-content {
     display: none;
-    background-color: #ff5500;
+    background-color: #555555;
     min-width: 300px;
     overflow: auto;
     
