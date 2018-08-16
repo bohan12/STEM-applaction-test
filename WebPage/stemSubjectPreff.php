@@ -41,10 +41,8 @@
 	  <img src="../images/star1.png" onclick="change(this.id);" id="bio5" class="bio">
 	
   <div id="myDropdown1" class="dropdown-content">
-    <p>description</p><p>description</p>
-<p>description</p>
-<p>description</p>
-<p>description</p>
+    <p>Biology is the natural science that studies life and living organisms, including their physical structure, 
+       chemical processes, molecular interactions, physiological mechanisms, development and evolution.</p>
   </div>
 
 </br>
