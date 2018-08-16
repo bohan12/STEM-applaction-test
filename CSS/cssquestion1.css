@@ -41,10 +41,10 @@ body {
 
 .dropdown-content {
     color: ffffff;
+    border-radius: 4px;
     margin-top: 5px;
-    margin-left: 5px;
     padding: 16px;
-    width: 300px;
+    width: 350px;
     height: 150px;
     display: none;
     background-color: #364145;
@@ -56,10 +56,6 @@ body {
 .dropdown-content a {
     color: ffffff;
     margin-top: 5px;
-    margin-left: 5px;
-    padding: 16px;
-    width: 300px;
-    height: 150px;
     padding: 20px 20px;
     text-decoration: none;
     display: block;
