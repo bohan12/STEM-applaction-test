@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="../CSS/cssquestion2.css" media="screen" rel="stylesheet" type="text/css"/>
  <style>
 .error {color: #FF0000;}
 
@@ -12,7 +13,6 @@
 </style>
 
  <title>Second Page</title>
- <link href="../CSS/cssquestion2.css" media="screen" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <img src="../images/STEM.png" alt="stem">
