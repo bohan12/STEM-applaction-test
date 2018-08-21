@@ -30,6 +30,7 @@
   	 }
 	</script>
 </head>
+<div style="padding-left:150px">
 <body>
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
@@ -186,4 +187,5 @@ window.onclick = function(event) {
 </script>
 
  </body>
+</div>
 </html>
