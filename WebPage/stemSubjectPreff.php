@@ -135,14 +135,12 @@
 
 </br>
 
-  //<input type="submit" value="Submit" name="Submit">
-
 </div>
 
 </br>
 
 <form action="thingsOrIdeas.php">
-	<button type="submit" formaction = "thingsOrIdeas.php">Continue to next page 🡆</button>
+	<button type="submit" formaction = "thingsOrIdeas.php">Continue to next page ►</button>
 </form>
 
 <script>
