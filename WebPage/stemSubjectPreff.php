@@ -6,7 +6,6 @@
 	<link href="../CSS/cssquestiona.css" media="screen" rel="stylesheet" type="text/css"/>
 	    
 	<div class="header">
-		<img src="../images/STEM.png" alt="stem">
 	</div>
 
 	<div class="header2">
@@ -32,6 +31,7 @@
 </head>
 <div style="padding-left:150px">
 <body>
+	<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 20px; left: 20px;">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
 <div class="dropdown">
