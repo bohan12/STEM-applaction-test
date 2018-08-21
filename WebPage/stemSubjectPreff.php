@@ -4,6 +4,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>First Page</title>
 	<link href="../CSS/cssquestiona.css" media="screen" rel="stylesheet" type="text/css"/>
+	<div class="header">
+	</div>
+
+	<div class="header2">
+	</div>	
 	<script type="text/javascript">
 	function change(id)
   	 {
