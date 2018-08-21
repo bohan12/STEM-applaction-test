@@ -10,7 +10,7 @@
 
 	<div class="header2">
 	</div>	
-	<img src="../images/STEM.png" alt="stem" style="margin: -70px 0px">
+	<img src="../images/STEM.png" alt="stem" style="margin: -75px 0px; padding: 70px 0px">
 	<script type="text/javascript">
 	function change(id)
   	 {
