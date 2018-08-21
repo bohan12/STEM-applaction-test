@@ -6,7 +6,7 @@
 	<link href="../CSS/cssquestiona.css" media="screen" rel="stylesheet" type="text/css"/>
 	    
 	<div class="header">
-		<img src="../images/STEM.png" alt="stem" style="margin: 0px 0px; padding: 0px 0px">
+		<img src="../images/STEM.png" alt="stem">
 	</div>
 
 	<div class="header2">
