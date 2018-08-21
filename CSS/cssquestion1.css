@@ -54,7 +54,7 @@ body {
 }
 
 .dropdown-content a {
-    color: ffffff;
+    color: #ffffff;
     margin-top: 5px;
     padding: 20px 20px;
     text-decoration: none;
@@ -83,4 +83,16 @@ body {
 p
 {
 	color: #ffffff;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #D93B20;
+    color: #ffffff;
+    margin-top: 5px;
+    padding: 16px;
+    width: 110px;
+    font-size: 16px;
+    border: 8px;
+    cursor: pointer;
 }
