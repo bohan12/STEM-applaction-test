@@ -1,16 +1,17 @@
-
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>First Page</title>
 	<link href="../CSS/cssquestiona.css" media="screen" rel="stylesheet" type="text/css"/>
+	    
 	<div class="header">
+		<img src="../images/STEM.png" alt="stem" style="margin: 0px 0px; padding: 70px 0px">
 	</div>
 
 	<div class="header2">
 	</div>	
-	<img src="../images/STEM.png" alt="stem" style="margin: -75px 0px; padding: 70px 0px">
+	    
 	<script type="text/javascript">
 	function change(id)
   	 {
