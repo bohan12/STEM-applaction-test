@@ -30,11 +30,11 @@
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
 	  <input type="hidden" id="bio1_hidden" value="1">
-	  <img src="../images/staroff.png" onclick="change(this.id);" id="bio1" class="bio">
+	  <img src="../images/staroff.png" style="margin: 5px 0px" onclick="change(this.id);" id="bio1" class="bio">
 	  <input type="hidden" id="bio2_hidden" value="2">
-	  <img src="../images/staroff.png" onclick="change(this.id);" id="bio2" class="bio">
+	  <img src="../images/staroff.png" style="margin: 0px 10px" onclick="change(this.id);" id="bio2" class="bio">
 	  <input type="hidden" id="bio3_hidden" value="3">
-	  <img src="../images/staroff.png" onclick="change(this.id);" id="bio3" class="bio">
+	  <img src="../images/staroff.png" style="margin: 0px 5px" onclick="change(this.id);" id="bio3" class="bio">
 	  <input type="hidden" id="bio4_hidden" value="4">
 	  <img src="../images/staroff.png" onclick="change(this.id);" id="bio4" class="bio">
 	  <input type="hidden" id="bio5_hidden" value="5">
