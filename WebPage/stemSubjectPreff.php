@@ -12,12 +12,12 @@
     	  document.getElementById(cname+"rating").innerHTML=ab;
     	  for(var i=ab;i>=1;i--)
    	   {
-    	     document.getElementById(cname+i).src="../images/star2.png";
+    	     document.getElementById(cname+i).src="../images/star4.png";
     	  }
     	  var id=parseInt(ab)+1;
    	   for(var j=id;j<=5;j++)
    	   {
-   	      document.getElementById(cname+j).src="../images/star1.png";
+   	      document.getElementById(cname+j).src="../images/star3.png";
    	   }
   	 }
 	</script>
