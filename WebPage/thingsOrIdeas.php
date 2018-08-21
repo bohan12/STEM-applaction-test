@@ -14,8 +14,9 @@
 
  <title>Second Page</title>
 </head>
+<div style="padding-left:150px; padding-top:50px;">
 <body>
-<img src="../images/STEM.png" alt="stem">
+<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
 <h1>Second Page</h1>
 <?php
 echo "this is the second page";
@@ -72,4 +73,5 @@ echo $prefer;
 ?>
 
 </body>
+</div>
 </html>
