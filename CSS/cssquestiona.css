@@ -1,13 +1,13 @@
 .header {
   overflow: hidden;
   background-color: #D93B20;
-  padding: -50px 0px;
+  padding: 70px 0px;
 }
 
 .header2 {
   overflow: hidden;
   background-color: #F26522;
-  padding: 20px 0px;
+  padding: 70px 0px;
 }
 
 h1 {
@@ -30,7 +30,6 @@ body {
     background: #F07D00;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 150px;
 }
 
 .dropbtn {
