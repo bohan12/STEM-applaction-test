@@ -29,9 +29,9 @@
   	 }
 	</script>
 </head>
-<div style="padding-left:150px">
+<div style="padding-left:150px; padding-top:50px;">
 <body>
-	<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 20px; left: 20px;">
+	<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
 <div class="dropdown">
