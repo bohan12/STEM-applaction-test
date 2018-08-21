@@ -3,6 +3,13 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link href="../CSS/cssquestionb.css" media="screen" rel="stylesheet" type="text/css"/>
+		
+		<div class="header">
+		</div>
+
+		<div class="header2">
+		</div>	
+		
  		<style>
 			.error {color: #FF0000;}
 
