@@ -1,13 +1,13 @@
 .header {
   overflow: hidden;
   background-color: #D93B20;
-  padding: 70px 0px;
+  height: 70px;
 }
 
 .header2 {
   overflow: hidden;
   background-color: #F26522;
-  padding: 70px 0px;
+  height: 70px;
 }
 
 h1 {
