@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="../CSS/cssquestion2.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="../CSS/cssquestionb.css" media="screen" rel="stylesheet" type="text/css"/>
  <style>
 .error {color: #FF0000;}
 
