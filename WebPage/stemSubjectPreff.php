@@ -9,6 +9,7 @@
 
 	<div class="header2">
 	</div>	
+	<img src="../images/STEM.png" alt="stem" style="margin: -70px 0px">
 	<script type="text/javascript">
 	function change(id)
   	 {
@@ -28,7 +29,6 @@
 	</script>
 </head>
 <body>
-      <img src="../images/STEM.png" alt="stem" style="margin: 60px 0px">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
 <div class="dropdown">
