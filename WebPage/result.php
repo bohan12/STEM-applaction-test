@@ -20,7 +20,7 @@
             <button type="submit" formaction = "fifth.php">Previous Page</button>
         </form>
 	
-	    <form action="result.php">
+	    <form action="start.php">
 		    <button type="submit" formaction = "start.php">Return to start</button>
 	    </form>
 
