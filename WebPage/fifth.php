@@ -16,13 +16,13 @@
 	<body>
 		<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
 
-        <form action="second.php">
+        <form action="fourth.php">
             	<button type="submit" formaction = "fourth.php">Previous Page</button>
         </form>
 	
-	    <form action="fourth.php">
-			<button type="submit" formaction = "result.php">Continue to next page ►</button>
-		</form>
+	<form action="result.php">
+		<button type="submit" formaction = "result.php">Continue to next page ►</button>
+	</form>
 
 	</body>
 	</div>
