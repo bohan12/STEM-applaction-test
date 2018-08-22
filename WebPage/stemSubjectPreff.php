@@ -10,7 +10,7 @@
 	<div class="header2">
 		.<form action="start.php">
             	<button type="submit" formaction = "start.php" style="float: right; margin-right: 10px; 
-		margin-top: -8x; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
+		margin-top: -43x; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
         	</form>
 	</div>	
 	    
@@ -110,7 +110,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 	  <input type="hidden" id="phy5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="phy5" class="phy">
   <div id="myDropdown4" class="dropdown-content">
-	  <p>Physics  is the natural science that studies matter[4] and its motion and behaviour through space and time and that studies the 
+	  <p>Physics  is the natural science that studies matter and its motion and behaviour through space and time and that studies the 
 		  related entities of energy and force. 
 		  Physics is one of the most fundamental scientific disciplines, and its main goal is to 
 		  understand how the universe behaves. </p>
