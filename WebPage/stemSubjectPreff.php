@@ -70,10 +70,12 @@
 	  <input type="hidden" id="cal5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="cal5" class="cal">
   <div id="myDropdown2" class="dropdown-content">
-    <p>description</p><p>description</p>
-<p>description</p>
-<p>description</p>
-<p>description</p>
+    <p>Calculus is the mathematical study of continuous change, in the same way that geometry is the study of shape and algebra is the study of 
+	    generalizations of arithmetic operations.
+It has two major branches, differential calculus, and integral calculus; these two branches are related to each other by the fundamental 
+	    theorem of calculus. Both branches make use of the fundamental notions of convergence of infinite sequences and infinite series 
+	    to a well-defined limit.
+</p>
   </div>
 	
 </br>
@@ -90,10 +92,10 @@
 	  <input type="hidden" id="che5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="che5" class="che">
   <div id="myDropdown3" class="dropdown-content">
-    <p>Chemistry is the scientific discipline involved with compounds composed of atoms, i.e. elements, and molecules, i.e. combinations</p>
-	<p>of atoms: their composition, structure, properties, behaviour and the changes they undergo during a reaction with other
+    <p>Chemistry is the scientific discipline involved with compounds composed of atoms, i.e. elements, and molecules, i.e. combinations
+	of atoms: their composition, structure, properties, behaviour and the changes they undergo during a reaction with other
 		compounds</p>	 
-]
+
   </div>
 
 </br>
@@ -110,10 +112,7 @@
 	  <input type="hidden" id="phy5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="phy5" class="phy">
   <div id="myDropdown4" class="dropdown-content">
-    <p>description</p><p>description</p>
-<p>description</p>
-<p>description</p>
-<p>description</p>
+	  <p>description</p>
   </div>
 
 </br>
