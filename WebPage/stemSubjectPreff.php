@@ -8,6 +8,9 @@
 	</div>
 
 	<div class="header2">
+		<form action="start.php">
+            	<button type="submit" formaction = "start.php" >Previous Page</button>
+        	</form>
 	</div>	
 	    
 	<script type="text/javascript">
