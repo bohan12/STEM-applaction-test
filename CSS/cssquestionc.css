@@ -1,10 +1,10 @@
 .header {
-  background-color: #457312;
+  background-color: #015585;
   height: 70px;
 }
 
 .header2 {
-  background-color: #5c9021;
+  background-color: #0080c8;
   height: 70px;
 }
 
@@ -25,7 +25,7 @@ div {
 }
 
 body {
-    background: #76b729;
+    background: #21bbef;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -34,7 +34,7 @@ body {
 
 .dropbtn {
     border-radius: 4px;
-    background-color: #457312;
+    background-color: #015585;
     color: #ffffff;
     margin-top: 5px;
     padding: 16px;
@@ -71,7 +71,7 @@ body {
     display: block;
 }
 
-.dropdown a:hover {background-color: #5c9021;}
+.dropdown a:hover {background-color: #0080c8;}
 
 .show {display: block;}
 
@@ -97,7 +97,7 @@ p
 
 button {
     border-radius: 4px;
-    background-color: #457312;
+    background-color: #015585;
     color: #ffffff;
     margin-top: 5px;
     padding: 16px;
