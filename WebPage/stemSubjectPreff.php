@@ -73,9 +73,7 @@
     <p>Calculus is the mathematical study of continuous change, in the same way that geometry is the study of shape and algebra is the study of 
 	    generalizations of arithmetic operations.
 It has two major branches, differential calculus, and integral calculus; these two branches are related to each other by the fundamental 
-	    theorem of calculus. Both branches make use of the fundamental notions of convergence of infinite sequences and infinite series 
-	    to a well-defined limit.
-</p>
+	    theorem of calculus.</p>
   </div>
 	
 </br>
@@ -112,7 +110,10 @@ It has two major branches, differential calculus, and integral calculus; these t
 	  <input type="hidden" id="phy5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="phy5" class="phy">
   <div id="myDropdown4" class="dropdown-content">
-	  <p>description</p>
+	  <p>Physics  is the natural science that studies matter[4] and its motion and behaviour through space and time and that studies the 
+		  related entities of energy and force. 
+		  Physics is one of the most fundamental scientific disciplines, and its main goal is to 
+		  understand how the universe behaves. </p>
   </div>
 
 </br>
@@ -129,10 +130,9 @@ It has two major branches, differential calculus, and integral calculus; these t
 	  <input type="hidden" id="sta5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="sta5" class="sta">
   <div id="myDropdown5" class="dropdown-content">
-    <p>description</p><p>description</p>
-<p>description</p>
-<p>description</p>
-<p>description</p>
+    <p>Statistics is a branch of mathematics dealing with the collection, organization, analysis, interpretation and presentation of data.
+	    In applying statistics to, for example, a scientific, industrial, or social problem, 
+	    it is conventional to begin with a statistical population or a statistical model process to be studied.</p>
   </div>
 
   <input type="hidden" name="biorating" id="biorating" value="1">
