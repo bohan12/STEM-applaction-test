@@ -1,11 +1,13 @@
 .header {
   background-color: #4f1852;
   height: 70px;
+  float: right;
 }
 
 .header2 {
   background-color: #753b76;
   height: 70px;
+  float: right;
 }
 
 h1 {
