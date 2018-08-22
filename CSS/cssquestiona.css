@@ -6,7 +6,7 @@
 .header2 {
   background-color: #F26522;
   color: #F26522;
-  height: 70px;
+  height: 700px;
 }
 
 h1 {
@@ -37,7 +37,7 @@ body {
     border-radius: 4px;
     background-color: #D93B20;
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: 50px;
     padding: 16px;
     width: 110px;
     font-size: 16px;
