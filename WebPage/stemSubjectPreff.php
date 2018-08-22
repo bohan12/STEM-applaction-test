@@ -10,7 +10,7 @@
 	<div class="header2">
 		.<form action="start.php">
             	<button type="submit" formaction = "start.php" style="float: right; margin-right: 10px; 
-		margin-top: -10px; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
+		margin-top: -8x; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
         	</form>
 	</div>	
 	    
@@ -90,10 +90,10 @@
 	  <input type="hidden" id="che5_hidden" value="5">
 	  <img src="../images/question1/staroff.png" style="margin: -12px 0px" onclick="change(this.id);" id="che5" class="che">
   <div id="myDropdown3" class="dropdown-content">
-    <p>description</p><p>description</p>
-<p>description</p>
-<p>description</p>
-<p>description</p>
+    <p>Chemistry is the scientific discipline involved with compounds composed of atoms, i.e. elements, and molecules, i.e. combinations</p>
+	<p>of atoms: their composition, structure, properties, behaviour and the changes they undergo during a reaction with other
+		compounds</p>	 
+]
   </div>
 
 </br>
