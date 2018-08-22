@@ -2,15 +2,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>First Page</title>
-	<link href="../CSS/cssquestionb.css" media="screen" rel="stylesheet" type="text/css"/>
+	<link href="../CSS/cssquestiona.css" media="screen" rel="stylesheet" type="text/css"/>
 	    
 	<div class="header">
 	</div>
 
 	<div class="header2">
-		<form action="start.php">
-            	<button type="submit" formaction = "start.php" style="float: right; margin-top: 0px; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
-        	</form>
 	</div>	
 	    
 	<script type="text/javascript">
