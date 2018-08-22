@@ -9,7 +9,7 @@
 
 	<div class="header2">
 		<form action="start.php">
-            	<button type="submit" formaction = "start.php" style="float: right; margin-top: 15px; padding: 16px 16px; width: 140px;" >Previous Page</button>
+            	<button type="submit" formaction = "start.php" style="float: right; margin-top: 10px; height: 50px; width: 140px;" >Previous Page</button>
         	</form>
 	</div>	
 	    
