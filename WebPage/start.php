@@ -17,7 +17,7 @@
 		<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
 	
 	    <form action="fourth.php">
-			<button type="submit" formaction = "result.php">Begin ►</button>
+			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
 		</form>
 
 	</body>
