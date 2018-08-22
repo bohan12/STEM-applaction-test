@@ -8,9 +8,9 @@
 	</div>
 
 	<div class="header2">
-		//<form action="start.php">
-            	//<button type="submit" formaction = "start.php" style="float: right; margin-top: 0px; padding: 0px 10px; width: 140px;" >Previous Page</button>
-        	//</form>
+		<form action="start.php">
+            	<button type="submit" formaction = "start.php" style="float: right; margin-top: 0px; padding: 8px 8px; width: 140px;" >Previous Page</button>
+        	</form>
 	</div>	
 	    
 	<script type="text/javascript">
