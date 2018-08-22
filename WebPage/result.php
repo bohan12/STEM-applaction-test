@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
-<body>
-<head>
- <title>sixth Page</title>
-</head>
-<h1>sixth page</h1>
-<?php
-echo "this is the sixth page";
-?> 
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="../CSS/cssquestione.css" media="screen" rel="stylesheet" type="text/css"/>
+		
+		<div class="header">
+		</div>
 
-<p><a href="fifth.php">fifth page </a> <br /> - Went to fifth page</p>
-<form action="fifth.php">
-<button type="submit" formaction = "fifth.php">fifth page</button>
-</form>
+		<div class="header2">
+		</div>	
 
-</body>
+        <title>Fifth Page</title>
+	</head>
+	<div style="padding-left:150px; padding-top:50px;">
+	<body>
+		<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
+
+        <form action="fourth.php">
+            <button type="submit" formaction = "fifth.php">Previous Page</button>
+        </form>
+	
+	    <form action="result.php">
+		    <button type="submit" formaction = "start.php">Return to start</button>
+	    </form>
+
+	</body>
+	</div>
 </html>
