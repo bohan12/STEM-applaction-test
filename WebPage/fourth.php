@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link href="../CSS/cssquestionc.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="../CSS/cssquestiond.css" media="screen" rel="stylesheet" type="text/css"/>
 		
 		<div class="header">
 		</div>
