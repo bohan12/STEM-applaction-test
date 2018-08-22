@@ -10,7 +10,7 @@
 	<div class="header2">
 		.<form action="start.php">
             	<button type="submit" formaction = "start.php" style="float: right; margin-right: 10px; 
-		margin-bottom: 20px; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
+		margin-bottom: 30px; padding: 0px; height: 50px; width: 140px;" >Previous Page</button>
         	</form>
 	</div>	
 	    
@@ -147,7 +147,7 @@
 </br>
 
 <form action="thingsOrIdeas.php">
-	<button type="submit" formaction = "thingsOrIdeas.php">Continue to next page ►</button>
+	<button type="submit" formaction = "thingsOrIdeas.php" style="margin: 100px 0px">Continue to next page ►</button>
 </form>
 
 <script>
