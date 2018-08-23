@@ -213,18 +213,18 @@ button {
 	}
 	
 	.bio {
-		margin: -12px 2px;
+		margin: -12px -2px;
 	}
 	.cal {
-		margin: -12px 2px;
+		margin: -12px -2px;
 	}
 	.che {
-		margin: -12px 2px;
+		margin: -12px -2px;
 	}
 	.phy {
-		margin: -12px 2px;
+		margin: -12px -2px;
 	}
 	.sta {
-		margin: -12px 2px;
+		margin: -12px -2px;
 	}
 }
