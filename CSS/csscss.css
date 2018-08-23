@@ -115,9 +115,27 @@ button {
 	cursor: pointer;
 }
 
+.logo {
+	position: absolute; 
+	top: 0px; 
+	left: 150px;
+}
+
 @media screen and (max-width: 500px) {
+	
   	.framedefinition {
 		padding-left:20px;
 		padding-top:20px;
 	}
+	
+	.logo {
+		position: absolute; 
+		top: 0px; 
+		left: 0px;
+		height: 50%;
+		width: 50%;
+		;
+	}
+	
+	
 }
