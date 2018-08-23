@@ -65,7 +65,7 @@ body {
     width: 400px;
     height: 150px;
     font-family: Verdana;
-	font-size: 14px; 
+    font-size: 14px; 
     display: none;
     background-color: #364145;
     overflow: auto;
@@ -176,19 +176,8 @@ button {
 	}
 	
 	.dropdown-content {
-    	color: #ffffff;
-    	border-radius: 4px;
-    	margin-top: 5px;
-    	padding: 16px;
     	width: 400px;
-    	height: 150px;
-    	font-family: Verdana;
-	font-size: 14px; 
-    	display: none;
-    	background-color: #364145;
-    	overflow: auto;
-    
-    	z-index: 1;
+	font-size: 11px; 
 	}
 	
 	.dropbtn {
@@ -245,4 +234,6 @@ button {
 	.sta {
 		margin: -12px -2px;
 	}
+	
+	
 }
