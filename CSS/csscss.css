@@ -136,6 +136,11 @@ button {
 
 @media screen and (max-width: 500px) {
 	
+	.header {
+  		background-color: #015585;
+ 		height: 0px;
+	}
+	
   	.framedefinition {
 		padding-left:10px;
 		padding-top:10px;
