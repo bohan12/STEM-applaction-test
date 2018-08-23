@@ -185,21 +185,6 @@ button {
     		cursor: pointer;
 	}
 	
-	.dropdown-content {
-    		color: #ffffff;
-    		border-radius: 4px;
-    		margin-top: 5px;
-    		padding: 16px;
-    		width: 270px;
-    		height: 270px;
-		font-size: 10px;
-    		display: none;
-    		background-color: #364145;
-    		overflow: auto;
-    
-    		z-index: 1;
-	}
-	
 	button {
 		border-radius: 4px;
 		background-color: #015585;
