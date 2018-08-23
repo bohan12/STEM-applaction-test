@@ -9,12 +9,10 @@
 
 		<div class="header2">
 			.<form action="https://www.aut.ac.nz/">
-            		<button type="submit" formaction = "https://www.aut.ac.nz/" style="float: right; margin-right: 10px; 
-				margin-top: -8px; padding: 0px; height: 50px; width: 140px;" >AUT Homepage</button>
+            			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            		<button type="submit" formaction = "start.php" style="float: right; margin-right: 10px; 
-				margin-top: -8px; padding: 0px; height: 50px; width: 140px;" >Start Page</button>
+            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
 
