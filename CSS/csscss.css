@@ -116,6 +116,8 @@ button {
 }
 
 @media screen and (max-width: 500px) {
-  	padding-left:20px;
-	padding-top:20px;
+  	.framedefinition {
+		padding-left:20px;
+		padding-top:20px;
+	}
 }
