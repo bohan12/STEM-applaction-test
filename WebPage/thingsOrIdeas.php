@@ -30,7 +30,7 @@
 
  		<title>Second Page</title>
 	</head>
-	<div style="padding-left:150px; padding-top:50px;">
+	<div class="framedefinition">
 		<body>
 			<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
 			<h1>Second Page</h1>
