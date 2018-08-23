@@ -62,7 +62,7 @@ body {
     border-radius: 4px;
     margin-top: 5px;
     padding: 16px;
-    width: 350px;
+    width: 400px;
     height: 150px;
     display: none;
     background-color: #364145;
@@ -183,6 +183,21 @@ button {
     		font-size: 12px;
     		border: 8px;
     		cursor: pointer;
+	}
+	
+	.dropdown-content {
+    		color: #ffffff;
+    		border-radius: 4px;
+    		margin-top: 5px;
+    		padding: 16px;
+    		width: 250px;
+    		height: 150px;
+		font-size: 10px;
+    		display: none;
+    		background-color: #364145;
+    		overflow: auto;
+    
+    		z-index: 1;
 	}
 	
 	button {
