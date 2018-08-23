@@ -137,19 +137,19 @@ button {
 }
 
 	.bio {
-		margin: -14px 0px;
+		margin-left: 0px 0px;
 	}
 	.cal {
-		margin: -14px 0px;
+		margin-left: 0px 0px;
 	}
 	.che {
-		margin: -14px 0px;
+		margin-left: 0px 0px;
 	}
 	.phy {
-		margin: -14px 0px;
+		margin-left: 0px 0px;
 	}
 	.sta {
-		margin: -14px 0px;
+		margin-left: 0px 0px;
 	}
 
 @media screen and (max-width: 1000px) {
@@ -213,18 +213,18 @@ button {
 	}
 	
 	.bio {
-		margin: -14px 0px;
+		margin-left: -2px 0px;
 	}
 	.cal {
-		margin: -14px 0px;
+		margin-left: -2px 0px;
 	}
 	.che {
-		margin: -14px 0px;
+		margin-left: -2px 0px;
 	}
 	.phy {
-		margin: -14px 0px;
+		margin-left: -2px 0px;
 	}
 	.sta {
-		margin: -14px 0px;
+		margin-left: -2px 0px;
 	}
 }
