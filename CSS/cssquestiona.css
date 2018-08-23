@@ -108,7 +108,7 @@ button {
 	cursor: pointer;
 }
 
-framedefinition {
+.framedefinition {
 	padding-left:150px;
 	padding-top:50px;
 }
@@ -128,4 +128,9 @@ framedefinition {
 		border: 8px;
 		cursor: pointer;
 	}
+	
+	.framedefinition {
+	padding-left:0px;
+	padding-top:20px;
+}
 }
