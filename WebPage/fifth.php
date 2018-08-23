@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Fifth Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link href="../CSS/cssquestione.css" media="screen" rel="stylesheet" type="text/css"/>
 		
 		<div class="header">
@@ -16,9 +18,8 @@
 			</form>
 		</div>	
 
-        	<title>Fifth Page</title>
 	</head>
-	<div style="padding-left:150px; padding-top:50px;">
+	<div class="framedefinition">
 	<body>
 		<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
 
