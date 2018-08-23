@@ -14,7 +14,7 @@
         	</form>
 		<form action="start.php">
             	<button type="submit" formaction = "start.php" style="float: right; margin-right: 10px; 
-			margin-top: -16px; padding: 0px; height: 50px; width: 140px;" >Start Page</button>
+			margin-top: -24px; padding: 0px; height: 50px; width: 140px;" >Start Page</button>
 		</form>
 	</div>	
 	    
