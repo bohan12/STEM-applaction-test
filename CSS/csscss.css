@@ -195,4 +195,20 @@ button {
 		border: 8px;
 		cursor: pointer;
 	}
+	
+	.bio {
+		margin: -14px 0px
+	}
+	.cal {
+		margin: -14px 0px
+	}
+	.che {
+		margin: -14px 0px
+	}
+	.phy {
+		margin: -14px 0px
+	}
+	.sta {
+		margin: -14px 0px
+	}
 }
