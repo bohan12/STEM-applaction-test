@@ -10,12 +10,10 @@
 
 	<div class="header2">
 		.<form action="https://www.aut.ac.nz/">
-            	<button type="submit" formaction = "https://www.aut.ac.nz/" style="float: right; margin-right: 10px; 
-			margin-top: -8px; padding: 0px; height: 50px; width: 140px;" >AUT Homepage</button>
+            	<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         	</form>
 		<form action="start.php">
-            	<button type="submit" formaction = "start.php" style="float: right; margin-right: 10px; 
-			margin-top: -24px; padding: 0px; height: 50px; width: 140px;" >Start Page</button>
+            	<button type="submit" formaction = "start.php" style=" margin-top: -24px;" class="buttontitle" >Start Page</button>
 		</form>
 	</div>	
 	    
@@ -39,7 +37,7 @@
 </head>
 <div class="framedefinition">
 <body>
-	<img src="../images/STEM.png" alt="stem" style="position: absolute; top: 0px; left: 150px;">
+	<img src="../images/STEM.png" alt="stem" class="logo">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
 <div class="dropdown">
