@@ -6,7 +6,12 @@
 .header2 {
   background-color: #0080c8;
   color: #0080c8;
-  height: 700px;
+  height: 70px;
+}
+
+.framedefinition {
+	padding-left:150px;
+	padding-top:50px;
 }
 
 h1 {
@@ -106,9 +111,4 @@ button {
 	font-size: 16px;
 	border: 8px;
 	cursor: pointer;
-}
-
-.framedefinition {
-	padding-left:150px;
-	padding-top:50px;
 }
