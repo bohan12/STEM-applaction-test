@@ -108,6 +108,13 @@ button {
 	cursor: pointer;
 }
 
+framedefinition {
+	padding-left:150px;
+	padding-top:50px;
+}
+
+
+
 @media screen and (max-width: 500px) {
 	
 	button {
