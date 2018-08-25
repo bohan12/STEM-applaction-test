@@ -37,7 +37,7 @@
 </head>
 <div class="framedefinition">
 <body>
-	<img src="../images/STEM.png" alt="stem" class="logo">
+	<img src="../images/STEMblur.png" alt="stem" class="logo">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
 <div class="dropdown">
