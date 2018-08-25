@@ -15,7 +15,7 @@
 	</head>
 	<div class="framedefinition">
 	<body>
-		<img src="../images/STEM.png" alt="stem" class="logo">
+		<img src="../images/STEMblur.png" alt="stem" class="logo">
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
