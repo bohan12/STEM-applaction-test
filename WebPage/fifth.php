@@ -21,7 +21,7 @@
 	</head>
 	<div class="framedefinition">
 	<body>
-		<img src="../images/STEM.png" alt="stem" class="logo">
+		<img src="../images/STEMblur.png" alt="stem" class="logo">
 
         <form action="fourth.php">
             	<button type="submit" formaction = "fourth.php">Previous Page</button>
