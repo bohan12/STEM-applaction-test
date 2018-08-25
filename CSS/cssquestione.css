@@ -6,8 +6,8 @@
 }
 
 .header2 {
-  background-color: #0080c8;
-  color: #0080c8;
+  background-color: #785a3c;
+  color: #785a3c;
   height: 70px;
 }
 
@@ -33,7 +33,7 @@ div {
 }
 
 body {
-    background: #21bbef;
+    background: #96785a;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -81,7 +81,7 @@ body {
     display: block;
 }
 
-.dropdown a:hover {background-color: #0080c8;}
+.dropdown a:hover {background-color: #785a3c;}
 
 .show {display: block;}
 
