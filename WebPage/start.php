@@ -4,7 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Start Page</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link href="../CSS/cssstart.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="../CSS/csshome.css" media="screen" rel="stylesheet" type="text/css"/>
 		
 		<div class="header">
 		</div>
