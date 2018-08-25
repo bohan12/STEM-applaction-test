@@ -1,7 +1,7 @@
 {box-sizing: border-box;}
 
 .header {
-  background-color: #015585;
+  background-color: #5a3c1e;
   height: 70px;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .dropbtn {
     border-radius: 4px;
-    background-color: #015585;
+    background-color: #5a3c1e;
     color: #ffffff;
     margin-top: 5px;
     padding: 16px;
@@ -107,7 +107,7 @@ p
 
 button {
 	border-radius: 4px;
-	background-color: #015585;
+	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
 	padding: 16px;
@@ -127,7 +127,7 @@ button {
 		float: right;
 		margin-right: 10px;
 		border-radius: 4px;
-		background-color: #015585;
+		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: -8px;
 		padding: 0px;
@@ -157,7 +157,7 @@ button {
 @media screen and (max-width: 768px) {
 	
 	.header {
-  		background-color: #015585;
+  		background-color: #5a3c1e;
  		height: 0px;
 	}
 	
@@ -182,7 +182,7 @@ button {
 	
 	.dropbtn {
     		border-radius: 4px;
-    		background-color: #015585;
+    		background-color: #5a3c1e;
     		color: #ffffff;
     		margin-top: 5px;
     		padding: 16px;
@@ -194,7 +194,7 @@ button {
 	
 	button {
 		border-radius: 4px;
-		background-color: #015585;
+		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: 5px;
 		padding: 16px;
@@ -208,7 +208,7 @@ button {
 		float: right;
 		margin-right: 5px;
 		border-radius: 4px;
-		background-color: #015585;
+		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: -8px;
 		padding: 0px;
