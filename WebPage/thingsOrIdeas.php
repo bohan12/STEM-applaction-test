@@ -30,7 +30,7 @@
 	</head>
 	<div class="framedefinition">
 		<body>
-			<img src="../images/STEM.png" alt="stem" class="logo">
+			<img src="../images/STEMblur.png" alt="stem" class="logo">
 			<h1>Second Page</h1>
 			<?php
 			echo "this is the second page";
