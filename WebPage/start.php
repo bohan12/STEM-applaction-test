@@ -16,6 +16,12 @@
 	<div class="framedefinition">
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
+		
+		<button onclick="ScienceDesc()" class="sbutton"></button>
+		<button onclick="TechnologyDesc()" class="tbutton"></button>
+		<br/>
+		<button onclick="EngineeringDesc()" class="ebutton"></button>
+		<button onclick="MathDesc()" class="mbutton"></button>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
