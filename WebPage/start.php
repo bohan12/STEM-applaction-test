@@ -17,11 +17,11 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<button onclick="ScienceDesc()" class="sbutton"></button>
-		<button onclick="TechnologyDesc()" class="tbutton"></button>
+		<button onclick="ScienceDesc()" class="sbutton" id="sbuttonhome"></button>
+		<button onclick="TechnologyDesc()" class="tbutton" id="tbuttonhome"></button>
 		<br/>
-		<button onclick="EngineeringDesc()" class="ebutton"></button>
-		<button onclick="MathDesc()" class="mbutton"></button>
+		<button onclick="EngineeringDesc()" class="ebutton" id="ebuttonhome"></button>
+		<button onclick="MathDesc()" class="mbutton" id="mbuttonhome"></button>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -29,4 +29,19 @@
 
 	</body>
 	</div>
+	
+	<script>
+		function ScienceDesc() {
+    			document.getElementById("sbuttonhome").value="You are now breathing manually";
+		}
+		function TechnologyDesc() {
+    			document.getElementById("tbuttonhome").value="Clarke Gayford dies in Infinity War";
+		}
+		function EngineeringDesc() {
+    			document.getElementById("ebuttonhome").value="You just lost The Game";
+		}
+		function MathDesc() {
+    			document.getElementById("mbuttonhome").value="Subscribe to my Youtube channel";
+		}
+	</script>
 </html>
