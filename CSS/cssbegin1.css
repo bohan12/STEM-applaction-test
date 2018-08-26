@@ -246,9 +246,9 @@ button {
 	.sbutton {
     	background-color: #0064a0;
     	color: #ffffff;
-    	padding: 16px;
-		height: 125px;
-    	width: 125px;
+    	padding: 4px;
+	height: 125px;
+    	width: 140px;
     	font-size: 10px;
     	cursor: pointer;
 	}
@@ -256,9 +256,9 @@ button {
 	.tbutton {
     	background-color: #64007f;
     	color: #ffffff;
-    	padding: 16px;
+    	padding: 4px;
 	height: 125px;
-    	width: 125px;
+    	width: 140px;
     	font-size: 10px;
     	cursor: pointer;
 	}
@@ -266,9 +266,9 @@ button {
 	.ebutton {
     	background-color: #a05000;
     	color: #ffffff;
-    	padding: 16px;
+    	padding: 4px;
 	height: 125px;
-    	width: 125px;
+    	width: 140px;
     	font-size: 10px;
     	cursor: pointer;
 	}
@@ -276,9 +276,9 @@ button {
 	.mbutton {
     	background-color: #a00000;
     	color: #ffffff;
-    	padding: 16px;
+    	padding: 4px;
 	height: 125px;
-    	width: 125px;
+    	width: 140px;
     	font-size: 10px;
     	cursor: pointer;
 	}	
