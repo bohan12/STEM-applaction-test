@@ -124,35 +124,63 @@ button {
 }
 
 .buttontitle {
-		float: right;
-		margin-right: 10px;
-		border-radius: 4px;
-		background-color: #5a3c1e;
-		color: #ffffff;
-		margin-top: -8px;
-		padding: 0px;
-		height: 50px; 
-		width: 140px;
-		font-size: 16px;
-		border: 8px;
-		cursor: pointer;
+	float: right;
+	margin-right: 10px;
+	border-radius: 4px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: -8px;
+	padding: 0px;
+	height: 50px; 
+	width: 140px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
 }
 
-	.bio {
-		margin: -12px 0px;
-	}
-	.cal {
-		margin: -12px 0px;
-	}
-	.che {
-		margin: -12px 0px;
-	}
-	.phy {
-		margin: -12px 0px;
-	}
-	.sta {
-		margin: -12px 0px;
-	}
+.sbutton {
+    background-color: #0064a0;
+    color: #ffffff;
+    padding: 16px;
+	height: 175px;
+    width: 250px;
+    font-size: 16px;
+    border: 8px;
+    cursor: pointer;
+}
+
+.tbutton {
+    background-color: #64007f;
+    color: #ffffff;
+    padding: 16px;
+	height: 175px;
+    width: 250px;
+    font-size: 16px;
+    border: 8px;
+    cursor: pointer;
+}
+
+.ebutton {
+    background-color: #a05000;
+    color: #ffffff;
+    padding: 16px;
+	height: 175px;
+    width: 250px;
+    font-size: 16px;
+    border: 8px;
+    cursor: pointer;
+}
+
+.mbutton {
+    background-color: #a00000;
+    color: #ffffff;
+    padding: 16px;
+	height: 175px;
+    width: 250px;
+    font-size: 16px;
+    border: 8px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
 	
@@ -219,21 +247,47 @@ button {
 		cursor: pointer;
 	}
 	
-	.bio {
-		margin: -12px -2px;
+	.sbutton {
+    	background-color: #0064a0;
+    	color: #ffffff;
+    	padding: 16px;
+		height: 125px;
+    	width: 125px;
+    	font-size: 10px;
+    	border: 8px;
+    	cursor: pointer;
 	}
-	.cal {
-		margin: -12px -2px;
+
+	.tbutton {
+    	background-color: #64007f;
+    	color: #ffffff;
+    	padding: 16px;
+		height: 125px;
+    	width: 125px;
+    	font-size: 10px;
+		border: 8px;
+    	cursor: pointer;
 	}
-	.che {
-		margin: -12px -2px;
+
+	.ebutton {
+    	background-color: #a05000;
+    	color: #ffffff;
+    	padding: 16px;
+		height: 125px;
+    	width: 125px;
+    	font-size: 10px;
+    	border: 8px;
+    	cursor: pointer;
 	}
-	.phy {
-		margin: -12px -2px;
-	}
-	.sta {
-		margin: -12px -2px;
-	}
-	
-	
+
+	.mbutton {
+    	background-color: #a00000;
+    	color: #ffffff;
+    	padding: 16px;
+		height: 125px;
+    	width: 125px;
+    	font-size: 10px;
+    	border: 8px;
+    	cursor: pointer;
+	}	
 }
