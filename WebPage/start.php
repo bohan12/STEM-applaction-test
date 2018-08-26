@@ -17,7 +17,7 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<button onclick="ScienceDesc()" class="sbutton" id="sbuttonhome"></button>
+		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Open Curtain" id="sbuttonhome"></input>
 		<button onclick="TechnologyDesc()" class="tbutton" id="tbuttonhome"></button>
 		<br/>
 		<button onclick="EngineeringDesc()" class="ebutton" id="ebuttonhome"></button>
