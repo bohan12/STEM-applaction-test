@@ -17,7 +17,7 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()">S</input>
+		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()">"S"</input>
 		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc()">T</input>
 		<br/>
 		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc()">E</input>
