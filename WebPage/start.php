@@ -42,9 +42,9 @@
 		}
 		function MathDesc() {
     			if (document.getElementById("mbuttonhome").value="M"){
-				(document.getElementById("mbuttonhome").value="Mathematics")
-			};
-			else (document.getElementById("mbuttonhome").value="M");
+				(document.getElementById("mbuttonhome").value="Mathematics");
+			}
+			else document.getElementById("mbuttonhome").value="M";
 		}
 	</script>
 </html>
