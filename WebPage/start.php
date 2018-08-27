@@ -35,10 +35,12 @@
 			if (this.value=="S")
                     	{ 
                         	this.value = "Science";
+				this.innerHTML = "Science";
                     	}
                	 	else
                  	{
                      		this.value = "S";
+				this.innerHTML = "S";
                  	}
 		}
 		function TechnologyDesc(this) {
