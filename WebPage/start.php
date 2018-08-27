@@ -32,16 +32,16 @@
 	
 	<script>
 		function ScienceDesc() {
-    			document.getElementById("sbuttonhome").value="You are now breathing manually";
+    			document.getElementById("sbuttonhome").value="Science";
 		}
 		function TechnologyDesc() {
-    			document.getElementById("tbuttonhome").value="Clarke Gayford dies in Infinity War";
+    			document.getElementById("tbuttonhome").value="Technology";
 		}
 		function EngineeringDesc() {
-    			document.getElementById("ebuttonhome").value="You just lost The Game";
+    			document.getElementById("ebuttonhome").value="Engineering";
 		}
 		function MathDesc() {
-    			document.getElementById("mbuttonhome").value="Subscribe to my Youtube channel";
+    			document.getElementById("mbuttonhome").value="Mathematics";
 		}
 	</script>
 </html>
