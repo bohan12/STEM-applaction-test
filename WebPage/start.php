@@ -17,11 +17,11 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc(this)"></input>
-		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc(this)"></input>
+		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()"></input>
+		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc()"></input>
 		<br/>
-		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc(this)"></input>
-		<input type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc(this)"></input>
+		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc()"></input>
+		<input type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc()"></input>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -31,17 +31,19 @@
 	</div>
 	
 	<script>
-		function ScienceDesc(this) {
+		function ScienceDesc() 
+		{
+			var this = document.getElementById("sbuttonhome");
 			if (this.value=="S")
-                    	{ 
-                        	this.value = "Science";
-				this.innerHTML = "Science";
-                    	}
-               	 	else
-                 	{
-                     		this.value = "S";
-				this.innerHTML = "S";
-                 	}
+            { 
+					this.value = "Science";
+					this.innerHTML = "Science";
+            }
+            else
+            {
+					this.value = "S";
+					this.innerHTML = "S";
+            }
 		}
 		function TechnologyDesc(this) {
     			if (this.innerHTML == "T"){
