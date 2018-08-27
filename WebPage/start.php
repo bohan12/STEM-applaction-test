@@ -33,15 +33,12 @@
 	<script>
 		function ScienceDesc() {
     			document.getElementById("sbuttonhome").value="Science";
-			else this.value = "Close Curtain";
 		}
 		function TechnologyDesc() {
     			document.getElementById("tbuttonhome").value="Technology";
-			else this.value = "Close Curtain";
 		}
 		function EngineeringDesc() {
     			document.getElementById("ebuttonhome").value="Engineering";
-			else this.value = "Close Curtain";
 		}
 		function MathDesc() {
     			if (document.getElementById("mbuttonhome").value="M"){
