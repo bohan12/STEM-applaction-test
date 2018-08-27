@@ -17,11 +17,11 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()">"S"</input>
-		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc()">T</input>
+		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()"/>
+		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc()"/>
 		<br/>
-		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc()">E</input>
-		<input type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc()">M</input>
+		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc()"/>
+		<input type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc()"/>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
