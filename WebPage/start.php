@@ -17,7 +17,7 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<input type="button" class="sbutton" value="SS" id="sbuttonhome" onclick="ScienceDesc(this)"></input>
+		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc(this)"></input>
 		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc(this)"></input>
 		<br/>
 		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc(this)"></input>
@@ -32,10 +32,14 @@
 	
 	<script>
 		function ScienceDesc(this) {
-    			if (this.innerHTML == "S"){
-				this.innerHTML = "Science";
-			}
-			else this.innerHTML = "S";
+			if (this.value=="S")
+                    	{ 
+                        	this.value = "Science";
+                    	}
+               	 	else
+                 	{
+                     		this.value = "S";
+                 	}
 		}
 		function TechnologyDesc(this) {
     			if (this.innerHTML == "T"){
