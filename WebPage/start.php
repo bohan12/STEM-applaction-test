@@ -17,11 +17,11 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<input onclick="ScienceDesc()" type="button" class="sbutton" value="S" id="sbuttonhome"></input>
-		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="T" id="tbuttonhome"></input>
+		<input type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc(this)"></input>
+		<input type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc(this)"></input>
 		<br/>
-		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="E" id="ebuttonhome"></input>
-		<input onclick="MathDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
+		<input type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc(this)"></input>
+		<input type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc(this)"></input>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -31,20 +31,29 @@
 	</div>
 	
 	<script>
-		function ScienceDesc() {
-    			document.getElementById("sbuttonhome").value="Science";
-		}
-		function TechnologyDesc() {
-    			document.getElementById("tbuttonhome").value="Technology";
-		}
-		function EngineeringDesc() {
-    			document.getElementById("ebuttonhome").value="Engineering";
-		}
-		function MathDesc() {
-    			if (document.getElementById("mbuttonhome").value="M"){
-				(document.getElementById("mbuttonhome").value="Mathematics");
+		function ScienceDesc(this) {
+    			if (this.value == "S"){
+				this.value = "Science";
 			}
-			else document.getElementById("mbuttonhome").value="M";
+			else this.value = "S";
+		}
+		function TechnologyDesc(this) {
+    			if (this.value == "T"){
+				this.value = "Technology";
+			}
+			else this.value = "T";
+		}
+		function EngineeringDesc(this) {
+    			if (this.value == "E"){
+				this.value = "Engineering";
+			}
+			else this.value = "E";
+		}
+		function MathDesc(this) {
+    			if (this.value == "M"){
+				this.value = "Mathematics";
+			}
+			else this.value = "M";
 		}
 	</script>
 </html>
