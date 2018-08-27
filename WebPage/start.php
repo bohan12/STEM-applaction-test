@@ -32,28 +32,28 @@
 	
 	<script>
 		function ScienceDesc(this) {
-    			if (this.value == "S"){
-				this.value = "Science";
+    			if (this.innerHTML == "S"){
+				this.innerHTML = "Science";
 			}
-			else this.value = "S";
+			else this.innerHTML = "S";
 		}
 		function TechnologyDesc(this) {
-    			if (this.value == "T"){
-				this.value = "Technology";
+    			if (this.innerHTML == "T"){
+				this.innerHTML = "Technology";
 			}
-			else this.value = "T";
+			else this.innerHTML = "T";
 		}
 		function EngineeringDesc(this) {
-    			if (this.value == "E"){
-				this.value = "Engineering";
+    			if (this.innerHTML == "E"){
+				this.innerHTML = "Engineering";
 			}
-			else this.value = "E";
+			else this.innerHTML = "E";
 		}
 		function MathDesc(this) {
-    			if (this.value == "M"){
-				this.value = "Mathematics";
+    			if (this.innerHTML == "M"){
+				this.innerHTML = "Mathematics";
 			}
-			else this.value = "M";
+			else this.innerHTML = "M";
 		}
 	</script>
 </html>
