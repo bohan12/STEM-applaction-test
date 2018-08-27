@@ -45,11 +45,8 @@
 				this.innerHTML = "S";
 			}
 		}
-		function TechnologyDesc(this) {
-    			if (this.innerHTML == "T"){
-				this.innerHTML = "Technology";
-			}
-			else this.innerHTML = "T";
+		function TechnologyDesc() {
+    			document.getElementById("tbuttonhome").innerHTML = "Technology";
 		}
 		function EngineeringDesc(this) {
     			if (this.innerHTML == "E"){
