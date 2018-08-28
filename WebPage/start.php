@@ -35,7 +35,9 @@
     			if (document.getElementById("sbuttonhome").value="S"){
 				document.getElementById("sbuttonhome").value="Science";
 			}
-			else document.getElementById("sbuttonhome").value="S";
+			elseif (document.getElementById("sbuttonhome").value="Science"){
+				document.getElementById("sbuttonhome").value="S";
+			}
 		}
 		function TechnologyDesc() {
     			document.getElementById("tbuttonhome").value="Technology";
