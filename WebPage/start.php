@@ -46,7 +46,7 @@
 			}
 		}
 		function TechnologyDesc() {
-    			document.getElementById("tbuttonhome").innerHTML = "Technology";
+    			document.getElementById("tbuttonhome").value = "Technology";
 		}
 		function EngineeringDesc(this) {
     			if (this.innerHTML == "E"){
