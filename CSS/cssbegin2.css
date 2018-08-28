@@ -205,7 +205,7 @@ button {
 	cursor: pointer;
 	position: absolute; 
 	top: 575px; 
-	left: 275px;
+	left: 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -341,8 +341,8 @@ button {
 	border: 8px;
 	cursor: pointer;
 	position: absolute; 
-	top: 300px; 
-	left: 275px;
+	top: 350px; 
+	left: 10px;
 	}
 	
 }
