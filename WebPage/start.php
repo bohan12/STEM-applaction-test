@@ -50,8 +50,8 @@
 		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
     			if (engineering.value=="E") engineering.value = "Engineering at AUT covers both traditional aspects " +
-			"of Engineering such as Electrical Engineering, Electronic Engineering and Mechanical Engineering " +
-			"as well as the hardware aspects of Technology";
+			"of Engineering such as Electrical Engineering, and Mechanical Engineering " +
+			"as well as hardware aspects of Technology";
     			else engineering.value = "E";
 		}
 		function MathematicsDesc() {
