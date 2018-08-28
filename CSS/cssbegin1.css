@@ -146,6 +146,7 @@ button {
     width: 250px;
     font-size: 14px;
     cursor: pointer;
+	white-space: normal;
 }
 
 .tbutton {
@@ -156,6 +157,7 @@ button {
     width: 250px;
     font-size: 14px;
     cursor: pointer;
+	white-space: normal;
 }
 
 .ebutton {
@@ -166,6 +168,7 @@ button {
     width: 250px;
     font-size: 14px;
     cursor: pointer;
+	white-space: normal;
 }
 
 .mbutton {
@@ -176,6 +179,7 @@ button {
     width: 250px;
     font-size: 14px;
     cursor: pointer;
+	white-space: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -247,39 +251,43 @@ button {
     	background-color: #0064a0;
     	color: #ffffff;
     	padding: 4px;
-	height: 125px;
+		height: 125px;
     	width: 140px;
     	font-size: 12px;
     	cursor: pointer;
+		white-space: normal;
 	}
 
 	.tbutton {
     	background-color: #64007f;
     	color: #ffffff;
     	padding: 4px;
-	height: 125px;
+		height: 125px;
     	width: 140px;
     	font-size: 12px;
     	cursor: pointer;
+		white-space: normal;
 	}
 
 	.ebutton {
     	background-color: #a05000;
     	color: #ffffff;
     	padding: 4px;
-	height: 125px;
+		height: 125px;
     	width: 140px;
     	font-size: 12px;
     	cursor: pointer;
+		white-space: normal;
 	}
 
 	.mbutton {
     	background-color: #a00000;
     	color: #ffffff;
     	padding: 4px;
-	height: 125px;
+		height: 125px;
     	width: 140px;
     	font-size: 12px;
     	cursor: pointer;
+		white-space: normal;
 	}	
 }
