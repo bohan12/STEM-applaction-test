@@ -35,7 +35,7 @@
     			if (document.getElementById("sbuttonhome").value="S"){
 				document.getElementById("sbuttonhome").value="Science";
 			}
-			elseif (document.getElementById("sbuttonhome").value="Science"){
+			else if (document.getElementById("sbuttonhome").value="Science"){
 				document.getElementById("sbuttonhome").value="S";
 			}
 		}
