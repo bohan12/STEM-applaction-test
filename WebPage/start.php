@@ -22,6 +22,8 @@
 		<br/>
 		<button type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc()">E</button>
 		<button type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc()">M</button>
+		
+		<button type="button" id="myBtn" onclick="myFunction()">Try it</button>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -59,6 +61,10 @@
 				this.innerHTML = "Mathematics";
 			}
 			else this.innerHTML = "M";
+		}
+		function myFunction() {
+   		var x = document.getElementById("myBtn");
+    		x.disabled = true;
 		}
 	</script>
 </html>
