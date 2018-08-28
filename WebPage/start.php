@@ -32,7 +32,9 @@
 	
 	<script>
 		function ScienceDesc() {
-    			document.getElementById("sbuttonhome").value="Science";
+    			if (document.getElementById("sbuttonhome").value="S"){
+				(document.getElementById("sbuttonhome").value="Science")
+			}
 		}
 		function TechnologyDesc() {
     			document.getElementById("tbuttonhome").value="Technology";
