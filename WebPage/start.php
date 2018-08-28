@@ -24,7 +24,7 @@
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
 	
 	    	<form action="stemSubjectPreff.php">
-			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
+			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreff.php">Begin ►</button>
 		</form>
 
 	</body>
