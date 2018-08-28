@@ -18,7 +18,7 @@
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
 		<button type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()" >S</button>
-		<input onclick="change()" type="button" value="T" id=myButton1 ></input>
+		<input onclick="change()" type="button" value="T" id=myButton1>
 		
 		<button type="button" id="myBtn" onclick="myFunction()" >Try it</button>
 	
