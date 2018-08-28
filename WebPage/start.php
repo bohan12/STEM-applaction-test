@@ -33,7 +33,7 @@
 	<script>
 		function ScienceDesc() {
 			var science = document.getElementById("sbuttonhome");
-    			if (science.value=="S") science.value = "Science";
+    			if (science.value=="S") science.value = "Science is the fffffffffffff fffffffffffffff ffffffffffffff ffffffff";
     			else science.value = "S";
 		}
 		function TechnologyDesc() {
