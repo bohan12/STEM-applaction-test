@@ -193,6 +193,19 @@ button {
 	top: 375px; 
 	left: 400px;
 }
+.nextpagebutton {
+	border-radius: 4px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: 5px;
+	padding: 16px;
+	width: 240px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+	top: 575px; 
+	left: 275px;
+}
 
 @media screen and (max-width: 768px) {
 	
@@ -315,4 +328,19 @@ button {
 		top: 215px; 
 		left: 150px;
 	}	
+	
+	.nextpagebutton {
+	border-radius: 4px;
+	background-color: #5a3c1e;
+	color: #ffffff;
+	margin-top: 5px;
+	padding: 16px;
+	width: 240px;
+	font-size: 16px;
+	border: 8px;
+	cursor: pointer;
+	top: 300px; 
+	left: 275px;
+	}
+	
 }
