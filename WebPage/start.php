@@ -21,7 +21,7 @@
 		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="T" id="tbuttonhome"></input>
 		<br/>
 		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="E" id="ebuttonhome"></input>
-		<input onclick="MathDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
+		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -41,15 +41,15 @@
     			if (technology.value=="T") technology.value = "Technology";
     			else technology.value = "T";
 		}
-		function ScienceDesc() {
+		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
     			if (engineering.value=="E") engineering.value = "Engineering";
     			else engineering.value = "E";
 		}
-		function ScienceDesc() {
-			var math = document.getElementById("mbuttonhome");
-    			if (math.value=="M") math.value = "Mathematics";
-    			else math.value = "M";
+		function MathematicsDesc() {
+			var mathematics = document.getElementById("mbuttonhome");
+    			if (mathematics.value=="M") mathematics.value = "Mathematics";
+    			else mathematics.value = "M";
 		}
 	</script>
 </html>
