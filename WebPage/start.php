@@ -17,10 +17,11 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<button type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()" >S</button>
-		<input onclick="change()" type="button" value="T" id=myButton1>
-		
-		<button type="button" id="myBtn" onclick="myFunction()" >Try it</button>
+		<input onclick="ScienceDesc()" type="button" class="sbutton" value="S" id="sbuttonhome"></input>
+		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="T" id="tbuttonhome"></input>
+		<br/>
+		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="E" id="ebuttonhome"></input>
+		<input onclick="MathDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -30,14 +31,17 @@
 	</div>
 	
 	<script>
-		function myFunction() 
-		{
-   			var x = document.getElementById("myBtn");
-    			x.disabled = true;
+		function ScienceDesc() {
+    			document.getElementById("sbuttonhome").value="Science";
 		}
-		function change();
-		{
-			document.getElementById("myButton1").value="Close Curtain";
+		function TechnologyDesc() {
+    			document.getElementById("tbuttonhome").value="Technology";
+		}
+		function EngineeringDesc() {
+    			document.getElementById("ebuttonhome").value="Engineering";
+		}
+		function MathDesc() {
+    			document.getElementById("mbuttonhome").value="Mathematics";
 		}
 	</script>
 </html>
