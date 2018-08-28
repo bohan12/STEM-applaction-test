@@ -33,7 +33,9 @@
 	<script>
 		function ScienceDesc() {
 			var science = document.getElementById("sbuttonhome");
-    			if (science.value=="S") science.value = "Science is the fffffffffffff fffffffffffffff ffffffffffffff ffffffff";
+    			if (science.value=="S") science.value = "Science is the fffffffffffff fffffffffffffff ffffffffffffff " +
+			"fffffffffffff fffffffffffff ffffffffffff ffffffffffffffff fffffffffffffff fffffffffff ffffffffffffff" +
+			"ffffffffffffff fffffffffffff fffffffffffffffff ffffffffffffffffffffffffffff fffffffff ffffffffffffff";
     			else science.value = "S";
 		}
 		function TechnologyDesc() {
