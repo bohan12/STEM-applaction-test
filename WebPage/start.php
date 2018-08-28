@@ -47,24 +47,10 @@
 				this.innerHTML = "S";
 			}
 		}
-		function TechnologyDesc() {
-    			document.getElementById("tbuttonhome").value = "Technology";
-		}
-		function EngineeringDesc(this) {
-    			if (this.innerHTML == "E"){
-				this.innerHTML = "Engineering";
-			}
-			else this.innerHTML = "E";
-		}
-		function MathDesc(this) {
-    			if (this.innerHTML == "M"){
-				this.innerHTML = "Mathematics";
-			}
-			else this.innerHTML = "M";
-		}
-		function myFunction() {
-   		var x = document.getElementById("myBtn");
-    		x.disabled = true;
+		function myFunction() 
+		{
+   			var x = document.getElementById("myBtn");
+    			x.disabled = true;
 		}
 	</script>
 </html>
