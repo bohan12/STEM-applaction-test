@@ -18,10 +18,7 @@
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
 		<button type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()">S</button>
-		<button type="button" class="tbutton" value="T" id="tbuttonhome" onclick="TechnologyDesc()">T</button>
-		<br/>
-		<button type="button" class="ebutton" value="E" id="ebuttonhome" onclick="EngineeringDesc()">E</button>
-		<button type="button" class="mbutton" value="M" id="mbuttonhome" onclick="MathDesc()">M</button>
+		<input onclick="change()" type="button" value="T" id=myButton1></input>
 		
 		<button type="button" id="myBtn" onclick="myFunction()">Try it</button>
 	
@@ -51,6 +48,10 @@
 		{
    			var x = document.getElementById("myBtn");
     			x.disabled = true;
+		}
+		function change();
+		{
+			document.getElementById("myButton1").value="Close Curtain";
 		}
 	</script>
 </html>
