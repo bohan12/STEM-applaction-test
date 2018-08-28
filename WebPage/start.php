@@ -33,12 +33,12 @@
 	<script>
 		function ScienceDesc() {
     			if (document.getElementById("sbuttonhome").value="Science"){
-				document.getElementById("sbuttonhome").value="Science";
-				document.getElementById("sbuttonhome").innerHTML="Science";
-			}
-			else if (document.getElementById("sbuttonhome").value="S"){
 				document.getElementById("sbuttonhome").value="S";
 				document.getElementById("sbuttonhome").innerHTML="S";
+			}
+			else if (document.getElementById("sbuttonhome").value="S"){
+				document.getElementById("sbuttonhome").value="Science";
+				document.getElementById("sbuttonhome").innerHTML="Science";
 			}
 		}
 		function TechnologyDesc() {
