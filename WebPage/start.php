@@ -10,6 +10,9 @@
 		</div>
 
 		<div class="header2">
+			.<form action="https://www.aut.ac.nz/">
+            		<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
+        		</form>
 		</div>	
 
 	</head>
@@ -33,24 +36,28 @@
 	<script>
 		function ScienceDesc() {
 			var science = document.getElementById("sbuttonhome");
-    			if (science.value=="S") science.value = "Science is the fffffffffffff fffffffffffffff ffffffffffffff " +
-			"fffffffffffff fffffffffffff ffffffffffff ffffffffffffffff fffffffffffffff fffffffffff ffffffffffffff" +
-			"ffffffffffffff fffffffffffff fffffffffffffffff ffffffffffffffffffffffffffff fffffffff ffffffffffffff";
+    			if (science.value=="S") science.value = "Science at AUT covers the natural sciences such as Biology, " +
+			"Chemistry and Physics. AUT also covers Conservation, Geology and Physcology among other majors";
     			else science.value = "S";
 		}
 		function TechnologyDesc() {
 			var technology = document.getElementById("tbuttonhome");
-    			if (technology.value=="T") technology.value = "Technology";
+    			if (technology.value=="T") technology.value = "Technology at AUT focuses on Analytics, " +
+			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
+			"and Software Development";
     			else technology.value = "T";
 		}
 		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
-    			if (engineering.value=="E") engineering.value = "Engineering";
+    			if (engineering.value=="E") engineering.value = "Engineering at AUT covers both traditional aspects " +
+			"of Engineering such as Electrical Engineering, Electronic Engineering and Mechanical Engineering " +
+			"as well as the hardware aspects of Technology";
     			else engineering.value = "E";
 		}
 		function MathematicsDesc() {
 			var mathematics = document.getElementById("mbuttonhome");
-    			if (mathematics.value=="M") mathematics.value = "Mathematics";
+    			if (mathematics.value=="M") mathematics.value = "Mathematics at AUT covers Analytics, " + 
+			"Applied Mathematics, Astronomy and Computer Science."
     			else mathematics.value = "M";
 		}
 	</script>
