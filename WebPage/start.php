@@ -17,10 +17,10 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<button type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()">S</button>
-		<input onclick="change()" type="button" value="T" id=myButton1></input>
+		<button type="button" class="sbutton" value="S" id="sbuttonhome" onclick="ScienceDesc()" >S</button>
+		<input onclick="change()" type="button" value="T" id=myButton1 ></input>
 		
-		<button type="button" id="myBtn" onclick="myFunction()">Try it</button>
+		<button type="button" id="myBtn" onclick="myFunction()" >Try it</button>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" formaction = "stemSubjectPreff.php">Begin ►</button>
