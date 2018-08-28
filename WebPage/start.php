@@ -30,20 +30,6 @@
 	</div>
 	
 	<script>
-		function ScienceDesc() 
-		{
-			var this = document.getElementById("sbuttonhome");
-			if (this.value=="S")
-			{ 
-				this.value = "Science";
-				this.innerHTML = "Science";
-			}
-			else
-			{
-				this.value = "S";
-				this.innerHTML = "S";
-			}
-		}
 		function myFunction() 
 		{
    			var x = document.getElementById("myBtn");
