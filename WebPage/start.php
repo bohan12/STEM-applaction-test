@@ -32,14 +32,9 @@
 	
 	<script>
 		function ScienceDesc() {
-    			if (document.getElementById("sbuttonhome").value="Science"){
-				document.getElementById("sbuttonhome").value="S";
-				document.getElementById("sbuttonhome").innerHTML="S";
-			}
-			else if (document.getElementById("sbuttonhome").value="S"){
-				document.getElementById("sbuttonhome").value="Science";
-				document.getElementById("sbuttonhome").innerHTML="Science";
-			}
+			var science = document.getElementById("sbuttonhome");
+    			if (science.value=="S") science.value = "Science";
+    			else science.value = "S";
 		}
 		function TechnologyDesc() {
     			document.getElementById("tbuttonhome").value="Technology";
