@@ -44,18 +44,18 @@
 			</form>
 			Do you prefer to working with: 
 			<div id="div1">
-			<img onclick="changeImage()" id="image" src="computerO.png">
+			<img onclick="changeImage()" id="image" src="../images/computerO.png">
 			</div>
 			<div id="div2">
-			<img onclick="changeImage2()" id="image2" src="calculusO.png">
+			<img onclick="changeImage2()" id="image2" src="../images/calculusO.png">
 			</div>
 			<script type="text/javascript">
 				function changeImage(){
-				if($("#image").attr("src")=="computerO.png"){
-				$("#image").attr("src",'computerl.png');
+				if($("#image").attr("src")=="../images/computerO.png"){
+				$("#image").attr("src",'../images/computerl.png');
 		
 			}else{
-				$("#image").attr("src",'computerO.png');
+				$("#image").attr("src",'../images/computerO.png');
 			}
 
 
@@ -63,11 +63,11 @@
 
 
 				function changeImage2(){
-				if($("#image2").attr("src")=="calculusO.png"){
-			$("#image2").attr("src",'calculusI.png');
+				if($("#image2").attr("src")=="../images/calculusO.png"){
+			$("#image2").attr("src",'../images/calculusI.png');
 		
 			}else{
-			$("#image2").attr("src",'calculusO.png');
+			$("#image2").attr("src",'../images/calculusO.png');
 			}
 
 
