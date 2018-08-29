@@ -60,7 +60,7 @@
    	 			} else {
     	    			x.innerHTML = " ";
    	 			}
-				function changeimage1(){
+				function changeImage1(){
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
 				$("#image").attr("src",'../images/question2/computerI.png');
 		
@@ -70,12 +70,9 @@
 
 			}
 
-				function changeImage1(){
-				showdes1();
-				changeimage1();
-				}
-				function changeImage2(){
-				if($("#image2").attr("src")=="../images/question2/calculusO.png"){
+		
+			function changeImage2(){
+			if($("#image2").attr("src")=="../images/question2/calculusO.png"){
 			$("#image2").attr("src",'../images/question2/calculusI.png');
 		
 			}else{
