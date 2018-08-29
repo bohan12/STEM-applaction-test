@@ -45,7 +45,7 @@
 			Do you prefer to working with: 
 			<div id="div1">
 		
-			<img onclick="changeImage()" id="image" src="../images/question2/computerO.png">
+			<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
 			</div>
 			<div id="div2">
 			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
@@ -54,13 +54,13 @@
 			<img onclick="changeImage3()" id="image3" src="../images/question2/periodicO.png">
 			</div>
 			<script type="text/javascript">
-				function changeImage(){
+				function showdes1(){
 				if (x.innerHTML === " ") {
    	    			 x.innerHTML = "description computer";
    	 			} else {
     	    			x.innerHTML = " ";
    	 			}
-	
+				function changeimage1(){
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
 				$("#image").attr("src",'../images/question2/computerI.png');
 		
@@ -68,10 +68,12 @@
 				$("#image").attr("src",'../images/question2/computerO.png');
 			}
 
-
 			}
 
-
+				function changeImage1(){
+				showdes1();
+				changeimage1();
+				}
 				function changeImage2(){
 				if($("#image2").attr("src")=="../images/question2/calculusO.png"){
 			$("#image2").attr("src",'../images/question2/calculusI.png');
