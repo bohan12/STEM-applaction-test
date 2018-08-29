@@ -44,18 +44,18 @@
 			</form>
 			Do you prefer to working with: 
 			<div id="div1">
-			<img onclick="changeImage()" id="image" src="../images/computerO.png">
+			<img onclick="changeImage()" id="image" src="../images/question2/computerO.png">
 			</div>
 			<div id="div2">
-			<img onclick="changeImage2()" id="image2" src="../images/calculusO.png">
+			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
 			</div>
 			<script type="text/javascript">
 				function changeImage(){
-				if($("#image").attr("src")=="../images/computerO.png"){
-				$("#image").attr("src",'../images/computerl.png');
+				if($("#image").attr("src")=="../images/question2/computerO.png"){
+				$("#image").attr("src",'../images/question2/computerl.png');
 		
 			}else{
-				$("#image").attr("src",'../images/computerO.png');
+				$("#image").attr("src",'../images/question2/computerO.png');
 			}
 
 
@@ -63,11 +63,11 @@
 
 
 				function changeImage2(){
-				if($("#image2").attr("src")=="../images/calculusO.png"){
-			$("#image2").attr("src",'../images/calculusI.png');
+				if($("#image2").attr("src")=="../images/question2/calculusO.png"){
+			$("#image2").attr("src",'../images/question2/calculusI.png');
 		
 			}else{
-			$("#image2").attr("src",'../images/calculusO.png');
+			$("#image2").attr("src",'../images/question2/calculusO.png');
 			}
 
 
