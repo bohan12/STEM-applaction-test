@@ -60,6 +60,7 @@
    	 			} else {
     	    			x.innerHTML = " ";
    	 			}
+				}
 				function changeImage1(){
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
 				$("#image").attr("src",'../images/question2/computerI.png');
