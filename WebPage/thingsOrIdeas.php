@@ -52,7 +52,25 @@
 			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
 			</div>
 			<div id="div3">
-			<img onclick="changeImage3()" id="image3" src="../images/question2/periodicO.png">
+			<img onclick="changeImage3()" id="image3" src="../images/question2/cellO.png">
+			</div>
+			<div id="div4">
+			<img onclick="changeImage4()" id="image4" src="../images/question2/appleO.png">
+			</div>
+			<div id="div5">
+			<img onclick="changeImage5()" id="image5" src="../images/question2/schrodingerO.png">
+			</div>
+			<div id="div6">
+			<img onclick="changeImage6()" id="image6" src="../images/question2/beakerO.png">
+			</div>
+			<div id="div7">
+			<img onclick="changeImage7()" id="image7" src="../images/question2/hammerO.png">
+			</div>
+			<div id="div8">
+			<img onclick="changeImage8()" id="image8" src="../images/question2/gearO.png">
+			</div>
+			<div id="div9">
+			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
 			<script type="text/javascript">
 				function showdes1(){
@@ -75,26 +93,70 @@
 			}
 
 		
-			function changeImage2(){
-			if($("#image2").attr("src")=="../images/question2/calculusO.png"){
-			$("#image2").attr("src",'../images/question2/calculusI.png');
-		
-			}else{
-			$("#image2").attr("src",'../images/question2/calculusO.png');
-			}
-
-
-			}
+				function changeImage2(){
+					if($("#image2").attr("src")=="../images/question2/calculusO.png"){
+						$("#image2").attr("src",'../images/question2/calculusI.png');
+					}
+					else{
+						$("#image2").attr("src",'../images/question2/calculusO.png');
+					}
+				}
 				function changeImage3(){
-				if($("#image3").attr("src")=="../images/question2/periodicO.png"){
-			$("#image3").attr("src",'../images/question2/periodicI.png');
-		
-			}else{
-			$("#image3").attr("src",'../images/question2/periodicO.png');
-			}
-
-
-			}
+					if($("#image3").attr("src")=="../images/question2/cellO.png"){
+						$("#image3").attr("src",'../images/question2/cellI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/cellO.png');
+					}
+				}
+				function changeImage4(){
+					if($("#image3").attr("src")=="../images/question2/appleO.png"){
+						$("#image3").attr("src",'../images/question2/appleI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/appleO.png');
+					}
+				}
+				function changeImage5(){
+					if($("#image3").attr("src")=="../images/question2/schrodingerO.png"){
+						$("#image3").attr("src",'../images/question2/schrodingerI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/schrodingerO.png');
+					}
+				}
+				function changeImage6(){
+					if($("#image3").attr("src")=="../images/question2/beakerO.png"){
+						$("#image3").attr("src",'../images/question2/beakerI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/beakerO.png');
+					}
+				}
+				function changeImage7(){
+					if($("#image3").attr("src")=="../images/question2/hammerO.png"){
+						$("#image3").attr("src",'../images/question2/hammerI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/hammerO.png');
+					}
+				}
+				function changeImage8(){
+					if($("#image3").attr("src")=="../images/question2/gearO.png"){
+						$("#image3").attr("src",'../images/question2/gearI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/gearO.png');
+					}
+				}
+				function changeImage9(){
+					if($("#image3").attr("src")=="../images/question2/periodicO.png"){
+						$("#image3").attr("src",'../images/question2/periodicI.png');
+						}
+					else{
+						$("#image3").attr("src",'../images/question2/periodicO.png');
+					}
+				}
 			</script>
 			
 			<input type="submit" name="submit" value="Submit">  
