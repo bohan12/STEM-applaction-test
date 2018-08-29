@@ -16,15 +16,130 @@
             			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
-		
- 		<style>
-			.error {color: #FF0000;}
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-			.border {
-				border: 2 px solid lightblue;
-				padding: 10;
-  				border-radius:50px 20px;
+	<script>
+
+	$(document).ready(function(){
+	$( ".button.change" ).click(function() {
+ 	 $( "button.change.selected" );
+ 	 $(this).toggleClass("selected");
+	});
+	$( ".button1.change" ).click(function() {
+ 	 $( "button1.change.selected1" );
+  	$(this).toggleClass("selected1");
+	});
+
+	$( ".button2.change" ).click(function() {
+ 	 $( "button1.change.selected2" );
+  	$(this).toggleClass("selected2");
+	});
+
+	$( ".button3.change" ).click(function() {
+ 	 $( "button1.change.selected3" );
+ 	 $(this).toggleClass("selected3");
+	});
+
+	});
+
+
+
+	function descriptionComputer() {
+  	  var x = document.getElementById("ComputerDIV");
+   	 if (x.innerHTML === " ") {
+      	  x.innerHTML = "description computer";
+   	 } else {
+       	 x.innerHTML = " ";
+  	  }
+	}
+
+	function descriptionCalculus() {
+    	var x = document.getElementById("CalculusDIV");
+  	  if (x.innerHTML === " ") {
+   	     x.innerHTML = "description calculus";
+   	 } else {
+    	    x.innerHTML = " ";
+   	 }
+	}
+
+	function descriptionPeridoicl() {
+   	 var x = document.getElementById("PeridoiclDIV");
+   	 if (x.innerHTML === " ") {
+   	     x.innerHTML = "description peridoicl";
+   	 } else {
+     	   x.innerHTML = " ";
+   	 }
+	}
+
+	function descriptionNone() {
+   	 var x = document.getElementById("NoneDIV");
+  	  if (x.innerHTML === " ") {
+    	    x.innerHTML = "description None";
+ 	   } else {
+     	   x.innerHTML = " ";
+	    }
+	}
+
+</script>
+
+ 		<style>
+			.Button{
+    			font-family: Calibri, sans-serif;
+    			width: 100px;
+    			height: 100px;
+    			background-image:url(../image/question2/ComputerI.png);
+    			background-repeat:no-reapeat; 
 			}
+
+			.button1{
+   		 	font-family: Calibri, sans-serif;
+   		 	font-size:13px;
+    			font-weight: bold;
+   		 	width: 100px;
+   			 height: 100px;
+    			background-image:url(../image/question2/calculusO.png);
+   			 background-repeat:no-reapeat; 
+			}
+
+			.button2{
+   			 font-family: Calibri, sans-serif;
+   			 font-size:13px;
+    			font-weight: bold;
+   			 width: 100px;
+   			 height: 100px;
+   			 background-image:url(../image/question2/periodicO.png);
+    			background-repeat:no-reapeat; 
+
+			}
+
+			.button3{
+    			font-family: Calibri, sans-serif;
+    			font-size:13px;
+    			font-weight: bold;
+    			width: 100px;
+    			height: 100px;
+    			background-image:url(../image/question2/calculusO.png);
+    			background-repeat:no-reapeat; 
+
+			}
+			.selected {
+     			 background:url(../image/question2/ComputerO.png);
+			}
+
+
+			.selected1 {
+    			  background:url(../image/question2/calculusI.png);
+			}
+
+			.selected2 {
+     			 background:url(../image/question2/periodicI.png);
+			}
+
+			.selected3 {
+    			  background:url(../image/question2/calculusI.png);
+			}
+
+
 		</style>
 
  		<title>Second Page</title>
@@ -33,65 +148,35 @@
 		<body>
 			<img src="../images/STEMblur.png" alt="stem" class="logo">
 			<h1>Second Page</h1>
-			<?php
-			echo "this is the second page";
- 			// define variables and set to empty values
-			$preferErr = "";
-			$prefer = "";
-
-			if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  
-  
-  				if (empty($_POST["prefer"])) {
-  			  		$preferErr = "required to choice one of the options";
-  				}
-				else 
-				{
-    				$prefer = test_input($_POST["prefer"]);
-  				}
-			}
-
-			function test_input($data) {
-  			$data = trim($data);
- 			$data = stripslashes($data);
-  			$data = htmlspecialchars($data);
- 			return $data;
-			}
-			?> 
+			
+			
 			
 			<p><a href="third.php">third page </a> <br /> - Went to third page</p>
 
 			<form action="index.html">
 			<button type="submit" formaction = "../index.php">index page</button>
 			</form>
-			<p><span class="error">* required field</span></p>
-			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  
-  			Do you prefer to working with: <span class="error">* <?php echo $preferErr;?></span>
-				
-			</br>
 			
-  			<input type="radio" name="prefer" <?php if (isset($prefer) && $prefer=="female") echo "checked";?> value="a thing">a thing
-  
- 			<br></br>
-  			<div class="border">
-  			<p> computer ....................</p>
-  			</div>
-  			<input type="radio" name="prefer" <?php if (isset($prefer) && $prefer=="male") echo "checked";?> value="Ideas">Ideas
-  			<div id="border">
-  			<p> Ideas ........................</p>
-  			</div>
-  
-  			<br><br>
-  			<input type="submit" name="submit" value="Submit">  
 		</form>
 
-		<?php
-		echo "<h2>Your Input:</h2>";
+		<button onclick="descriptionComputer()" class="button change"></button>
+		<div id="ComputerDIV"> </div>
 
-		echo $prefer;
-		?>
-	
+		<br><br>
+
+		<button class="button1 change" onclick="descriptionCalculus()"></button>
+		<div id="CalculusDIV"> </div>
+
+		<br><br>
+		<button class="button2 change" onclick="descriptionPeridoicl()"></button>
+		<div id="PeridoiclDIV"> </div>
+
+		<br><br>
+		<button class="button3 change" onclick="descriptionNone()"></button>
+
+		<div id="NoneDIV"> </div>
+
+
 		<form action="third.php">
 			<button type="submit" formaction = "third.php">Continue to next page ►</button>
 		</form>
