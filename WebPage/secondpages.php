@@ -87,7 +87,7 @@
     			font-family: Calibri, sans-serif;
     			width: 100px;
     			height: 100px;
-    			background-image:url(../images/question2/ComputerI.png);
+    			background-image:url(../images/question2/computerI.png);
     			background-repeat:no-reapeat; 
 			}
 
@@ -123,7 +123,7 @@
 
 			}
 			.selected {
-     			 background:url(../images/question2/ComputerO.png);
+     			 background:url(../images/question2/computerO.png);
 			}
 
 
