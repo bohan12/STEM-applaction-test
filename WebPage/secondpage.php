@@ -49,6 +49,9 @@
 			<div id="div2">
 			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
 			</div>
+			<div id="div3">
+			<img onclick="changeImage3()" id="image3" src="../images/question2/periodicO.png">
+			</div>
 			<script type="text/javascript">
 				function changeImage(){
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
@@ -68,6 +71,16 @@
 		
 			}else{
 			$("#image2").attr("src",'../images/question2/calculusO.png');
+			}
+
+
+			}
+				function changeImage3(){
+				if($("#image2").attr("src")=="../images/question2/periodicO.png"){
+			$("#image2").attr("src",'../images/question2/periodicI.png');
+		
+			}else{
+			$("#image2").attr("src",'../images/question2/periodicO.png');
 			}
 
 
