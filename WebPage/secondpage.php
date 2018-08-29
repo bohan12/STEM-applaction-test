@@ -76,11 +76,11 @@
 
 			}
 				function changeImage3(){
-				if($("#image2").attr("src")=="../images/question2/periodicO.png"){
-			$("#image2").attr("src",'../images/question2/periodicI.png');
+				if($("#image3").attr("src")=="../images/question2/periodicO.png"){
+			$("#image3").attr("src",'../images/question2/periodicI.png');
 		
 			}else{
-			$("#image2").attr("src",'../images/question2/periodicO.png');
+			$("#image3").attr("src",'../images/question2/periodicO.png');
 			}
 
 
