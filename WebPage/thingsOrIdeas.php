@@ -58,9 +58,9 @@
 				function showdes1(){
 				var x = document.getElementById("ComputerDIV");
 				if (x.innerHTML === " ") {
-   	    			 x.innerHTML = "description computer";
+   	    			 x.innerHTML = "";
    	 			} else {
-    	    			x.innerHTML = " ";
+    	    			x.innerHTML = " description computer";
    	 			}
 				}
 				function changeImage1(){
