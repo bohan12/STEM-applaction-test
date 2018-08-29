@@ -148,8 +148,8 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 </br>
 
-<form action="thingsOrIdeas.php">
-	<button type="submit" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
+<form action="secondpages.php">
+	<button type="submit" formaction = "secondpages.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
 <script>
