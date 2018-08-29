@@ -52,7 +52,7 @@
 			<script type="text/javascript">
 				function changeImage(){
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
-				$("#image").attr("src",'../images/question2/computerl.png');
+				$("#image").attr("src",'../images/question2/computerI.png');
 		
 			}else{
 				$("#image").attr("src",'../images/question2/computerO.png');
