@@ -45,7 +45,7 @@
 			Do you prefer to working with: 
 			<div id="ComputerDIV">
 		
-			<img onclick="showdes1();" id="image" src="../images/question2/computerO.png">
+			<img onclick="showdes1(); changeImage1();" id="image" src="../images/question2/computerO.png">
 			 </div>
 			
 			<div id="div2">
