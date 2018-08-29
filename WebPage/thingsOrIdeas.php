@@ -44,8 +44,7 @@
 			</form>
 			Do you prefer to working with: 
 			<div id="div1">
-				<p  hidden id="myP">I am a computer.</p>
-				<p id="demo"></p> 
+		
 			<img onclick="changeImage()" id="image" src="../images/question2/computerO.png">
 			</div>
 			<div id="div2">
@@ -56,8 +55,11 @@
 			</div>
 			<script type="text/javascript">
 				function changeImage(){
-				var x = document.getElementById("myP").innerHTML;
-    				document.getElementById("demo").innerHTML = x;
+				if (x.innerHTML === " ") {
+   	    			 x.innerHTML = "description computer";
+   	 			} else {
+    	    			x.innerHTML = " ";
+   	 			}
 	
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
 				$("#image").attr("src",'../images/question2/computerI.png');
