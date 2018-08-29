@@ -87,7 +87,7 @@
     			font-family: Calibri, sans-serif;
     			width: 100px;
     			height: 100px;
-    			background-image:url(../image/question2/ComputerI.png);
+    			background-image:url(../images/question2/ComputerI.png);
     			background-repeat:no-reapeat; 
 			}
 
@@ -97,7 +97,7 @@
     			font-weight: bold;
    		 	width: 100px;
    			 height: 100px;
-    			background-image:url(../image/question2/calculusO.png);
+    			background-image:url(../images/question2/calculusO.png);
    			 background-repeat:no-reapeat; 
 			}
 
@@ -107,7 +107,7 @@
     			font-weight: bold;
    			 width: 100px;
    			 height: 100px;
-   			 background-image:url(../image/question2/periodicO.png);
+   			 background-image:url(../images/question2/periodicO.png);
     			background-repeat:no-reapeat; 
 
 			}
@@ -118,25 +118,25 @@
     			font-weight: bold;
     			width: 100px;
     			height: 100px;
-    			background-image:url(../image/question2/calculusO.png);
+    			background-image:url(../images/question2/calculusO.png);
     			background-repeat:no-reapeat; 
 
 			}
 			.selected {
-     			 background:url(../image/question2/ComputerO.png);
+     			 background:url(../images/question2/ComputerO.png);
 			}
 
 
 			.selected1 {
-    			  background:url(../image/question2/calculusI.png);
+    			  background:url(../images/question2/calculusI.png);
 			}
 
 			.selected2 {
-     			 background:url(../image/question2/periodicI.png);
+     			 background:url(../images/question2/periodicI.png);
 			}
 
 			.selected3 {
-    			  background:url(../image/question2/calculusI.png);
+    			  background:url(../images/question2/calculusI.png);
 			}
 
 
