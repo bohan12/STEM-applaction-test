@@ -45,7 +45,7 @@
 			Do you prefer to working with: 
 			<div id="ComputerDIV">
 		
-			<img onclick="showdes1()" onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
+			<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
 			 </div>
 			
 			<div id="div2">
@@ -64,6 +64,7 @@
    	 			}
 				}
 				function changeImage1(){
+				showdes1();
 				if($("#image").attr("src")=="../images/question2/computerO.png"){
 				$("#image").attr("src",'../images/question2/computerI.png');
 		
