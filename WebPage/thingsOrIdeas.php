@@ -43,10 +43,11 @@
 			<button type="submit" formaction = "../index.php">index page</button>
 			</form>
 			Do you prefer to working with: 
-			<div id="div1">
+			<div id="ComputerDIV">
 		
 			<img onclick="showdes1();" id="image" src="../images/question2/computerO.png">
-			</div>
+			<div id="ComputerDIV"> </div>
+			
 			<div id="div2">
 			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
 			</div>
@@ -55,6 +56,7 @@
 			</div>
 			<script type="text/javascript">
 				function showdes1(){
+				var x = document.getElementById("ComputerDIV");
 				if (x.innerHTML === " ") {
    	    			 x.innerHTML = "description computer";
    	 			} else {
