@@ -110,51 +110,51 @@
 					}
 				}
 				function changeImage4(){
-					if($("#image3").attr("src")=="../images/question2/appleO.png"){
-						$("#image3").attr("src",'../images/question2/appleI.png');
+					if($("#image4").attr("src")=="../images/question2/appleO.png"){
+						$("#image4").attr("src",'../images/question2/appleI.png');
 						}
 					else{
-						$("#image3").attr("src",'../images/question2/appleO.png');
+						$("#image4").attr("src",'../images/question2/appleO.png');
 					}
 				}
 				function changeImage5(){
-					if($("#image3").attr("src")=="../images/question2/schrodingerO.png"){
-						$("#image3").attr("src",'../images/question2/schrodingerI.png');
+					if($("#image5").attr("src")=="../images/question2/schrodingerO.png"){
+						$("#image5").attr("src",'../images/question2/schrodingerI.png');
 						}
 					else{
-						$("#image3").attr("src",'../images/question2/schrodingerO.png');
+						$("#image5").attr("src",'../images/question2/schrodingerO.png');
 					}
 				}
 				function changeImage6(){
-					if($("#image3").attr("src")=="../images/question2/beakerO.png"){
-						$("#image3").attr("src",'../images/question2/beakerI.png');
+					if($("#image6").attr("src")=="../images/question2/beakerO.png"){
+						$("#image6").attr("src",'../images/question2/beakerI.png');
 						}
 					else{
-						$("#image3").attr("src",'../images/question2/beakerO.png');
+						$("#image6").attr("src",'../images/question2/beakerO.png');
 					}
 				}
 				function changeImage7(){
-					if($("#image3").attr("src")=="../images/question2/hammerO.png"){
-						$("#image3").attr("src",'../images/question2/hammerI.png');
+					if($("#image7").attr("src")=="../images/question2/hammerO.png"){
+						$("#image7").attr("src",'../images/question2/hammerI.png');
 						}
 					else{
-						$("#image3").attr("src",'../images/question2/hammerO.png');
+						$("#image7").attr("src",'../images/question2/hammerO.png');
 					}
 				}
 				function changeImage8(){
-					if($("#image3").attr("src")=="../images/question2/gearO.png"){
-						$("#image3").attr("src",'../images/question2/gearI.png');
+					if($("#image8").attr("src")=="../images/question2/gearO.png"){
+						$("#image8").attr("src",'../images/question2/gearI.png');
 						}
 					else{
-						$("#image3").attr("src",'../images/question2/gearO.png');
+						$("#image8").attr("src",'../images/question2/gearO.png');
 					}
 				}
 				function changeImage9(){
-					if($("#image3").attr("src")=="../images/question2/periodicO.png"){
-						$("#image3").attr("src",'../images/question2/periodicI.png');
+					if($("#image9").attr("src")=="../images/question2/periodicO.png"){
+						$("#image9").attr("src",'../images/question2/periodicI.png');
 						}
 					else{
-						$("#image3").attr("src",'../images/question2/periodicO.png');
+						$("#image9").attr("src",'../images/question2/periodicO.png');
 					}
 				}
 			</script>
