@@ -21,8 +21,8 @@
 	<script>
 
 	$(document).ready(function(){
-	$( ".button.change" ).click(function() {
- 	 $( "button.change.selected" );
+	$( ".button0.change" ).click(function() {
+ 	 $( "button0.change.selected" );
  	 $(this).toggleClass("selected");
 	});
 	$( ".button1.change" ).click(function() {
@@ -83,7 +83,7 @@
 </script>
 
  		<style>
-			.Button{
+			.button0{
     			font-family: Calibri, sans-serif;
     			width: 100px;
     			height: 100px;
@@ -159,7 +159,7 @@
 			
 		</form>
 
-		<button onclick="descriptionComputer()" class="button change"></button>
+		<button onclick="descriptionComputer()" class="button0 change"></button>
 		<div id="ComputerDIV"> </div>
 
 		<br><br>
