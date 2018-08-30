@@ -46,30 +46,17 @@
 			<div id="ComputerDIV">
 		
 			<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
-			 </div>
-			
-			<div id="div2">
 			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
-			</div>
-			<div id="div3">
 			<img onclick="changeImage3()" id="image3" src="../images/question2/cellO.png">
 			</div>
-			<div id="div4">
+			<div id="div2">
 			<img onclick="changeImage4()" id="image4" src="../images/question2/appleO.png">
-			</div>
-			<div id="div5">
 			<img onclick="changeImage5()" id="image5" src="../images/question2/schrodingerO.png">
-			</div>
-			<div id="div6">
 			<img onclick="changeImage6()" id="image6" src="../images/question2/beakerO.png">
 			</div>
-			<div id="div7">
+			<div id="div3">
 			<img onclick="changeImage7()" id="image7" src="../images/question2/hammerO.png">
-			</div>
-			<div id="div8">
 			<img onclick="changeImage8()" id="image8" src="../images/question2/gearO.png">
-			</div>
-			<div id="div9">
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
 			<script type="text/javascript">
