@@ -38,7 +38,7 @@
 			<div id="ComputerDIV">
 		
 			<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
-			<img onclick="changeImage2()" id="image2" src="../images/question2/calculusO.png">
+			<img onclick="changeImage2()" id="image2" src="../images/question2/pythagorasO.png">
 			<img onclick="changeImage3()" id="image3" src="../images/question2/cellO.png">
 			</div>
 			<div id="div2">
