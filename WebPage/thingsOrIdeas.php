@@ -52,7 +52,7 @@
 			<div id="div2">
 			<img onclick="changeImage4()" id="image4" src="../images/question2/appleO.png">
 			<img onclick="changeImage5()" id="image5" src="../images/question2/schrodingerO.png">
-			<img onclick="changeImage6()" id="image6" src="../images/question2/beakerO.png">
+			<img onclick="changeImage6()" id="image6" src="../images/question2/scibeakerO.png">
 			</div>
 			<div id="div3">
 			<img onclick="changeImage7()" id="image7" src="../images/question2/hammerO.png">
@@ -111,11 +111,11 @@
 					}
 				}
 				function changeImage6(){
-					if($("#image6").attr("src")=="../images/question2/beakerO.png"){
-						$("#image6").attr("src",'../images/question2/beakerI.png');
+					if($("#image6").attr("src")=="../images/question2/scibeakerO.png"){
+						$("#image6").attr("src",'../images/question2/scibeakerI.png');
 						}
 					else{
-						$("#image6").attr("src",'../images/question2/beakerO.png');
+						$("#image6").attr("src",'../images/question2/scibeakerO.png');
 					}
 				}
 				function changeImage7(){
