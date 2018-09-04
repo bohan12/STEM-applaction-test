@@ -23,10 +23,6 @@
 	<div class="framedefinition">
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
-
-        <form action="third.php">
-            <button type="submit" formaction = "third.php">Previous Page</button>
-        </form>
 	
 		<form action="fifth.php">
 			<button type="submit" formaction = "fifth.php">Continue to next page ►</button>
