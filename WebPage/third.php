@@ -68,10 +68,6 @@
   			<br><br>
   			<input type="submit" name="submit" value="Submit">  
 		</form>
-
-        	<form action="second.php">
-            		<button type="submit" formaction = "thingsOrIdeas.php">Previous Page</button>
-        	</form>
 	
 		<form action="fourth.php">
 			<button type="submit" formaction = "fourth.php">Continue to next page ►</button>
