@@ -60,20 +60,19 @@
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
 			<script type="text/javascript">
-				function showdes1(){
-				var x = document.getElementById("ComputerDIV");
-				if (x.innerHTML === " ") {
-   	    			 x.innerHTML = "";
-   	 			} else {
-    	    			x.innerHTML = " description computer";
-   	 			}
-				}
+				/*function showdes1(){
+					var x = document.getElementById("ComputerDIV");
+					if (x.innerHTML === " ") {
+   	    			 		x.innerHTML = "";
+   	 				} else {
+    	    				x.innerHTML = " description computer";
+   	 				}
+				}*/
 				function changeImage1(){
-				showdes1();
-				if($("#image").attr("src")=="../images/question2/computerO.png"){
-				$("#image").attr("src",'../images/question2/computerI.png');
-		
-			}else{
+					showdes1();
+					if($("#image").attr("src")=="../images/question2/computerO.png"){
+						$("#image").attr("src",'../images/question2/computerI.png');
+					}else{
 				$("#image").attr("src",'../images/question2/computerO.png');
 			}
 
