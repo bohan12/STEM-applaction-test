@@ -78,14 +78,16 @@
 					}else{
 						$("#image").attr("src",'../images/question2/computerO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Computers";
 				}
 				function changeImage2(){
-					if($("#image2").attr("src")=="../images/question2/calculusO.png"){
-						$("#image2").attr("src",'../images/question2/calculusI.png');
+					if($("#image2").attr("src")=="../images/question2/pythagorasO.png"){
+						$("#image2").attr("src",'../images/question2/pythagorasI.png');
 					}
 					else{
-						$("#image2").attr("src",'../images/question2/calculusO.png');
+						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Pythagoran Theorem";
 				}
 				function changeImage3(){
 					if($("#image3").attr("src")=="../images/question2/cellO.png"){
@@ -94,6 +96,7 @@
 					else{
 						$("#image3").attr("src",'../images/question2/cellO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Microscopic Life";
 				}
 				function changeImage4(){
 					if($("#image4").attr("src")=="../images/question2/appleO.png"){
@@ -102,6 +105,7 @@
 					else{
 						$("#image4").attr("src",'../images/question2/appleO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Law of Gravity";
 				}
 				function changeImage5(){
 					if($("#image5").attr("src")=="../images/question2/schrodingerO.png"){
@@ -110,6 +114,7 @@
 					else{
 						$("#image5").attr("src",'../images/question2/schrodingerO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Schrodinger's Cat";
 				}
 				function changeImage6(){
 					if($("#image6").attr("src")=="../images/question2/scibeakerO.png"){
@@ -118,6 +123,7 @@
 					else{
 						$("#image6").attr("src",'../images/question2/scibeakerO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Lab Equipment";
 				}
 				function changeImage7(){
 					if($("#image7").attr("src")=="../images/question2/hammerO.png"){
@@ -126,6 +132,7 @@
 					else{
 						$("#image7").attr("src",'../images/question2/hammerO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Field Equipment";
 				}
 				function changeImage8(){
 					if($("#image8").attr("src")=="../images/question2/gearO.png"){
@@ -134,6 +141,7 @@
 					else{
 						$("#image8").attr("src",'../images/question2/gearO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Gears, Nuts & Bolts";
 				}
 				function changeImage9(){
 					if($("#image9").attr("src")=="../images/question2/periodicO.png"){
@@ -142,6 +150,7 @@
 					else{
 						$("#image9").attr("src",'../images/question2/periodicO.png');
 					}
+					document.getElementById("bottomtext").innerHTML = "Periodic Table";
 				}
 			</script>
 		</form>
