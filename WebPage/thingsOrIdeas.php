@@ -60,6 +60,7 @@
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
 			<div id="bottomtext">
+				<p>Spellegrino</p>
 			</div>
 			<script type="text/javascript">
 				/*function showdes1(){
