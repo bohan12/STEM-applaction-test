@@ -21,11 +21,7 @@
 	</head>
 	<div class="framedefinition">
 	<body>
-		<img src="../images/STEMblur.png" alt="stem" class="logo">
-
-        <form action="fifth.php">
-            <button type="submit" formaction = "fifth.php">Previous Page</button>
-        </form>
+	    <img src="../images/STEMblur.png" alt="stem" class="logo">
 	
 	    <form action="start.php">
 		    <button type="submit" formaction = "start.php">Return to start</button>
