@@ -59,6 +59,8 @@
 			<img onclick="changeImage8()" id="image8" src="../images/question2/gearO.png">
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
+			<div id="bottomtext">
+			</div>
 			<script type="text/javascript">
 				/*function showdes1(){
 					var x = document.getElementById("ComputerDIV");
