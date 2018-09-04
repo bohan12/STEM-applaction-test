@@ -34,7 +34,7 @@
 			<img src="../images/STEMblur.png" alt="stem" class="logo">
 			<h1>Second Page</h1>
 			
-			<p>Do you prefer to working with:</p>
+			<p>What tools do you prefer to work with:</p>
 			<div id="ComputerDIV">
 		
 			<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
