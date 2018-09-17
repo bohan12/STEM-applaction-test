@@ -51,7 +51,7 @@
 			<img onclick="changeImage8()" id="image8" src="../images/question2/gearO.png">
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
-			<div id="bottomtext">
+			<div id="bottomtext" class="bottomtext">
 				<p>Select an option for its description</p>
 			</div>
 			<script type="text/javascript">
@@ -70,7 +70,7 @@
 					}else{
 						$("#image").attr("src",'../images/question2/computerO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Computers</p>";
+					document.getElementById("bottomtext").innerHTML = "Computers";
 				}
 				function changeImage2(){
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png"){
