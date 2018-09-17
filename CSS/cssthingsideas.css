@@ -127,7 +127,7 @@ button {
 	border-radius: 4px;
 	margin-top: 5px;
 	padding: 8px;
-	width: 270px;
+	width: 300px;
 	font-family: Verdana;
 	font-size: 14px; 
 	background-color: #364145;
@@ -155,7 +155,6 @@ button {
 	}
 	
 	.bottomtext {
-    		width: 270px;
 		font-size: 12px; 
 	}
 	
