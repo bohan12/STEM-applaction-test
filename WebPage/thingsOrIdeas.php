@@ -51,7 +51,7 @@
 			<img onclick="changeImage8()" id="image8" src="../images/question2/gearO.png">
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
-			<div id="bottomtext" class="bottomtext">
+			<div id="desctext" class="bottomtext">
 				<p>Select an option for its description</p>
 			</div>
 			<script type="text/javascript">
@@ -70,7 +70,7 @@
 					}else{
 						$("#image").attr("src",'../images/question2/computerO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Computers</p>";
+					document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 				}
 				function changeImage2(){
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png"){
@@ -79,7 +79,7 @@
 					else{
 						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Pythagoran Theorem</p>";
+					document.getElementById("desctext").innerHTML = "<p>Pythagoran Theorem</p>";
 				}
 				function changeImage3(){
 					if($("#image3").attr("src")=="../images/question2/cellO.png"){
@@ -88,7 +88,7 @@
 					else{
 						$("#image3").attr("src",'../images/question2/cellO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Microscopic Life</p>";
+					document.getElementById("desctext").innerHTML = "<p>Microscopic Life</p>";
 				}
 				function changeImage4(){
 					if($("#image4").attr("src")=="../images/question2/appleO.png"){
@@ -97,7 +97,7 @@
 					else{
 						$("#image4").attr("src",'../images/question2/appleO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Laws of Gravity</p>";
+					document.getElementById("desctext").innerHTML = "<p>Laws of Gravity</p>";
 				}
 				function changeImage5(){
 					if($("#image5").attr("src")=="../images/question2/schrodingerO.png"){
@@ -106,7 +106,7 @@
 					else{
 						$("#image5").attr("src",'../images/question2/schrodingerO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Schrodinger's Cat</p>";
+					document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat</p>";
 				}
 				function changeImage6(){
 					if($("#image6").attr("src")=="../images/question2/scibeakerO.png"){
@@ -115,7 +115,7 @@
 					else{
 						$("#image6").attr("src",'../images/question2/scibeakerO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Lab Equipment</p>";
+					document.getElementById("desctext").innerHTML = "<p>Lab Equipment</p>";
 				}
 				function changeImage7(){
 					if($("#image7").attr("src")=="../images/question2/hammerO.png"){
@@ -124,7 +124,7 @@
 					else{
 						$("#image7").attr("src",'../images/question2/hammerO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Field Equipment</p>";
+					document.getElementById("desctext").innerHTML = "<p>Field Equipment</p>";
 				}
 				function changeImage8(){
 					if($("#image8").attr("src")=="../images/question2/gearO.png"){
@@ -133,7 +133,7 @@
 					else{
 						$("#image8").attr("src",'../images/question2/gearO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Gears, Nuts & Bolts</p>";
+					document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts</p>";
 				}
 				function changeImage9(){
 					if($("#image9").attr("src")=="../images/question2/periodicO.png"){
@@ -142,7 +142,7 @@
 					else{
 						$("#image9").attr("src",'../images/question2/periodicO.png');
 					}
-					document.getElementById("bottomtext").innerHTML = "<p>Periodic Table</p>";
+					document.getElementById("desctext").innerHTML = "<p>Periodic Table</p>";
 				}
 			</script>
 		</form>
