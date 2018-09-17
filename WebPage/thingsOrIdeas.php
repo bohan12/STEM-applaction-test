@@ -51,7 +51,7 @@
 			<img onclick="changeImage8()" id="image8" src="../images/question2/gearO.png">
 			<img onclick="changeImage9()" id="image9" src="../images/question2/periodicO.png">
 			</div>
-			<div id="desctext" class="bottomtext">
+			<div id="desctext">
 				<p>Select an option for its description</p>
 			</div>
 			<script type="text/javascript">
