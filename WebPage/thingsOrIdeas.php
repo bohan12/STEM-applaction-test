@@ -70,6 +70,7 @@
 					}else{
 						$("#image").attr("src",'../images/question2/computerO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 				}
 				function changeImage2(){
@@ -79,6 +80,7 @@
 					else{
 						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Pythagoran Theorem</p>";
 				}
 				function changeImage3(){
@@ -88,6 +90,7 @@
 					else{
 						$("#image3").attr("src",'../images/question2/cellO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Microscopic Life</p>";
 				}
 				function changeImage4(){
@@ -97,6 +100,7 @@
 					else{
 						$("#image4").attr("src",'../images/question2/appleO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Laws of Gravity</p>";
 				}
 				function changeImage5(){
@@ -106,6 +110,7 @@
 					else{
 						$("#image5").attr("src",'../images/question2/schrodingerO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat</p>";
 				}
 				function changeImage6(){
@@ -115,6 +120,7 @@
 					else{
 						$("#image6").attr("src",'../images/question2/scibeakerO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Lab Equipment</p>";
 				}
 				function changeImage7(){
@@ -124,6 +130,7 @@
 					else{
 						$("#image7").attr("src",'../images/question2/hammerO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Field Equipment</p>";
 				}
 				function changeImage8(){
@@ -133,6 +140,7 @@
 					else{
 						$("#image8").attr("src",'../images/question2/gearO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts</p>";
 				}
 				function changeImage9(){
@@ -142,6 +150,7 @@
 					else{
 						$("#image9").attr("src",'../images/question2/periodicO.png');
 					}
+					document.getElementById("desctext").classList.toggle("show");
 					document.getElementById("desctext").innerHTML = "<p>Periodic Table</p>";
 				}
 			</script>
