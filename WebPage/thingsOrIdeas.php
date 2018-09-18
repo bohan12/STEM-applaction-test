@@ -71,7 +71,7 @@
 						$("#image").attr("src",'../images/question2/computerO.png');
 					}
 					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Computers</p></br>";
+					document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 				}
 				function changeImage2(){
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png"){
