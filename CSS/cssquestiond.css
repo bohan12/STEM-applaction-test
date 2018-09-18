@@ -81,7 +81,7 @@ button {
 }
 	
 .container {
-	height: 600px;
+	height: 100%;
 	width: 100%;
 	margin:0px 0px 0px 0px;   
 	background-color: white;
@@ -105,7 +105,7 @@ button {
 }
 
 .split.left:hover {
-	width: 90%;
+	width: 120%;
 }
 
 .split.right {
@@ -122,7 +122,7 @@ button {
 }
 
 .split.right:hover {
-	width: 90%;
+	width: 120%;
 }
 
 h1 {
