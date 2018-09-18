@@ -51,12 +51,12 @@ button {
 	border-radius: 4px;
 	background-color: #4f1852;
 	color: #ffffff;
-	margin-top: 5px;
 	padding: 16px;
 	width: 240px;
 	font-size: 16px;
 	border: 8px;
 	cursor: pointer;
+	margin: auto;
 }
 
 .logo {
