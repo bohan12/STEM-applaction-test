@@ -56,7 +56,8 @@ button {
 	font-size: 16px;
 	border: 8px;
 	cursor: pointer;
-	margin: auto;
+	margin: 50vw;
+	display:flex;
 }
 
 .logo {
