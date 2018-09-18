@@ -26,7 +26,16 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 	
-		
+		<div class="container">
+			<div class="split left">
+				<h1><span>The Introvert</span></h1>
+				<a href="#" class="button">Read More</a>
+			</div>
+			<div class="split right">
+				<h1><span>The Extravert</span></h1>
+				<a href="#" class="button">Read More</a>
+			</div>
+		</div>		
 		
 		<form action="fifth.php">
 			<button type="submit" formaction = "fifth.php">Continue to next page ►</button>
