@@ -105,7 +105,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
-	background: url(tech.jpg);
+	background: #0000ff;
 
 }
 
@@ -128,7 +128,7 @@ button {
 	transition: 1s;
 
 
-	background: url(nottech.jpg);
+	background: #ff0000;
 
 }
 
@@ -250,22 +250,5 @@ btn {
 		border: 8px;
 		cursor: pointer;
 	}
-	
-	.bio {
-		margin: -12px -2px;
-	}
-	.cal {
-		margin: -12px -2px;
-	}
-	.che {
-		margin: -12px -2px;
-	}
-	.phy {
-		margin: -12px -2px;
-	}
-	.sta {
-		margin: -12px -2px;
-	}
-	
 	
 }
