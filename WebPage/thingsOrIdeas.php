@@ -71,7 +71,7 @@
 						$("#image").attr("src",'../images/question2/computerO.png');
 					}
 					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Computers</p>";
+					document.getElementById("desctext").innerHTML = "<p>Computers</p></br>";
 				}
 				function changeImage2(){
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png"){
@@ -81,7 +81,7 @@
 						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 					}
 					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Pythagoran Theorem</p>";
+					document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 				}
 				function changeImage3(){
 					if($("#image3").attr("src")=="../images/question2/cellO.png"){
