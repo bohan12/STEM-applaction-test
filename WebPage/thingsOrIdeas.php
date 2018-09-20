@@ -70,12 +70,12 @@
 					//showdes1();
 					if($("#image").attr("src")=="../images/question2/computerO.png")
 					{
-						if(buttonNumber <= 1)
+						if(buttonNumber < 0)
 						{
 							$("#image").attr("src",'../images/question2/computerI.png');
 							++buttonNumber;
 						}
-						else
+						if(buttonNumber >= 0)
 						{
 							document.getElementById("desctext").innerHTML = 
 							"<p>You have selected your maximum number of options</p>";
@@ -94,12 +94,12 @@
 					//showdes1();
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png")
 					{
-						if(buttonNumber <= 1)
+						if(buttonNumber <= 0)
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
 						}
-						else
+						if(buttonNumber >= 0)
 						{
 							document.getElementById("desctext").innerHTML = 
 							"<p>You have selected your maximum number of options</p>";
@@ -117,12 +117,12 @@
 				{
 					if($("#image3").attr("src")=="../images/question2/cellO.png")
 					{
-						if(buttonNumber <= 1)
+						if(buttonNumber < 0)
 						{
 							$("#image3").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
 						}
-						else
+						if(buttonNumber >= 0)
 						{
 							document.getElementById("desctext").innerHTML = 
 							"<p>You have selected your maximum number of options</p>";
