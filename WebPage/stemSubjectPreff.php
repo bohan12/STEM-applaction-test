@@ -22,6 +22,11 @@
   	{
 		if(document.getElementById(id).src== "bio5" || "cal5" || "che5" || "phy5" || "sta5")
 		{
+			document.getElementById("bio5").src="../images/question1/staroff.png";
+			document.getElementById("cal5").src="../images/question1/staroff.png";
+			document.getElementById("che5").src="../images/question1/staroff.png";
+			document.getElementById("phy5").src="../images/question1/staroff.png";
+			document.getElementById("sta5").src="../images/question1/staroff.png";
 		}
     		var cname=document.getElementById(id).className;
     		var ab=document.getElementById(id+"_hidden").value;
