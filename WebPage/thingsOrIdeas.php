@@ -93,7 +93,7 @@
 					//showdes1();
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png")
 					{
-						if(buttonNumber <= 0)
+						if(buttonNumber < 0)
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
