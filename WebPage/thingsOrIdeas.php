@@ -80,7 +80,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>Computers</p><<p>You have selected your maximum number of options</p>";
+							"<p>Computers</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
