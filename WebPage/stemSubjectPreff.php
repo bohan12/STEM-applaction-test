@@ -20,6 +20,9 @@
 	<script type="text/javascript">
 	function change(id)
   	{
+		if(document.getElementById(id).src== "bio5" || "cal5" || "che5" || "phy5" || "sta5")
+		{
+		}
     		var cname=document.getElementById(id).className;
     		var ab=document.getElementById(id+"_hidden").value;
     		document.getElementById(cname+"rating").innerHTML=ab;
@@ -32,10 +35,6 @@
    		{
    			document.getElementById(cname+j).src="../images/question1/staroff.png";
    		}
-		if(document.getElementById("bio5").src=="../images/question1/staron.png")
-		{
-			document.getElementById("bio5").src="../images/question1/staroff.png";
-		}
   	}
 	</script>
 </head>
