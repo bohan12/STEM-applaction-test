@@ -68,68 +68,73 @@
 				function changeImage1()
 				{
 					//showdes1();
-					if(buttonNumber <= 1)
+					if($("#image").attr("src")=="../images/question2/computerO.png")
 					{
-						if($("#image").attr("src")=="../images/question2/computerO.png"){
+						if(buttonNumber <= 1)
+						{
 							$("#image").attr("src",'../images/question2/computerI.png');
 							++buttonNumber;
-						}else
-						{
-							$("#image").attr("src",'../images/question2/computerO.png');
-							--buttonNumber;
 						}
-						document.getElementById("desctext").classList.toggle("show");
-						document.getElementById("desctext").innerHTML = "<p>Computers</p>";
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
 					}
 					else
 					{
-						document.getElementById("desctext").innerHTML = 
-						"<p>You have selected your maximum number of options</p>";
+						$("#image").attr("src",'../images/question2/computerO.png');
+						--buttonNumber;
 					}
+					document.getElementById("desctext").classList.toggle("show");
+					document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 				}
-				function changeImage2(){
-					if(buttonNumber <= 1)
+				function changeImage2()
+				{
+					//showdes1();
+					if($("#image").attr("src")=="../images/question2/pythagorasO.png")
 					{
-						if($("#image2").attr("src")=="../images/question2/pythagorasO.png")
+						if(buttonNumber <= 1)
 						{
-							$("#image2").attr("src",'../images/question2/pythagorasI.png');
+							$("#image").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
 						}
 						else
 						{
-							$("#image2").attr("src",'../images/question2/pythagorasO.png');
-							--buttonNumber;
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
 						}
-						document.getElementById("desctext").classList.toggle("show");
-						document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 					}
 					else
 					{
-						document.getElementById("desctext").innerHTML = 
-						"<p>You have selected your maximum number of options</p>";
+						$("#image").attr("src",'../images/question2/pythagorasO.png');
+						--buttonNumber;
 					}
+					document.getElementById("desctext").classList.toggle("show");
+					document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 				}
-				function changeImage3(){
-					if(buttonNumber <= 1)
+				function changeImage3()
+				{
+					if($("#image").attr("src")=="../images/question2/cellO.png")
 					{
-						if($("#image3").attr("src")=="../images/question2/cellO.png")
+						if(buttonNumber <= 1)
 						{
-							$("#image3").attr("src",'../images/question2/cellI.png');
+							$("#image").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
 						}
 						else
 						{
-							$("#image3").attr("src",'../images/question2/cellO.png');
-							--buttonNumber;
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
 						}
-						document.getElementById("desctext").classList.toggle("show");
-						document.getElementById("desctext").innerHTML = "<p>Microscopic Life</p>";
 					}
 					else
 					{
-						document.getElementById("desctext").innerHTML = 
-						"<p>You have selected your maximum number of options</p>";
+						$("#image").attr("src",'../images/question2/cellO.png');
+						--buttonNumber;
 					}
+					document.getElementById("desctext").classList.toggle("show");
+					document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms</p>";
 				}
 				function changeImage4(){
 					if($("#image4").attr("src")=="../images/question2/appleO.png")
