@@ -68,8 +68,8 @@
 				function changeImage1()
 				{
 					//showdes1();
-					//if(buttonNumber <= 1)
-					//{
+					if(buttonNumber <= 1)
+					{
 						if($("#image").attr("src")=="../images/question2/computerO.png"){
 							$("#image").attr("src",'../images/question2/computerI.png');
 						}else
@@ -78,16 +78,16 @@
 						}
 						document.getElementById("desctext").classList.toggle("show");
 						document.getElementById("desctext").innerHTML = "<p>Computers</p>";
-					//}
-					//else
-					//{
-					//	document.getElementById("desctext").innerHTML = 
-					//	"<p>You have selected your maximum number of options</p>";
-					//}
+					}
+					else
+					{
+						document.getElementById("desctext").innerHTML = 
+						"<p>You have selected your maximum number of options</p>";
+					}
 				}
 				function changeImage2(){
-					//if(buttonNumber <= 1)
-					//{
+					if(buttonNumber <= 1)
+					{
 						if($("#image2").attr("src")=="../images/question2/pythagorasO.png")
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
@@ -99,15 +99,15 @@
 						document.getElementById("desctext").classList.toggle("show");
 						document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 					}
-					//else
-					//{
-					//	document.getElementById("desctext").innerHTML = 
-					//	"<p>You have selected your maximum number of options</p>";
-					//}
+					else
+					{
+						document.getElementById("desctext").innerHTML = 
+						"<p>You have selected your maximum number of options</p>";
+					}
 				}
 				function changeImage3(){
-					//if(buttonNumber <= 1)
-					//{
+					if(buttonNumber <= 1)
+					{
 						if($("#image3").attr("src")=="../images/question2/cellO.png")
 						{
 							$("#image3").attr("src",'../images/question2/cellI.png');
@@ -118,11 +118,12 @@
 						}
 						document.getElementById("desctext").classList.toggle("show");
 						document.getElementById("desctext").innerHTML = "<p>Microscopic Life</p>";
-					//else
-					//{
-					//	document.getElementById("desctext").innerHTML = 
-					//	"<p>You have selected your maximum number of options</p>";
-					//}
+					}
+					else
+					{
+						document.getElementById("desctext").innerHTML = 
+						"<p>You have selected your maximum number of options</p>";
+					}
 				}
 				function changeImage4(){
 					if($("#image4").attr("src")=="../images/question2/appleO.png")
