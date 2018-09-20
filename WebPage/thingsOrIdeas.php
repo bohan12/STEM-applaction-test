@@ -80,7 +80,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>Computers</p></br><p>You have selected your maximum number of options</p>";
+							"<p>Computers</p><<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -104,7 +104,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Pythagorean Theorem</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -127,7 +127,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Microscopic Organisms</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -150,7 +150,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Laws of Gravity</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -173,7 +173,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Schrodinger's Cat</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -196,7 +196,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Lab Equipment</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -219,7 +219,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Field Equipment</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -242,7 +242,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Gears, Nuts & Bolts</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -265,7 +265,7 @@
 						else
 						{
 							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							"<p>Periodic Table</p><p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
