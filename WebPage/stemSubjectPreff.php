@@ -20,7 +20,7 @@
 	<script type="text/javascript">
 	function change(id)
   	{
-		if(document.getElementById(id).src== "bio5" || "cal5" || "che5" || "phy5" || "sta5")
+		if(document.getElementById(id) == "bio5" || "cal5" || "che5" || "phy5" || "sta5")
 		{
 			document.getElementById("bio5").src="../images/question1/staroff.png";
 			document.getElementById("cal5").src="../images/question1/staroff.png";
