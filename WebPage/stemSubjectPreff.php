@@ -32,6 +32,10 @@
    		{
    			document.getElementById(cname+j).src="../images/question1/staroff.png";
    		}
+		if(document.getElementById("bio5").src"../images/question1/staron.png")
+		{
+			document.getElementById(cname+j).src="../images/question1/staroff.png";
+		}
   	}
 	</script>
 </head>
