@@ -77,7 +77,7 @@
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 						}
-						if(buttonNumber >= 1)
+						else
 						{
 							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
 						}
@@ -100,7 +100,7 @@
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 						}
-						if(buttonNumber >= 1)
+						else
 						{
 							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
 						}
@@ -122,7 +122,7 @@
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms</p>";
 						}
-						if(buttonNumber >= 1)
+						else
 						{
 							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
 						}
