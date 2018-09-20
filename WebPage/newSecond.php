@@ -26,8 +26,8 @@
     font-family: Calibri, sans-serif;
     width: 100px;
     height: 100px;
-    background-image:url(computerO.png);
-    background-repeat:no-reapeat; 
+    background-image:url(../images/question2/computerO.png);
+    background-repeat:no-repeat; 
 }
 
 .button1{
@@ -37,7 +37,7 @@
     width: 100px;
     height: 100px;
     background-image:url(pythagorasO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 }
 
 .button2{
@@ -47,7 +47,7 @@
     width: 100px;
     height: 100px;
     background-image:url(cellO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 
@@ -58,7 +58,7 @@
     width: 100px;
     height: 100px;
     background-image:url(appleO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 .button4{
@@ -68,7 +68,7 @@
     width: 100px;
     height: 100px;
     background-image:url(schrodingerO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 .button5{
@@ -78,7 +78,7 @@
     width: 100px;
     height: 100px;
     background-image:url(scibeakerO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 .button6{
@@ -88,7 +88,7 @@
     width: 100px;
     height: 100px;
     background-image:url(hammerO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 .button7{
@@ -98,7 +98,7 @@
     width: 100px;
     height: 100px;
     background-image:url(gearO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 .button8{
@@ -108,7 +108,7 @@
     width: 100px;
     height: 100px;
     background-image:url(periodicO.png);
-    background-repeat:no-reapeat; 
+    background-repeat:no-repeat; 
 
 }
 .button.selected {
