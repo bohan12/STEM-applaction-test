@@ -74,6 +74,8 @@
 						{
 							$("#image").attr("src",'../images/question2/computerI.png');
 							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 						}
 						if(buttonNumber >= 0)
 						{
@@ -85,8 +87,6 @@
 						$("#image").attr("src",'../images/question2/computerO.png');
 						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Computers</p>";
 				}
 				function changeImage2()
 				{
@@ -97,6 +97,8 @@
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 						}
 						if(buttonNumber >= 0)
 						{
@@ -108,8 +110,6 @@
 						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
 				}
 				function changeImage3()
 				{
@@ -119,6 +119,8 @@
 						{
 							$("#image3").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms</p>";
 						}
 						if(buttonNumber >= 0)
 						{
@@ -130,8 +132,6 @@
 						$("#image3").attr("src",'../images/question2/cellO.png');
 						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms</p>";
 				}
 				function changeImage4(){
 					if($("#image4").attr("src")=="../images/question2/appleO.png")
