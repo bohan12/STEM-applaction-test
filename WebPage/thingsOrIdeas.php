@@ -70,7 +70,7 @@
 					//showdes1();
 					if($("#image").attr("src")=="../images/question2/computerO.png")
 					{
-						if(buttonNumber < 1)
+						if(buttonNumber < 3)
 						{
 							$("#image").attr("src",'../images/question2/computerI.png');
 							++buttonNumber;
@@ -94,7 +94,7 @@
 					//showdes1();
 					if($("#image2").attr("src")=="../images/question2/pythagorasO.png")
 					{
-						if(buttonNumber < 1)
+						if(buttonNumber < 3)
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
@@ -117,7 +117,7 @@
 				{
 					if($("#image3").attr("src")=="../images/question2/cellO.png")
 					{
-						if(buttonNumber < 1)
+						if(buttonNumber < 3)
 						{
 							$("#image3").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
@@ -136,67 +136,143 @@
 						--buttonNumber;
 					}
 				}
-				function changeImage4(){
+				function changeImage4()
+				{
 					if($("#image4").attr("src")=="../images/question2/appleO.png")
 					{
-						$("#image4").attr("src",'../images/question2/appleI.png');
+						if(buttonNumber < 3)
+						{
+							$("#image4").attr("src",'../images/question2/appleI.png');
+							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Laws of Gravity</p>";
+						}
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
 					}
 					else
 					{
 						$("#image4").attr("src",'../images/question2/appleO.png');
+						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Laws of Gravity</p>";
 				}
-				function changeImage5(){
-					if($("#image5").attr("src")=="../images/question2/schrodingerO.png"){
-						$("#image5").attr("src",'../images/question2/schrodingerI.png');
+				function changeImage5()
+				{
+					if($("#image5").attr("src")=="../images/question2/schrodingerO.png")
+					{
+						if(buttonNumber < 3)
+						{
+							$("#image5").attr("src",'../images/question2/schrodingerI.png');
+							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat</p>";
 						}
-					else{
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
+					}
+					else
+					{
 						$("#image5").attr("src",'../images/question2/schrodingerO.png');
+						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat</p>";
 				}
-				function changeImage6(){
-					if($("#image6").attr("src")=="../images/question2/scibeakerO.png"){
-						$("#image6").attr("src",'../images/question2/scibeakerI.png');
+				function changeImage6()
+				{
+					if($("#image6").attr("src")=="../images/question2/scibeakerO.png")
+					{
+						if(buttonNumber < 3)
+						{
+							$("#image6").attr("src",'../images/question2/scibeakerI.png');
+							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Lab Equipment</p>";
 						}
-					else{
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
+					}
+					else
+					{
 						$("#image6").attr("src",'../images/question2/scibeakerO.png');
+						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Lab Equipment</p>";
 				}
-				function changeImage7(){
-					if($("#image7").attr("src")=="../images/question2/hammerO.png"){
-						$("#image7").attr("src",'../images/question2/hammerI.png');
+				function changeImage7()
+				{
+					if($("#image7").attr("src")=="../images/question2/hammerO.png")
+					{
+						if(buttonNumber < 3)
+						{
+							$("#image7").attr("src",'../images/question2/hammerI.png');
+							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Field Equipment</p>";
 						}
-					else{
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
+					}
+					else
+					{
 						$("#image7").attr("src",'../images/question2/hammerO.png');
+						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Field Equipment</p>";
 				}
-				function changeImage8(){
-					if($("#image8").attr("src")=="../images/question2/gearO.png"){
-						$("#image8").attr("src",'../images/question2/gearI.png');
+				function changeImage8()
+				{
+					if($("#image8").attr("src")=="../images/question2/gearO.png")
+					{
+						if(buttonNumber < 3)
+						{
+							$("#image8").attr("src",'../images/question2/gearI.png');
+							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts</p>";
 						}
-					else{
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
+					}
+					else
+					{
 						$("#image8").attr("src",'../images/question2/gearO.png');
+						--buttonNumber;
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts</p>";
 				}
-				function changeImage9(){
-					if($("#image9").attr("src")=="../images/question2/periodicO.png"){
-						$("#image9").attr("src",'../images/question2/periodicI.png');
+				function changeImage9()
+				{
+					if($("#image9").attr("src")=="../images/question2/periodicO.png")
+					{
+						if(buttonNumber < 3)
+						{
+							$("#image9").attr("src",'../images/question2/periodicI.png');
+							++buttonNumber;
+							document.getElementById("desctext").classList.toggle("show");
+							document.getElementById("desctext").innerHTML = "<p>Periodic Table</p>";
 						}
-					else{
-						$("#image9").attr("src",'../images/question2/periodicO.png');
+						else
+						{
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
+						}
 					}
-					document.getElementById("desctext").classList.toggle("show");
-					document.getElementById("desctext").innerHTML = "<p>Periodic Table</p>";
+					else
+					{
+						$("#image9").attr("src",'../images/question2/periodicO.png');
+						--buttonNumber;
+					}
 				}
 			</script>
 		</form>
