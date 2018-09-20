@@ -77,8 +77,7 @@
 						}
 						if(buttonNumber >= 0)
 						{
-							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -101,8 +100,7 @@
 						}
 						if(buttonNumber >= 0)
 						{
-							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -124,8 +122,7 @@
 						}
 						if(buttonNumber >= 0)
 						{
-							document.getElementById("desctext").innerHTML = 
-							"<p>You have selected your maximum number of options</p>";
+							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
