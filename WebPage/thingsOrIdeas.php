@@ -74,7 +74,8 @@
 					{
 						if($("#image").attr("src")=="../images/question2/computerO.png"){
 							$("#image").attr("src",'../images/question2/computerI.png');
-						}else{
+						}else
+						{
 							$("#image").attr("src",'../images/question2/computerO.png');
 						}
 						document.getElementById("desctext").classList.toggle("show");
@@ -93,11 +94,13 @@
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 						}
-						else{
+						else
+						{
 							$("#image2").attr("src",'../images/question2/pythagorasO.png');
 						}
 						document.getElementById("desctext").classList.toggle("show");
 						document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
+					}
 					else
 					{
 						document.getElementById("desctext").innerHTML = 
@@ -108,10 +111,11 @@
 					if(buttonNumber <= 1)
 					{
 						if($("#image3").attr("src")=="../images/question2/cellO.png")
-							{
+						{
 							$("#image3").attr("src",'../images/question2/cellI.png');
-							}
-						else{
+						}
+						else
+						{
 							$("#image3").attr("src",'../images/question2/cellO.png');
 						}
 						document.getElementById("desctext").classList.toggle("show");
@@ -123,10 +127,12 @@
 					}
 				}
 				function changeImage4(){
-					if($("#image4").attr("src")=="../images/question2/appleO.png"){
+					if($("#image4").attr("src")=="../images/question2/appleO.png")
+					{
 						$("#image4").attr("src",'../images/question2/appleI.png');
-						}
-					else{
+					}
+					else
+					{
 						$("#image4").attr("src",'../images/question2/appleO.png');
 					}
 					document.getElementById("desctext").classList.toggle("show");
