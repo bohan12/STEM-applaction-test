@@ -92,11 +92,11 @@
 				function changeImage2()
 				{
 					//showdes1();
-					if($("#image").attr("src")=="../images/question2/pythagorasO.png")
+					if($("#image2").attr("src")=="../images/question2/pythagorasO.png")
 					{
 						if(buttonNumber <= 1)
 						{
-							$("#image").attr("src",'../images/question2/pythagorasI.png');
+							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
 						}
 						else
@@ -107,7 +107,7 @@
 					}
 					else
 					{
-						$("#image").attr("src",'../images/question2/pythagorasO.png');
+						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 						--buttonNumber;
 					}
 					document.getElementById("desctext").classList.toggle("show");
@@ -115,11 +115,11 @@
 				}
 				function changeImage3()
 				{
-					if($("#image").attr("src")=="../images/question2/cellO.png")
+					if($("#image3").attr("src")=="../images/question2/cellO.png")
 					{
 						if(buttonNumber <= 1)
 						{
-							$("#image").attr("src",'../images/question2/cellI.png');
+							$("#image3").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
 						}
 						else
@@ -130,7 +130,7 @@
 					}
 					else
 					{
-						$("#image").attr("src",'../images/question2/cellO.png');
+						$("#image3").attr("src",'../images/question2/cellO.png');
 						--buttonNumber;
 					}
 					document.getElementById("desctext").classList.toggle("show");
