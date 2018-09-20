@@ -31,7 +31,6 @@
 	</head>
 	<div class="framedefinition">
 		<body>
-			<!---window.onload = loadButtonVariables;--->
 			<img src="../images/STEMblur.png" alt="stem" class="logo">
 			<h1>Second Page</h1>
 			
