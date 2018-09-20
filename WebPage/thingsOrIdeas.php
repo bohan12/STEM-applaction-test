@@ -79,7 +79,8 @@
 						}
 						else
 						{
-							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -102,7 +103,8 @@
 						}
 						else
 						{
-							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
@@ -124,7 +126,8 @@
 						}
 						else
 						{
-							document.getElementById("desctext").innerHTML = "<p>You have selected your maximum number of options</p>";
+							document.getElementById("desctext").innerHTML = 
+							"<p>You have selected your maximum number of options</p>";
 						}
 					}
 					else
