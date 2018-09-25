@@ -48,6 +48,7 @@
 	<img src="../images/STEMblur.png" alt="stem" class="logo">
 	<h1>Please rate your favourite subjects from 1 to 5</h1>
 	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
+	<h5>Click on the stars to assign a rating then click continue to next page *you can only assign one at 5 stars</h5>
 <div class="dropdown">
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
