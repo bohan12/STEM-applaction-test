@@ -21,7 +21,7 @@
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
 		<input onclick="ScienceDesc()" type="button" class="sbutton" value="S" id="sbuttonhome"></input>
-		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="T" id="tbuttonhome"></input>
+		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="T \n\n Technology" id="tbuttonhome"></input>
 		<br/>
 		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="E" id="ebuttonhome"></input>
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
@@ -42,7 +42,7 @@
 		}
 		function TechnologyDesc() {
 			var technology = document.getElementById("tbuttonhome");
-    			if (technology.value=="T") technology.value = "Technology at AUT focuses on Analytics, " +
+    			if (technology.value=="T \n\n Technology") technology.value = "Technology at AUT focuses on Analytics, " +
 			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
 			"and Software Development";
     			else {
