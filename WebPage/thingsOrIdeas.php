@@ -36,7 +36,7 @@
 			<h3>What tools do you prefer to work with:</h3>
 			<h3> When finished click Continue to next page to continue</h3>
 			
-			<h5> * you can only choose three options</h5>
+			<h5>To unselect your option click the button again *you can only choose three options</h5>
 			
 			
 			<p>Click on the button for more information on the picture</p>
