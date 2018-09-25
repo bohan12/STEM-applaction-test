@@ -20,11 +20,11 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<input onclick="ScienceDesc()" type="button" class="sbutton" value="S" id="sbuttonhome"></input>
-		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="T \r\n \r\n Technology" id="tbuttonhome"></input>
+		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Science" id="sbuttonhome"></input>
+		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="Technology" id="tbuttonhome"></input>
 		<br/>
-		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="E" id="ebuttonhome"></input>
-		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="M" id="mbuttonhome"></input>
+		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="Engineering" id="ebuttonhome"></input>
+		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="Mathematics" id="mbuttonhome"></input>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreff.php">Begin ►</button>
@@ -36,31 +36,31 @@
 	<script>
 		function ScienceDesc() {
 			var science = document.getElementById("sbuttonhome");
-    			if (science.value=="S") science.value = "Science at AUT covers the natural sciences such as Biology, " +
+    			if (science.value=="Science") science.value = "Science at AUT covers the natural sciences such as Biology, " +
 			"Chemistry and Physics. AUT also covers Conservation, Geology and Physcology among other majors";
-    			else science.value = "S";
+    			else science.value = "Science";
 		}
 		function TechnologyDesc() {
 			var technology = document.getElementById("tbuttonhome");
-    			if (technology.value=="T \r\n \r\n Technology") technology.value = "Technology at AUT focuses on Analytics, " +
+    			if (technology.value=="Technology") technology.value = "Technology at AUT focuses on Analytics, " +
 			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
 			"and Software Development";
     			else {
-				technology.value = "T \r\n \r\n Technology";
+				technology.value = "Technology";
 			}
 		}
 		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
-    			if (engineering.value=="E") engineering.value = "Engineering at AUT covers both traditional majors " +
+    			if (engineering.value=="Engineering") engineering.value = "Engineering at AUT covers both traditional majors " +
 			"such as Electrical Engineering and Mechanical Engineering as well as the " +
 			"hardware aspects of Technology";
-    			else engineering.value = "E";
+    			else engineering.value = "Engineering";
 		}
 		function MathematicsDesc() {
 			var mathematics = document.getElementById("mbuttonhome");
-    			if (mathematics.value=="M") mathematics.value = "Mathematics at AUT covers Analytics, " + 
+    			if (mathematics.value=="Mathematics") mathematics.value = "Mathematics at AUT covers Analytics, " + 
 			"Applied Mathematics, Astronomy and Computer Science."
-    			else mathematics.value = "M";
+    			else mathematics.value = "Mathematics";
 		}
 	</script>
 </html>
