@@ -20,6 +20,8 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
+		<h1>Please select a category for more information</h1>
+		
 		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Science" id="sbuttonhome"></input>
 		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="Technology" id="tbuttonhome"></input>
 		<br/>
