@@ -100,7 +100,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
-	background: #00FFFF;
+	background: #0000FF;
 
 }
 
@@ -118,7 +118,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
-	background: 	#F5F5DC;
+	background: #FF0000;
 }
 
 .split.right:hover {
