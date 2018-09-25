@@ -32,9 +32,15 @@
 	<div class="framedefinition">
 		<body>
 			<img src="../images/STEMblur.png" alt="stem" class="logo">
-			<h1>Second Page</h1>
+			<h1>Things or Ideas </h1>
+			<h3>What tools do you prefer to work with:</h3>
+			<h3> When finished click Continue to next page to continue</h3>
 			
-			<p>What tools do you prefer to work with:</p>
+			<h5> * you can only choose three options</h5>
+			
+			
+			<p>Click on the button for more information on the picture</p>
+			
 			<div id="ComputerDIV">
 		
 			<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
