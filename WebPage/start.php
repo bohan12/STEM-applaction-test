@@ -46,7 +46,7 @@
 			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
 			"and Software Development";
     			else technology.value = "T";
-			else technology.innerHTML = "<h1>T</h1>";
+			else document.getElementById("tbuttonhome").innerHTML = "<h1>T</h1>";
 		}
 		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
