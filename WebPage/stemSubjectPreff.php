@@ -52,7 +52,7 @@
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
 	  <input type="hidden" id="bio1_hidden" value="1">
-	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="bio1" class="bio">
+	  <img src="../images/question1/staron.png" onclick="change(this.id);" id="bio1" class="bio">
 	  <input type="hidden" id="bio2_hidden" value="2">
 	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="bio2" class="bio">
 	  <input type="hidden" id="bio3_hidden" value="3">
@@ -71,7 +71,7 @@
 
 <button onclick="calculusDropdown()" class="dropbtn">Calculus</button>
 	  <input type="hidden" id="cal1_hidden" value="1">
-	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="cal1" class="cal">
+	  <img src="../images/question1/staron.png" onclick="change(this.id);" id="cal1" class="cal">
 	  <input type="hidden" id="cal2_hidden" value="2">
 	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="cal2" class="cal">
 	  <input type="hidden" id="cal3_hidden" value="3">
@@ -91,7 +91,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 <button onclick="chemistryDropdown()" class="dropbtn">Chemistry</button>
 	  <input type="hidden" id="che1_hidden" value="1">
-	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="che1" class="che">
+	  <img src="../images/question1/staron.png" onclick="change(this.id);" id="che1" class="che">
 	  <input type="hidden" id="che2_hidden" value="2">
 	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="che2" class="che">
 	  <input type="hidden" id="che3_hidden" value="3">
@@ -111,7 +111,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 <button onclick="physicsDropdown()" class="dropbtn">Physics</button>
 	  <input type="hidden" id="phy1_hidden" value="1">
-	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="phy1" class="phy">
+	  <img src="../images/question1/staron.png" onclick="change(this.id);" id="phy1" class="phy">
 	  <input type="hidden" id="phy2_hidden" value="2">
 	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="phy2" class="phy">
 	  <input type="hidden" id="phy3_hidden" value="3">
@@ -131,7 +131,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 <button onclick="statisticsDropdown()" class="dropbtn">Statistics</button>
 	<input type="hidden" id="sta1_hidden" value="1">
-	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="sta1" class="sta">
+	  <img src="../images/question1/staron.png" onclick="change(this.id);" id="sta1" class="sta">
 	  <input type="hidden" id="sta2_hidden" value="2">
 	  <img src="../images/question1/staroff.png" onclick="change(this.id);" id="sta2" class="sta">
 	  <input type="hidden" id="sta3_hidden" value="3">
