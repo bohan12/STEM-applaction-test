@@ -20,6 +20,21 @@
 		</div>	
 
 	</head>
+	<script type="text/javascript">
+		function changeImage1(){
+			if($("#image").attr("src")=="../images/question2/computerO.png"){
+				$("#image").attr("src",'../images/question2/computerI.png');
+			}else{
+				$("#image").attr("src",'../images/question2/computerO.png');
+			}
+		}
+		function changeImage2(){
+			if($("#image").attr("src")=="../images/question2/computerO.png"){
+				$("#image").attr("src",'../images/question2/computerI.png');
+			}else{
+				$("#image").attr("src",'../images/question2/computerO.png');
+			}
+		}
 	<div class="framedefinition">
 	
 		
@@ -29,11 +44,12 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
-				<a href="#" class="button">Read More</a>
+				<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
+				
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-				<a href="#" class="button">Read More</a>
+				<img onclick="changeImage2()" id="image" src="../images/question2/computerO.png">
 			</div>
 		</div>		
 		
