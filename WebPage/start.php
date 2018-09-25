@@ -46,7 +46,7 @@
 			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
 			"and Software Development";
     			else {
-				technology.value = "T" + "" + "Technology";
+				technology.value = "T" + "                                                           " + "Technology";
 			}
 		}
 		function EngineeringDesc() {
