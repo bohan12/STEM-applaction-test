@@ -80,7 +80,7 @@
 							$("#image").attr("src",'../images/question2/computerI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Computers</p>";
+							document.getElementById("desctext").innerHTML = "<p>Computers (Hardware)</p>";
 						}
 						else
 						{
@@ -104,7 +104,7 @@
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem</p>";
+							document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem (Math)</p>";
 						}
 						else
 						{
@@ -127,7 +127,7 @@
 							$("#image3").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms</p>";
+							document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms (Biology)</p>";
 						}
 						else
 						{
@@ -150,7 +150,7 @@
 							$("#image4").attr("src",'../images/question2/appleI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Laws of Gravity</p>";
+							document.getElementById("desctext").innerHTML = "<p>Laws of Gravity (Physics)</p>";
 						}
 						else
 						{
@@ -173,7 +173,7 @@
 							$("#image5").attr("src",'../images/question2/schrodingerI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat</p>";
+							document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat (Theory)</p>";
 						}
 						else
 						{
@@ -196,7 +196,7 @@
 							$("#image6").attr("src",'../images/question2/scibeakerI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Lab Equipment</p>";
+							document.getElementById("desctext").innerHTML = "<p>Lab Equipment (Chemistry)</p>";
 						}
 						else
 						{
@@ -219,7 +219,7 @@
 							$("#image7").attr("src",'../images/question2/hammerI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Field Equipment</p>";
+							document.getElementById("desctext").innerHTML = "<p>Field Equipment (Engineering Outdoors)</p>";
 						}
 						else
 						{
@@ -242,7 +242,7 @@
 							$("#image8").attr("src",'../images/question2/gearI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts</p>";
+							document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts (Engineering Mechanical)</p>";
 						}
 						else
 						{
@@ -265,7 +265,7 @@
 							$("#image9").attr("src",'../images/question2/periodicI.png');
 							++buttonNumber;
 							document.getElementById("desctext").classList.toggle("show");
-							document.getElementById("desctext").innerHTML = "<p>Periodic Table</p>";
+							document.getElementById("desctext").innerHTML = "<p>Periodic Table (Chemistry)</p>";
 						}
 						else
 						{
