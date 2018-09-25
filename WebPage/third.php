@@ -35,6 +35,7 @@
 				$("#image").attr("src",'../images/question2/computerO.png');
 			}
 		}
+	</script>
 	<div class="framedefinition">
 	
 		
