@@ -45,8 +45,10 @@
     			if (technology.value=="T") technology.value = "Technology at AUT focuses on Analytics, " +
 			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
 			"and Software Development";
-    			else technology.value = "T";
-			else document.getElementById("tbuttonhome").innerHTML = "<h1>T</h1>";
+    			else {
+				technology.value = "T";
+				document.getElementById("tbuttonhome").innerHTML = "<h1>T</h1>";
+			}
 		}
 		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
