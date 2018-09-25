@@ -1,25 +1,19 @@
 {box-sizing: border-box;}
 
 .header {
-  background-color: #D93B20;
+  background-color: #4f1852;
   height: 70px;
 }
 
 .header2 {
-  background-color: #F26522;
-  color: #F26522;
+  background-color: #753b76;
+  color: #753b76;
   height: 70px;
 }
 
 .framedefinition {
-	padding-left:150px;
-	padding-top:50px;
-}
-
-h1 {
-	color: #000000;
-	font-family: Verdana;
-	font-size: 22px; 
+	padding-left:0px;
+	padding-top:0px;
 }
 
 h3 {
@@ -33,63 +27,11 @@ div {
 }
 
 body {
-    background: #F07D00;
+    background: #964b98;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-top: 0px;
-}
-
-.dropbtn {
-    border-radius: 4px;
-    background-color: #D93B20;
-    color: #ffffff;
-    margin-top: 5px;
-    padding: 16px;
-    width: 110px;
-    font-size: 16px;
-    border: 8px;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    color: #ffffff;
-    border-radius: 4px;
-    margin-top: 5px;
-    padding: 16px;
-    width: 400px;
-    height: 150px;
-    font-family: Verdana;
-    font-size: 14px; 
-    display: none;
-    background-color: #364145;
-    overflow: auto;
-    
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #ffffff;
-    margin-top: 5px;
-    padding: 20px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {background-color: #F26522;}
-
-.show {display: block;}
-
-#total_votes
-{
-	font-size:30px;
-	color:#FE2E2E;
-	font-weight:bold;
 }
 
 .div p
@@ -107,14 +49,14 @@ p
 
 button {
 	border-radius: 4px;
-	background-color: #D93B20;
+	background-color: #4f1852;
 	color: #ffffff;
-	margin-top: 5px;
 	padding: 16px;
 	width: 240px;
 	font-size: 16px;
 	border: 8px;
 	cursor: pointer;
+	margin: auto;
 }
 
 .logo {
@@ -127,7 +69,7 @@ button {
 		float: right;
 		margin-right: 10px;
 		border-radius: 4px;
-		background-color: #D93B20;
+		background-color: #4f1852;
 		color: #ffffff;
 		margin-top: -8px;
 		padding: 0px;
@@ -137,33 +79,110 @@ button {
 		border: 8px;
 		cursor: pointer;
 }
+	
+.container {
+	min-height: 650px;
+	width: 100%;
+	margin:0px 0px 0px 0px;   
+	background-color: white;
+	box-shadow: 0px 0px 5px 1px grey;
+	box-sizing: border-box;
+	display:flex;
 
-	.bio {
-		margin: -12px 0px;
-	}
-	.cal {
-		margin: -12px 0px;
-	}
-	.che {
-		margin: -12px 0px;
-	}
-	.phy {
-		margin: -12px 0px;
-	}
-	.sta {
-		margin: -12px 0px;
-	}
+} 
+
+.split.left {
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	flex-grow: 1;
+	background-color: blue;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+	background: #FF7F50;
+
+}
+
+.split.left:hover {
+	width: 100%;
+}
+
+.split.right {
+  
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	flex-grow: 1;
+	background-color: red;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+	background: #FF0000;
+}
+
+.split.right:hover {
+	width: 100%;
+}
+
+h1 {
+	
+	color: #000000;	
+	font-family: Verdana;
+	font-size: 36px; 
+	background: rgba(0,0,0,.8);
+	transition: .5s;
+}
+
+h1 span {
+	background: rgba(255,255,255,0);
+	width: 100%;
+	transition: 1s;
+	color: #fff;
+	padding: 25px 20px:
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.split.left:hover h1 span {
+	color: #262626;
+	background: rgba(255,255,255,.8);
+	letter-spacing: 10px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.split.left:hover h1 {
+	background: rgba(0,0,0,0);
+}
+
+.split.right:hover h1 span {
+	color: #262626;
+	background: rgba(255,255,255,.8);
+	letter-spacing: 10px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.split.right:hover h1 {
+	background: rgba(0,0,0,0);
+}
+
+/* button used for container
+btn {
+}
+*/
+
+
 
 @media screen and (max-width: 768px) {
 	
 	.header {
-  		background-color: #D93B20;
+  		background-color: #4f1852;
  		height: 0px;
 	}
 	
   	.framedefinition {
-		padding-left:5px;
-		padding-top:5px;
+		padding-left:0px;
+		padding-top:0px;
 	}
 	
 	.logo {
@@ -172,7 +191,6 @@ button {
 		left: 5px;
 		height: 80px;
 		width: 80px;
-		;
 	}
 	
 	.dropdown-content {
@@ -182,7 +200,7 @@ button {
 	
 	.dropbtn {
     		border-radius: 4px;
-    		background-color: #D93B20;
+    		background-color: #4f1852;
     		color: #ffffff;
     		margin-top: 5px;
     		padding: 16px;
@@ -194,9 +212,8 @@ button {
 	
 	button {
 		border-radius: 4px;
-		background-color: #D93B20;
+		background-color: #4f1852;
 		color: #ffffff;
-		margin-top: 5px;
 		padding: 16px;
 		width: 240px;
 		font-size: 14px;
@@ -208,7 +225,7 @@ button {
 		float: right;
 		margin-right: 5px;
 		border-radius: 4px;
-		background-color: #D93B20;
+		background-color: #4f1852;
 		color: #ffffff;
 		margin-top: -8px;
 		padding: 0px;
@@ -218,22 +235,4 @@ button {
 		border: 8px;
 		cursor: pointer;
 	}
-	
-	.bio {
-		margin: -12px -2px;
-	}
-	.cal {
-		margin: -12px -2px;
-	}
-	.che {
-		margin: -12px -2px;
-	}
-	.phy {
-		margin: -12px -2px;
-	}
-	.sta {
-		margin: -12px -2px;
-	}
-	
-	
 }
