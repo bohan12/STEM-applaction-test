@@ -23,7 +23,7 @@ h3 {
 }
 
 div {
-    color: #000001;
+    color: #000000;
 }
 
 body {
@@ -96,7 +96,7 @@ button {
 	width: 50%;
 	text-align: center;
 	flex-grow: 1;
-	background-color: yellow;
+	background-color: blue;
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
@@ -114,7 +114,7 @@ button {
 	width: 50%;
 	text-align: center;
 	flex-grow: 1;
-	background-color: green;
+	background-color: red;
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
