@@ -20,22 +20,6 @@
 		</div>	
 
 	</head>
-	<script type="text/javascript">
-		function changeImage1(){
-			if($("#image").attr("src")=="../images/question2/computerO.png"){
-				$("#image").attr("src",'../images/question2/computerI.png');
-			}else{
-				$("#image").attr("src",'../images/question2/computerO.png');
-			}
-		}
-		function changeImage2(){
-			if($("#image").attr("src")=="../images/question2/computerO.png"){
-				$("#image").attr("src",'../images/question2/computerI.png');
-			}else{
-				$("#image").attr("src",'../images/question2/computerO.png');
-			}
-		}
-	</script>
 	<div class="framedefinition">
 	
 		
@@ -54,6 +38,23 @@
 			</div>
 		</div>		
 		
+	<script type="text/javascript">
+		function changeImage1(){
+			if($("#image").attr("src")=="../images/question2/computerO.png"){
+				$("#image").attr("src",'../images/question2/computerI.png');
+			}else{
+				$("#image").attr("src",'../images/question2/computerO.png');
+			}
+		}
+		function changeImage2(){
+			if($("#image").attr("src")=="../images/question2/computerO.png"){
+				$("#image").attr("src",'../images/question2/computerI.png');
+			}else{
+				$("#image").attr("src",'../images/question2/computerO.png');
+			}
+		}
+	</script>
+	
 		<form action="fourth.php">
 			<button type="submit" formaction = "fourth.php">Continue to next page ►</button>
 		</form>
