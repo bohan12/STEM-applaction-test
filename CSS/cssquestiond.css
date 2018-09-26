@@ -127,7 +127,7 @@ h1 {
 	
 	color: #000000;	
 	font-family: Verdana;
-	font-size: 36px; 
+	font-size: 24px; 
 	background: rgba(0,0,0,.8);
 	transition: .5s;
 }
@@ -136,8 +136,9 @@ h1 span {
 	background: rgba(255,255,255,0);
 	width: 100%;
 	transition: 1s;
-	color: #fff;
-	padding: 25px 20px:
+	color: #ffffff;
+	padding: 10px 10px;
+	font-size: 36px; 
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -223,7 +224,7 @@ btn {
 	h1 {
 		color: #000000;	
 		font-family: Verdana;
-		font-size: 14px; 
+		font-size: 12px; 
 		background: rgba(0,0,0,.8);
 		transition: .5s;
 	}
@@ -232,8 +233,9 @@ btn {
 		background: rgba(255,255,255,0);
 		width: 100%;
 		transition: 1s;
-		color: #fff;
-		padding: 25px 20px:
+		color: #ffffff;
+		padding: 10px 10px:
+		font-size: 14px; 
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
