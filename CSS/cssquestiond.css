@@ -228,6 +228,16 @@ btn {
 		transition: .5s;
 	}
 	
+	h1 span {
+		background: rgba(255,255,255,0);
+		width: 100%;
+		transition: 1s;
+		color: #fff;
+		padding: 25px 20px:
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	
 	.buttontitle {
 		float: right;
 		margin-right: 5px;
