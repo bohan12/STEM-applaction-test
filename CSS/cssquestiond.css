@@ -139,14 +139,13 @@ h1 span {
 	color: #ffffff;
 	padding: 10px 10px;
 	font-size: 36px; 
-	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
 .split.left:hover h1 span {
 	color: #262626;
 	background: rgba(255,255,255,.8);
-	letter-spacing: 10px;
+	letter-spacing: 8px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
@@ -157,7 +156,7 @@ h1 span {
 .split.right:hover h1 span {
 	color: #262626;
 	background: rgba(255,255,255,.8);
-	letter-spacing: 10px;
+	letter-spacing: 8px;
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
@@ -234,7 +233,7 @@ btn {
 		width: 100%;
 		transition: 1s;
 		color: #ffffff;
-		padding: 10px 10px:
+		padding: 10px 10px;
 		font-size: 14px; 
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -253,5 +252,26 @@ btn {
 		font-size: 12px;
 		border: 8px;
 		cursor: pointer;
+	}
+	
+	.split.left:hover h1 span
+	{
+		color: #262626;
+		background: rgba(255,255,255,.8);
+		letter-spacing: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	}
+
+	.split.left:hover h1 
+	{
+		background: rgba(0,0,0,0);
+	}
+
+.split.right:hover h1 span 
+	{
+		color: #262626;
+		background: rgba(255,255,255,.8);
+		letter-spacing: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	}
 }
