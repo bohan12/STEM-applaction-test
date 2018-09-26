@@ -220,6 +220,14 @@ btn {
 		cursor: pointer;
 	}
 	
+	h1 {
+		color: #000000;	
+		font-family: Verdana;
+		font-size: 20px; 
+		background: rgba(0,0,0,.8);
+		transition: .5s;
+	}
+	
 	.buttontitle {
 		float: right;
 		margin-right: 5px;
