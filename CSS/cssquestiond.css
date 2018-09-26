@@ -96,7 +96,7 @@ button {
 	width: 50%;
 	text-align: center;
 	flex-grow: 1;
-	background-color: #2222ee;
+	background-color: #4444dd;
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
@@ -114,7 +114,7 @@ button {
 	width: 50%;
 	text-align: center;
 	flex-grow: 1;
-	background-color: #ee2222;
+	background-color: #dd4444;
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
