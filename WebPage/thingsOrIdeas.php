@@ -69,7 +69,7 @@
    	 				} else {
     	    				x.innerHTML = " description computer";
    	 				}
-				}*/\
+				}*/
 				
 				/*var computerPage2 = 0;
 				var pythagorasPage2 = 0;
