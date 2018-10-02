@@ -100,7 +100,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
-	background: url("../images/question2/computerO.png");
+	background:  #dddd44;
 
 }
 
@@ -118,7 +118,7 @@ button {
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
-	background: url("../images/question2/computerO.png");
+	background:#dd4444;
 }
 
 .split.right:hover {
