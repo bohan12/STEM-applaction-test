@@ -274,7 +274,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 </br>
 
-<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()>
+<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
 	<button type="submit" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
