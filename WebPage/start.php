@@ -38,13 +38,6 @@
 	</div>
 	
 	<script>
-		/*var now = new Date();
-		now.setTime(now.getTime() + 1 * 24 * 3600 * 1000);
-		document.cookie = "scienceScore=value; expires=" + now.toUTCString() + "; path=/";
-		document.cookie = "technologyScore=value; expires=" + now.toUTCString() + "; path=/";
-		document.cookie = "engineeringScore=value; expires=" + now.toUTCString() + "; path=/";
-		document.cookie = "mathematicsScore=value; expires=" + now.toUTCString() + "; path=/";*/
-		
 		function ScienceDesc() {
 			var science = document.getElementById("sbuttonhome");
     			if (science.value=="Science") science.value = "Science at AUT covers the natural sciences such as Biology, " +
