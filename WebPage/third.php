@@ -48,7 +48,7 @@
 		function myFunction1() {
     			var x = document.getElementById("myDIV");
     			if (x.innerHTML === "Do you prefer individual work?") {
-				if(num<1){
+				if(num<2){
 					++num;
         				x.innerHTML = "You prefer individual work.";
    				} else {
@@ -62,7 +62,7 @@
 		function myFunction2() {
     			var x = document.getElementById("mydiv");
     			if (x.innerHTML === "Do you prefer team work?") {
-				if(num<1){
+				if(num<2){
 					++num;
         				x.innerHTML = "You prefer team work.";
    				} else {
