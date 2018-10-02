@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -68,7 +69,18 @@
    	 				} else {
     	    				x.innerHTML = " description computer";
    	 				}
-				}*/
+				}*/\
+				
+				var computerPage2 = 0;
+				var pythagorasPage2 = 0;
+				var cellPage2 = 0;
+				var applePage2 = 0;
+				var schrodingerPage2 = 0;
+				var scibeakerPage2 = 0;
+				var hammerPage2 = 0;
+				var gearPage2 = 0;
+				var periodicPage2 = 0;
+				
 				var buttonNumber = 0;
 				function changeImage1()
 				{
@@ -79,6 +91,7 @@
 						{
 							$("#image").attr("src",'../images/question2/computerI.png');
 							++buttonNumber;
+							++computerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Computers (Hardware)</p>";
 						}
@@ -92,6 +105,7 @@
 					{
 						$("#image").attr("src",'../images/question2/computerO.png');
 						--buttonNumber;
+						--computerPage2;
 					}
 				}
 				function changeImage2()
@@ -103,6 +117,7 @@
 						{
 							$("#image2").attr("src",'../images/question2/pythagorasI.png');
 							++buttonNumber;
+							++pythagorasPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Pythagorean Theorem (Math)</p>";
 						}
@@ -116,6 +131,7 @@
 					{
 						$("#image2").attr("src",'../images/question2/pythagorasO.png');
 						--buttonNumber;
+						--pythagorasPage2;
 					}
 				}
 				function changeImage3()
@@ -126,6 +142,7 @@
 						{
 							$("#image3").attr("src",'../images/question2/cellI.png');
 							++buttonNumber;
+							++cellPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Microscopic Organisms (Biology)</p>";
 						}
@@ -139,6 +156,7 @@
 					{
 						$("#image3").attr("src",'../images/question2/cellO.png');
 						--buttonNumber;
+						--cellPage2;
 					}
 				}
 				function changeImage4()
@@ -149,6 +167,7 @@
 						{
 							$("#image4").attr("src",'../images/question2/appleI.png');
 							++buttonNumber;
+							++applePage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Laws of Gravity (Physics)</p>";
 						}
@@ -162,6 +181,7 @@
 					{
 						$("#image4").attr("src",'../images/question2/appleO.png');
 						--buttonNumber;
+						--applePage2;
 					}
 				}
 				function changeImage5()
@@ -172,6 +192,7 @@
 						{
 							$("#image5").attr("src",'../images/question2/schrodingerI.png');
 							++buttonNumber;
+							++schrodingerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat (Theory)</p>";
 						}
@@ -185,6 +206,7 @@
 					{
 						$("#image5").attr("src",'../images/question2/schrodingerO.png');
 						--buttonNumber;
+						--schrodingerPage2;
 					}
 				}
 				function changeImage6()
@@ -195,6 +217,7 @@
 						{
 							$("#image6").attr("src",'../images/question2/scibeakerI.png');
 							++buttonNumber;
+							++scibeakerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Lab Equipment (Chemistry)</p>";
 						}
@@ -208,6 +231,7 @@
 					{
 						$("#image6").attr("src",'../images/question2/scibeakerO.png');
 						--buttonNumber;
+						--scibeakerPage2;
 					}
 				}
 				function changeImage7()
@@ -218,6 +242,7 @@
 						{
 							$("#image7").attr("src",'../images/question2/hammerI.png');
 							++buttonNumber;
+							++hammerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Field Equipment (Engineering Outdoors)</p>";
 						}
@@ -231,6 +256,7 @@
 					{
 						$("#image7").attr("src",'../images/question2/hammerO.png');
 						--buttonNumber;
+						--hammerPage2;
 					}
 				}
 				function changeImage8()
@@ -241,6 +267,7 @@
 						{
 							$("#image8").attr("src",'../images/question2/gearI.png');
 							++buttonNumber;
+							++gearPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts (Engineering Mechanical)</p>";
 						}
@@ -254,6 +281,7 @@
 					{
 						$("#image8").attr("src",'../images/question2/gearO.png');
 						--buttonNumber;
+						--gearPage2;
 					}
 				}
 				function changeImage9()
@@ -264,6 +292,7 @@
 						{
 							$("#image9").attr("src",'../images/question2/periodicI.png');
 							++buttonNumber;
+							++periodicPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Periodic Table (Chemistry)</p>";
 						}
@@ -277,14 +306,56 @@
 					{
 						$("#image9").attr("src",'../images/question2/periodicO.png');
 						--buttonNumber;
+						--periodicPage2;
 					}
 				}
+				function SetCookies()
+				{
+					document.cookie = "computer= " + computerPage2;
+					document.cookie = "phythagoras= " + phythagorasPage2;
+					document.cookie = "cell= " + cellPage2;
+					document.cookie = "apple= " + applePage2;
+					document.cookie = "schrodinger= " + schrodingerPage2;
+					document.cookie = "scibeaker= " + scibeakerPage2;
+					document.cookie = "hammer= " + hammerPage2;
+					document.cookie = "gear= " + gearPage2;
+					document.cookie = "periodic= " + periodicPage2;	
+					
+					checkCookie();
+				}	
+				
+				function getCookie() 
+				{
+				    	var name = cname + "=";
+  				  	var ca = document.cookie.split(';');
+				    	for(var i = 0; i < ca.length; i++) {
+       				 	var c = ca[i];
+        					while (c.charAt(0) == ' ') {
+           					c = c.substring(1);
+       						}
+        						if (c.indexOf(name) == 0) {
+            						return c.substring(name.length, c.length);
+        					}
+   				}
+    					return "";
+				}
+				
+				function checkCookie() 
+				{
+    					var user = getCookie("username");
+    					if (user != "") 
+					{
+        				alert("Welcome again " + user);
+    					}  
+    				}
+				
 			</script>
 		</form>
 
 			
-		<form action="third.php">
+		<form action="third.php" onSubmit="JavaScript:SetCookies()">
 			<button type="submit" formaction = "third.php">Continue to next page ►</button>
+			
 		</form>
 
 		</body>
