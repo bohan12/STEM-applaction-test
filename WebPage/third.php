@@ -32,7 +32,9 @@
 				<div id="individualdesc">
 					Hover the mouse on the image for more information.
 				</div>
+				<div class="container1">
 				<img src="../images/question3/individual.png" alt="Avatar" class="image">
+				</div>
 				<div class="overlay">
 				<div class="text">This is the description for individual.</div>
 				</div>
