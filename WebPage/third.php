@@ -31,7 +31,7 @@
 				<h1><span>Individual</span></h1>
 				<button onclick="myFunction1()">Vote</button>
 				<div id="myDIV">
-				You prefer to do individual work.
+				Do you prefer individual work?
 				</div>
 				
 			</div>
@@ -39,27 +39,27 @@
 				<h1><span>Team work</span></h1>
 				<button onclick="myFunction2()">Vote</button>
 				<div id="mydiv">
-				You prefer to do team work.
+				Do you prefer team work?
 				</div>
 			</div>
 		</div>		
 		<script>
-			function myFunction1(){
-				var x = document.getElementById("myDIV");
-				if(x.style.display=="none"){
-					x.style.display="block";
-				}else{
-					x.style.display="none";
-				}
+		function myFunction1() {
+    			var x = document.getElementById("myDIV");
+    			if (x.innerHTML === "Do you prefer individual work?") {
+        			x.innerHTML = "You prefer individual work.";
+   			} else {
+				x.innerHTML = "Hello";
+   				 }
 			}
-			function myFunction2(){
-				var x = document.getElementById("mydiv");
-				if(x.style.display=="none"){
-					x.style.display="block";
-				}else{
-					x.style.display="none";
-				}
-			}
+		function myFunction2() {
+    			var x = document.getElementById("mydiv");
+    			if (x.innerHTML === "Do you prefer team work?") {
+        			x.innerHTML = "You prefer team work.";
+   			} else {
+				x.innerHTML = "Hello";
+   				 }
+			}	
 		</script>
 	
 		<form action="fourth.php">
