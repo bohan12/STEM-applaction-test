@@ -309,7 +309,7 @@
 						--periodicPage2;
 					}
 				}
-				function SetCookies()
+				/*function SetCookies()
 				{
 					document.cookie = "computer= " + computerPage2;
 					document.cookie = "phythagoras= " + phythagorasPage2;
@@ -321,10 +321,10 @@
 					document.cookie = "gear= " + gearPage2;
 					document.cookie = "periodic= " + periodicPage2;	
 					
-					//checkCookie();
+					checkCookie();
 				}	
 				
-				/*function getCookie() 
+				function getCookie() 
 				{
 				    	var name = cname + "=";
   				  	var ca = document.cookie.split(';');
