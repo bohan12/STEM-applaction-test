@@ -29,56 +29,23 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
-				<button onclick="changeOption1()">Vote</button>
+				<button type="submit" formaction="fourth.php"">PREFER</button>
 				<div id="myDIV">
-				Do you prefer individual work?
+				
 				</div>
 				
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-				<button onclick="changeOption2()">Vote</button>
+				<button type="submit" formaction="fourth.php"">PREFER</button>
 				<div id="mydiv">
 				Do you prefer team work?
 				</div>
 			</div>
 		</div>		
-		<script>
-		var num=0;
-		function changeOption1() {
-    			var x = document.getElementById("myDIV");
-    			if (x.innerHTML === "Do you prefer individual work?") {
-				if(num<0){
-					++num;
-        				x.innerHTML = "You prefer individual work.";
-   				} else {
-					x.innerHTML = "You have select another choice";
-   				}
-			}else{
-					x.innerHTML = "Do you prefer individual work?";
-					--num;
-				}
-			}
-		function changeOption2() {
-    			var x = document.getElementById("mydiv");
-    			if (x.innerHTML === "Do you prefer team work?") {
-				if(num<0){
-					++num;
-        				x.innerHTML = "You prefer team work.";
-   				} else {
-					x.innerHTML = "You have select another choice";
-   				}
-			}else{
-					x.innerHTML = "Do you prefer team work?";
-					--num;
-				}
-			}
-		
-		</script>
 	
-		<form action="fourth.php">
-			<button type="submit" formaction = "fourth.php">Continue to next page ►</button>
-		</form>
+	
+		
 
 	</body>
 	</div>
