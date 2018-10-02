@@ -81,6 +81,7 @@ button {
 }
 	
 .container {
+	position:relative;
 	min-height: 650px;
 	width: 100%;
 	margin:0px 0px 0px 0px;   
@@ -90,6 +91,8 @@ button {
 	display:flex;
 
 } 
+
+
 .image {
   display: block;
   width: 100%;
