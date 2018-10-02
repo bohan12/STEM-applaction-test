@@ -53,12 +53,12 @@
         				x.innerHTML = "You prefer individual work.";
    				} else {
 					x.innerHTML = "You have select another choice";
-   				}else{
+   				}
+			}else{
 					x.innerHTML = "Do you prefer individual work?";
 					--num;
 				}
 			}
-		}
 		function changeOption2() {
     			var x = document.getElementById("mydiv");
     			if (x.innerHTML === "Do you prefer team work?") {
@@ -67,12 +67,13 @@
         				x.innerHTML = "You prefer team work.";
    				} else {
 					x.innerHTML = "You have select another choice";
-   				}else{
+   				}
+			}else{
 					x.innerHTML = "Do you prefer team work?";
 					--num;
 				}
 			}
-		}
+		
 		</script>
 	
 		<form action="fourth.php">
