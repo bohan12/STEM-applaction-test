@@ -29,7 +29,9 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
-				<button type="submit" formaction="fourth.php"">PREFER</button>
+				<form action="fourth.php">
+				<button type="submit" formaction="fourth.php">PREFER</button>
+				</form>					
 				<div id="myDIV">
 				
 				</div>
@@ -37,7 +39,9 @@
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-				<button type="submit" formaction="fourth.php"">PREFER</button>
+				<form action="fourth.php">
+				<button type="submit" formaction="fourth.php">PREFER</button>
+				</form>	
 				<div id="mydiv">
 				Do you prefer team work?
 				</div>
