@@ -71,7 +71,7 @@
    	 				}
 				}*/\
 				
-				var computerPage2 = 0;
+				/*var computerPage2 = 0;
 				var pythagorasPage2 = 0;
 				var cellPage2 = 0;
 				var applePage2 = 0;
@@ -79,7 +79,7 @@
 				var scibeakerPage2 = 0;
 				var hammerPage2 = 0;
 				var gearPage2 = 0;
-				var periodicPage2 = 0;
+				var periodicPage2 = 0;*/
 				
 				var buttonNumber = 0;
 				function changeImage1()
