@@ -49,7 +49,7 @@
     			if (x.innerHTML === "Do you prefer individual work?") {
         			x.innerHTML = "You prefer individual work.";
    			} else {
-				x.innerHTML = "Hello";
+				x.innerHTML = "Do you prefer individual work?";
    				 }
 			}
 		function myFunction2() {
@@ -57,7 +57,7 @@
     			if (x.innerHTML === "Do you prefer team work?") {
         			x.innerHTML = "You prefer team work.";
    			} else {
-				x.innerHTML = "Hello";
+				x.innerHTML = "Do you prefer team work?";
    				 }
 			}	
 		</script>
