@@ -352,8 +352,8 @@
 			</script>
 		</form>
 
-			
-		<form action="third.php" onSubmit="JavaScript:SetCookies()">
+		<!-- onSubmit="JavaScript:SetCookies()" -->
+		<form action="third.php">
 			<button type="submit" formaction = "third.php">Continue to next page ►</button>
 			
 		</form>
