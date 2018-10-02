@@ -18,11 +18,11 @@
 	</div>	
 	    
 	<script type="text/javascript">
-	biologyPage1 = 0;
-	calculusPage1 = 0;
-	chemistryPage1 = 0;
-	physicsPage1 = 0;
-	statisticsPage1 = 0;
+	var biologyPage1 = 0;
+	var calculusPage1 = 0;
+	var chemistryPage1 = 0;
+	var physicsPage1 = 0;
+	var statisticsPage1 = 0;
 	
 	/*
 	
