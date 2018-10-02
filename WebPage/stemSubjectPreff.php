@@ -311,6 +311,15 @@ window.onclick = function(event) {
     }
   }
 }
+
+function SetCookies()
+{
+	document.cookie = "biology= " + biologyPage1;
+	document.cookie = "calculus= " + calculusPage1;
+	document.cookie = "chemistry= " + chemistryPage1;
+	document.cookie = "physics= " + physicsPage1;
+	document.cookie = "statistics= " + statisticsPage1;
+}
 </script>
 
  </body>
