@@ -18,6 +18,37 @@
 	</div>	
 	    
 	<script type="text/javascript">
+	biologyPage1 = 0;
+	calculusPage1 = 0;
+	chemistryPage1 = 0;
+	physicsPage1 = 0;
+	statisticsPage1 = 0;
+	
+	/*
+	
+		if(document.getElementById(cal1).src=="../images/question1/staron.png")
+		{
+			++calculusPage1;
+		}
+		if(document.getElementById(cal2).src=="../images/question1/staron.png")
+		{
+			++calculusPage1;
+		}
+		if(document.getElementById(cal3).src=="../images/question1/staron.png")
+		{
+			++calculusPage1;
+		}
+		if(document.getElementById(cal4).src=="../images/question1/staron.png")
+		{
+			++calculusPage1;
+		}
+		if(document.getElementById(cal5).src=="../images/question1/staron.png")
+		{
+			++calculusPage1;
+		}
+	
+	*/
+	
 	function change(id)
   	{
 		if(document.getElementById(id+"_hidden").value == 5)
