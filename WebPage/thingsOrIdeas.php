@@ -167,7 +167,7 @@
 						{
 							$("#image4").attr("src",'../images/question2/appleI.png');
 							++buttonNumber;
-							++applePage2;
+							//++applePage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Laws of Gravity (Physics)</p>";
 						}
@@ -181,7 +181,7 @@
 					{
 						$("#image4").attr("src",'../images/question2/appleO.png');
 						--buttonNumber;
-						--applePage2;
+						//--applePage2;
 					}
 				}
 				function changeImage5()
@@ -192,7 +192,7 @@
 						{
 							$("#image5").attr("src",'../images/question2/schrodingerI.png');
 							++buttonNumber;
-							++schrodingerPage2;
+							//++schrodingerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Schrodinger's Cat (Theory)</p>";
 						}
@@ -206,7 +206,7 @@
 					{
 						$("#image5").attr("src",'../images/question2/schrodingerO.png');
 						--buttonNumber;
-						--schrodingerPage2;
+						//--schrodingerPage2;
 					}
 				}
 				function changeImage6()
@@ -217,7 +217,7 @@
 						{
 							$("#image6").attr("src",'../images/question2/scibeakerI.png');
 							++buttonNumber;
-							++scibeakerPage2;
+							//++scibeakerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Lab Equipment (Chemistry)</p>";
 						}
@@ -231,7 +231,7 @@
 					{
 						$("#image6").attr("src",'../images/question2/scibeakerO.png');
 						--buttonNumber;
-						--scibeakerPage2;
+						//--scibeakerPage2;
 					}
 				}
 				function changeImage7()
@@ -242,7 +242,7 @@
 						{
 							$("#image7").attr("src",'../images/question2/hammerI.png');
 							++buttonNumber;
-							++hammerPage2;
+							//++hammerPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Field Equipment (Engineering Outdoors)</p>";
 						}
@@ -256,7 +256,7 @@
 					{
 						$("#image7").attr("src",'../images/question2/hammerO.png');
 						--buttonNumber;
-						--hammerPage2;
+						//--hammerPage2;
 					}
 				}
 				function changeImage8()
@@ -267,7 +267,7 @@
 						{
 							$("#image8").attr("src",'../images/question2/gearI.png');
 							++buttonNumber;
-							++gearPage2;
+							//++gearPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Gears, Nuts & Bolts (Engineering Mechanical)</p>";
 						}
@@ -281,7 +281,7 @@
 					{
 						$("#image8").attr("src",'../images/question2/gearO.png');
 						--buttonNumber;
-						--gearPage2;
+						//--gearPage2;
 					}
 				}
 				function changeImage9()
@@ -292,7 +292,7 @@
 						{
 							$("#image9").attr("src",'../images/question2/periodicI.png');
 							++buttonNumber;
-							++periodicPage2;
+							//++periodicPage2;
 							document.getElementById("desctext").classList.toggle("show");
 							document.getElementById("desctext").innerHTML = "<p>Periodic Table (Chemistry)</p>";
 						}
@@ -306,7 +306,7 @@
 					{
 						$("#image9").attr("src",'../images/question2/periodicO.png');
 						--buttonNumber;
-						--periodicPage2;
+						//--periodicPage2;
 					}
 				}
 				/*function SetCookies()
