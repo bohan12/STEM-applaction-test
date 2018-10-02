@@ -171,10 +171,6 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 </br>
 
-<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
-	<button type="submit" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
-</form>
-
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
@@ -349,6 +345,10 @@ function checkCookie()
     	}  
 }
 </script>
+
+<form action="thingsOrIdeas.php" onClick="JavaScript:SetCookies()">
+	<button type="button" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
+</form>
 
  </body>
 </div>
