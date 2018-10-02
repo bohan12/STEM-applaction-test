@@ -44,21 +44,32 @@
 			</div>
 		</div>		
 		<script>
+		var num=0;
 		function myFunction1() {
     			var x = document.getElementById("myDIV");
     			if (x.innerHTML === "Do you prefer individual work?") {
-        			x.innerHTML = "You prefer individual work.";
-   			} else {
-				x.innerHTML = "Do you prefer individual work?";
-   				 }
+				if(num<1){
+					++num;
+        				x.innerHTML = "You prefer individual work.";
+   				} else {
+					x.innerHTML = "You have select another choice";
+   				}else{
+					x.innerHTML = "Do you prefer individual work?";
+					--num;
+				}
 			}
 		function myFunction2() {
     			var x = document.getElementById("mydiv");
     			if (x.innerHTML === "Do you prefer team work?") {
-        			x.innerHTML = "You prefer team work.";
-   			} else {
-				x.innerHTML = "Do you prefer team work?";
-   				 }
+				if(num<1){
+					++num;
+        				x.innerHTML = "You prefer team work.";
+   				} else {
+					x.innerHTML = "You have select another choice";
+   				}else{
+					x.innerHTML = "Do you prefer team work?";
+					--num;
+				}
 			}	
 		</script>
 	
