@@ -25,13 +25,14 @@
 		
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
-		<div id="myDIV">
-			You prefer to do individual work.
-		</div>
+		
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
 				<button onclick="myFunction1()">Vote</button>
+				<div id="myDIV">
+				You prefer to do individual work.
+				</div>
 				
 			</div>
 			<div class="split right">
