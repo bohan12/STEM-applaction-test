@@ -207,23 +207,23 @@ window.onclick = function(event) {
 
 function SetCookies()
 {
-	if(document.getElementById("bio1").src=="../images/question1/staron.png")
+	if(document.getElementById("bio1").src="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio2").src=="../images/question1/staron.png")
+	if(document.getElementById("bio2").src="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio3").src=="../images/question1/staron.png")
+	if(document.getElementById("bio3").src="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio4").src=="../images/question1/staron.png")
+	if(document.getElementById("bio4").src="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio5").src=="../images/question1/staron.png")
+	if(document.getElementById("bio5").src="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
