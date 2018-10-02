@@ -321,10 +321,10 @@
 					document.cookie = "gear= " + gearPage2;
 					document.cookie = "periodic= " + periodicPage2;	
 					
-					checkCookie();
+					//checkCookie();
 				}	
 				
-				function getCookie() 
+				/*function getCookie() 
 				{
 				    	var name = cname + "=";
   				  	var ca = document.cookie.split(';');
@@ -347,7 +347,7 @@
 					{
         				alert("Welcome again " + user);
     					}  
-    				}
+    				}*/
 				
 			</script>
 		</form>
