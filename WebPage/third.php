@@ -29,12 +29,16 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
+				<div id="individualdesc">
+					Hover the mouse on the image for more information.
+				</div>
+				<img src="../images/individual.png" alt="Avatar" class="image">
+				<div class="overlay">
+				<div class="text">This is the description for individual.</div>
+				</div>
 				<form action="fourth.php">
 				<button type="submit" formaction="fourth.php">PREFER</button>
 				</form>					
-				<div id="myDIV">
-				
-				</div>
 				
 			</div>
 			<div class="split right">
