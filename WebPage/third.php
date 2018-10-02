@@ -25,11 +25,13 @@
 		
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
-	
+		<div id="myDIV">
+			You prefer to do individual work.
+		</div>
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
-				<img onclick="changeImage1()" id="image" src="../images/question2/computerO.png">
+				<button onclick="myFunction1()">Vote</button>
 				
 			</div>
 			<div class="split right">
@@ -37,23 +39,16 @@
 				<img onclick="changeImage2()" id="image" src="../images/question2/computerO.png">
 			</div>
 		</div>		
-		
-	<script type="text/javascript">
-		function changeImage1(){
-			if($("#image").attr("src")=="../images/question2/computerO.png"){
-				$("#image").attr("src",'../images/question2/computerI.png');
-			}else{
-				$("#image").attr("src",'../images/question2/computerO.png');
+		<script>
+			function myFunction1(){
+				var x = document.getElementById("myDIV");
+				if(x.style.display=="none"){
+					x.style.display="block";
+				}else{
+					x.style.display="none";
+				}
 			}
-		}
-		function changeImage2(){
-			if($("#image").attr("src")=="../images/question2/computerO.png"){
-				$("#image").attr("src",'../images/question2/computerI.png');
-			}else{
-				$("#image").attr("src",'../images/question2/computerO.png');
-			}
-		}
-	</script>
+		</script>
 	
 		<form action="fourth.php">
 			<button type="submit" formaction = "fourth.php">Continue to next page ►</button>
