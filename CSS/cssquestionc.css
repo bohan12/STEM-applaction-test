@@ -81,7 +81,6 @@ button {
 }
 	
 .container {
-	position:relative;
 	min-height: 650px;
 	width: 100%;
 	margin:0px 0px 0px 0px;   
@@ -91,6 +90,10 @@ button {
 	display:flex;
 
 } 
+.container1{
+ position: relative;
+  width: 50%;
+}
 
 
 .image {
@@ -112,7 +115,7 @@ button {
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.container1:hover .overlay {
   opacity: 1;
 }
 
