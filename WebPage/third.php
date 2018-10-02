@@ -5,7 +5,7 @@
 		<title>Third Page</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link href="../CSS/cssquestionc.css" media="screen" rel="stylesheet" type="text/css"/>
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
 		<div class="header">
 		</div>
@@ -29,7 +29,7 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Individual</span></h1>
-				<button onclick="myFunction1()">Vote</button>
+				<button onclick="changeOption1()">Vote</button>
 				<div id="myDIV">
 				Do you prefer individual work?
 				</div>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-				<button onclick="myFunction2()">Vote</button>
+				<button onclick="changeOption2()">Vote</button>
 				<div id="mydiv">
 				Do you prefer team work?
 				</div>
@@ -45,7 +45,7 @@
 		</div>		
 		<script>
 		var num=0;
-		function myFunction1() {
+		function changeOption1() {
     			var x = document.getElementById("myDIV");
     			if (x.innerHTML === "Do you prefer individual work?") {
 				if(num<2){
@@ -59,7 +59,7 @@
 				}
 			}
 		}
-		function myFunction2() {
+		function changeOption2() {
     			var x = document.getElementById("mydiv");
     			if (x.innerHTML === "Do you prefer team work?") {
 				if(num<2){
