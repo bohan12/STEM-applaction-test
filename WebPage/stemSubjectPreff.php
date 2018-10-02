@@ -32,110 +32,6 @@
 	var physicsPage1 = 0;
 	var statisticsPage1 = 0;
 	
-	function addValues()
-	{
-		if(document.getElementById(bio1).src=="../images/question1/staron.png")
-		{
-			++biologyPage1;
-		}
-		if(document.getElementById(bio2).src=="../images/question1/staron.png")
-		{
-			++biologyPage1;
-		}
-		if(document.getElementById(bio3).src=="../images/question1/staron.png")
-		{
-			++biologyPage1;
-		}
-		if(document.getElementById(bio4).src=="../images/question1/staron.png")
-		{
-			++biologyPage1;
-		}
-		if(document.getElementById(bio5).src=="../images/question1/staron.png")
-		{
-			++biologyPage1;
-		}
-		if(document.getElementById(cal1).src=="../images/question1/staron.png")
-		{
-			++calculusPage1;
-		}
-		if(document.getElementById(cal2).src=="../images/question1/staron.png")
-		{
-			++calculusPage1;
-		}
-		if(document.getElementById(cal3).src=="../images/question1/staron.png")
-		{
-			++calculusPage1;
-		}
-		if(document.getElementById(cal4).src=="../images/question1/staron.png")
-		{
-			++calculusPage1;
-		}
-		if(document.getElementById(cal5).src=="../images/question1/staron.png")
-		{
-			++calculusPage1;
-		}
-		if(document.getElementById(che1).src=="../images/question1/staron.png")
-		{
-			++chemistryPage1;
-		}
-		if(document.getElementById(che2).src=="../images/question1/staron.png")
-		{
-			++chemistryPage1;
-		}
-		if(document.getElementById(che3).src=="../images/question1/staron.png")
-		{
-			++chemistryPage1;
-		}
-		if(document.getElementById(che4).src=="../images/question1/staron.png")
-		{
-			++chemistryPage1;
-		}
-		if(document.getElementById(che5).src=="../images/question1/staron.png")
-		{
-			++chemistryPage1;
-		}
-		if(document.getElementById(phy1).src=="../images/question1/staron.png")
-		{
-			++physicsPage1;
-		}
-		if(document.getElementById(phy2).src=="../images/question1/staron.png")
-		{
-			++physicsPage1;
-		}
-		if(document.getElementById(phy3).src=="../images/question1/staron.png")
-		{
-			++physicsPage1;
-		}
-		if(document.getElementById(phy4).src=="../images/question1/staron.png")
-		{
-			++physicsPage1;
-		}
-		if(document.getElementById(phy5).src=="../images/question1/staron.png")
-		{
-			++physicsPage1;
-		}
-		if(document.getElementById(sta1).src=="../images/question1/staron.png")
-		{
-			++statisticsPage1;
-		}
-		if(document.getElementById(sta2).src=="../images/question1/staron.png")
-		{
-			++statisticsPage1;
-		}
-		if(document.getElementById(sta3).src=="../images/question1/staron.png")
-		{
-			++statisticsPage1;
-		}
-		if(document.getElementById(sta4).src=="../images/question1/staron.png")
-		{
-			++statisticsPage1;
-		}
-		if(document.getElementById(sta5).src=="../images/question1/staron.png")
-		{
-			++statisticsPage1;
-		}
-		SetCookies();
-	}
 	function change(id)
   	{
 		if(document.getElementById(id+"_hidden").value == 5)
@@ -275,7 +171,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 </br>
 
-<form action="thingsOrIdeas.php" onSubmit="JavaScript:addValues()">
+<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
 	<button type="submit" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
@@ -315,6 +211,107 @@ window.onclick = function(event) {
 
 function SetCookies()
 {
+	if(document.getElementById(bio1).src=="../images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById(bio2).src=="../images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById(bio3).src=="../images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById(bio4).src=="../images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById(bio5).src=="../images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById(cal1).src=="../images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById(cal2).src=="../images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById(cal3).src=="../images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById(cal4).src=="../images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById(cal5).src=="../images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById(che1).src=="../images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById(che2).src=="../images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById(che3).src=="../images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById(che4).src=="../images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById(che5).src=="../images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById(phy1).src=="../images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById(phy2).src=="../images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById(phy3).src=="../images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById(phy4).src=="../images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById(phy5).src=="../images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById(sta1).src=="../images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById(sta2).src=="../images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById(sta3).src=="../images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById(sta4).src=="../images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById(sta5).src=="../images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	
 	document.cookie = "biology= " + biologyPage1;
 	document.cookie = "calculus= " + calculusPage1;
 	document.cookie = "chemistry= " + chemistryPage1;
