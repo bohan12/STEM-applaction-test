@@ -312,7 +312,7 @@
 				function SetCookies()
 				{
 					document.cookie = "computer= " + computerPage2;
-					document.cookie = "phythagoras= " + phythagorasPage2;
+					document.cookie = "pythagoras= " + pythagorasPage2;
 					document.cookie = "cell= " + cellPage2;
 					document.cookie = "apple= " + applePage2;
 					document.cookie = "schrodinger= " + schrodingerPage2;
