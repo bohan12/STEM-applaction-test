@@ -58,6 +58,7 @@
 					--num;
 				}
 			}
+		}
 		function myFunction2() {
     			var x = document.getElementById("mydiv");
     			if (x.innerHTML === "Do you prefer team work?") {
@@ -70,7 +71,8 @@
 					x.innerHTML = "Do you prefer team work?";
 					--num;
 				}
-			}	
+			}
+		}
 		</script>
 	
 		<form action="fourth.php">
