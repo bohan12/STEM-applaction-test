@@ -38,11 +38,22 @@
 			<div class="split right">
 				<h1><span>Team work</span></h1>
 				<img onclick="changeImage2()" id="image" src="../images/question2/computerO.png">
+				<div id="mydiv">
+				You prefer to do team work.
+				</div>
 			</div>
 		</div>		
 		<script>
 			function myFunction1(){
 				var x = document.getElementById("myDIV");
+				if(x.style.display=="none"){
+					x.style.display="block";
+				}else{
+					x.style.display="none";
+				}
+			}
+			function myFunction2(){
+				var x = document.getElementById("mydiv");
 				if(x.style.display=="none"){
 					x.style.display="block";
 				}else{
