@@ -37,7 +37,7 @@
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-				<img onclick="changeImage2()" id="image" src="../images/question2/computerO.png">
+				<button onclick="myFunction2()">Vote</button>
 				<div id="mydiv">
 				You prefer to do team work.
 				</div>
