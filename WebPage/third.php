@@ -34,7 +34,7 @@
 				</div>
 				<div class="container1">
 					
-						<img src="../images/question3/individual.png" alt="Avatar" class="image">
+					<img src="../images/question3/individual.png" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">This is the description for individual.</div>
 				
@@ -47,18 +47,22 @@
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
+				<div id="individualdesc">
+					Hover the mouse on the image for more information.
+				</div>
+				<div class="container1">
+					
+					<img src="../images/question3/individual.png" alt="Avatar" class="image">
+					<div class="overlay">
+					<div class="text">This is the description for individual.</div>
+				
+				</div>
+				</div>
 				<form action="fourth.php">
 				<button type="submit" formaction="fourth.php">PREFER</button>
-				</form>	
-				<div id="mydiv">
-				Do you prefer team work?
-				</div>
+				</form>					
+				
 			</div>
-		</div>		
-	
-	
-		
-
 	</body>
 	</div>
 </html>
