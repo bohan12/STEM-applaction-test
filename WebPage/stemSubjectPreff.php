@@ -341,7 +341,7 @@ function checkCookie()
     	var user = getCookie();
     	if (user != "") 
 	{
-        	alert("Welcome again " + user);
+        	alert(document.getElementById("cal2").src + "Welcome again " + user);
     	}  
 }
 </script>
