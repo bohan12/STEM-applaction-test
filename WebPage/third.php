@@ -54,7 +54,7 @@
 					
 					<img src="../images/question3/individual.png" alt="Avatar" class="image">
 					<div class="overlay">
-					<div class="text">This is the description for individual.</div>
+					<div class="text">This is the description for team work.</div>
 				
 				</div>
 				</div>
