@@ -30,9 +30,9 @@
 			<div class="split left">
 				<h1><span>The Outside</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px;>
-				<div id ="Outside">
+				
 				this is the outside description
-				</div>
+				
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
 				</form>		
@@ -40,9 +40,9 @@
 			<div class="split right">
 				<h1><span>The inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style="width:510px;height:274px;>
-				<div id="inside">
+				
 					this is the inside description
-				</div>
+				
 					
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
