@@ -29,7 +29,7 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>The Naturel</span></h1>
-				<image src="../image/question4/enviroment.png">
+				<image src="../images/question4/enviroment.png">
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php">PREFER</button>
 				</form>		
