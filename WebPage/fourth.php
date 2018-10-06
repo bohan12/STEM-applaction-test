@@ -28,12 +28,18 @@
 	
 		<div class="container">
 			<div class="split left">
-				<h1><span>The Introvert</span></h1>
-				<a href="#" class="button">Read More</a>
+				<h1><span>The Naturel</span></h1>
+				<image src="../image/question4/enviroment.png">
+				<form action="fifth.php">
+				<button type="submit" formaction="fifth.php">PREFER</button>
+				</form>		
 			</div>
 			<div class="split right">
-				<h1><span>The Extravert</span></h1>
-				<a href="#" class="button">Read More</a>
+				<h1><span>The office</span></h1>
+				<image src="../images/question4/webwxgetmsgimg.jpg">
+				<form action="fifth.php">
+				<button type="submit" formaction="fifth.php">PREFER</button>
+				</form>	
 			</div>
 		</div>		
 		
