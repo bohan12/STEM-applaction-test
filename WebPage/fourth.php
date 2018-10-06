@@ -29,14 +29,14 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>The Naturel</span></h1>
-				<image src="../images/question4/enviroment.png">
+				<image src="../images/question4/enviroment.png" style="width:1920px;height:1080px;>
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php">PREFER</button>
 				</form>		
 			</div>
 			<div class="split right">
 				<h1><span>The office</span></h1>
-				<image src="../images/question4/webwxgetmsgimg.jpg">
+				<image src="../images/question4/webwxgetmsgimg.jpg" style="width:500px;height:600px;>
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php">PREFER</button>
 				</form>	
