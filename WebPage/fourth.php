@@ -34,7 +34,7 @@
 				this is the outside description
 						  </div>
 				<form action="fifth.php">
-				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
+				<button type="submit" formaction="fifth.php">PREFER</button>
 				</form>		
 			</div>
 			<div class="split right">
@@ -45,7 +45,7 @@
 					</div>
 					
 				<form action="fifth.php">
-				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
+				<button type="submit" formaction="fifth.php" >PREFER</button>
 				</form>	
 			</div>
 		</div>		
