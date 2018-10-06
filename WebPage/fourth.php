@@ -29,9 +29,9 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>The Outside</span></h1>
-				<image src="../images/question4/enviroment.png" style="width:510px;height:274px;>
+				<image src="../images/question4/enviroment.png" style="width:510px;height:274px";>
 				
-				<h1>this is the description</h1>
+				<p>this is the description</p>
 				
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
@@ -40,7 +40,7 @@
 			<div class="split right">
 				<h1><span>The inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
-				<h1>this is the description</h1>
+				<p>this is the description</p>
 					
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
