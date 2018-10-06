@@ -31,9 +31,7 @@
 				<h1><span>The Outside</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px;>
 				
-				<div id="individualdesc">
-					Hover the mouse on the image for more information.
-				</div>
+				<h1>this is the description</h1>
 				
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
@@ -42,9 +40,7 @@
 			<div class="split right">
 				<h1><span>The inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
-				<div id="individualdesc">
-					Hover the mouse on the image for more information.
-				</div>
+				<h1>this is the description</h1>
 					
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
