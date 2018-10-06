@@ -28,15 +28,17 @@
 	
 		<div class="container">
 			<div class="split left">
-				<h1><span>The Naturel</span></h1>
+				<h1><span>The Outside</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px;>
+				<p> This is the outside description</p>
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php">PREFER</button>
 				</form>		
 			</div>
 			<div class="split right">
-				<h1><span>The office</span></h1>
+				<h1><span>The inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style="width:510px;height:274px;>
+				<p> This is the inside description</p>
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php">PREFER</button>
 				</form>	
