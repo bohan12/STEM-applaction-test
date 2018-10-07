@@ -58,19 +58,20 @@
 
 	</head>
 	<div class="framedefinition">
-	
+	// This div is using to give a frame of the whole page.
 		
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
 		<div class="container">
+			// This div is using to set the page as two sperate containers.
 			<div class="splitLeft">
 				<h1><span>Individual</span></h1>
 				<div id="individualdesc">
 					Hover the mouse on the image for more information.
 				</div>
 				<div class="container1">
-					
+					// This container is under the big container that defined to put a small container that contains the image.					
 					<img src="../images/question3/individual.png" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">You like to work by your self directed by your self or by the
@@ -86,11 +87,11 @@
 			</div>
 			<div class="splitRight">
 				<h1><span>Team work</span></h1>
-				<div id="individualdesc">
+				<div id="teamworkdesc">
 					Hover the mouse on the image for more information.
 				</div>
 				<div class="container1">
-					
+					// This container has the same function with the one in splite left to contain the image.
 					<img src="../images/question3/individual.png" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">your like to work with a team. getting everones input when itcomes tp
