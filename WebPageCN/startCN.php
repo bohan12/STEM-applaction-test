@@ -20,9 +20,9 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		
-		<h1>Click on the buttons to get more information</h1>
-		<h3>When ready click on  Continue to next page to begin</h3> 
-		<h3>Once you start the test you cant go back</h3>
+		<h1>点击下列按钮会显示更多信息</h1>
+		<h3>当你准备好了点击下一页的按钮</h3> 
+		<h3>当你开始了就不能再回来了，做好准备。</h3>
 		
 		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Science" id="sbuttonhome"></input>
 		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="Technology" id="tbuttonhome"></input>
@@ -40,30 +40,30 @@
 	<script>
 		function ScienceDesc() {
 			var science = document.getElementById("sbuttonhome");
-    			if (science.value=="Science") science.value = "Science at AUT covers the natural sciences such as Biology, " +
-			"Chemistry and Physics. AUT also covers Conservation, Geology and Physcology among other majors";
+    			if (science.value=="Science") science.value = "Science 在 AUT 包括自然科学例如：生物, " +
+			"化学和物理。 AUT 同样包含农业学, 地理学和物理学等专业。";
     			else science.value = "Science";
 		}
 		function TechnologyDesc() {
 			var technology = document.getElementById("tbuttonhome");
-    			if (technology.value=="Technology") technology.value = "Technology at AUT focuses on Analytics, " +
-			"Computational Intelligence, Computer Science, IT Service Science, Networks and Security, " +
-			"and Software Development";
+    			if (technology.value=="Technology") technology.value = "Technology在 AUT主攻 分析学, " +
+			"计算机智能化, 计算机科学, 计算机服务, 网络及安全, " +
+			"和软件开发";
     			else {
 				technology.value = "Technology";
 			}
 		}
 		function EngineeringDesc() {
 			var engineering = document.getElementById("ebuttonhome");
-    			if (engineering.value=="Engineering") engineering.value = "Engineering at AUT covers both traditional majors " +
-			"such as Electrical Engineering and Mechanical Engineering as well as the " +
-			"hardware aspects of Technology";
+    			if (engineering.value=="Engineering") engineering.value = "Engineering 在 AUT 涵盖 " +
+			"电器工程 和 机械工程 等传统专业 " +
+			"以及硬件技术方面";
     			else engineering.value = "Engineering";
 		}
 		function MathematicsDesc() {
 			var mathematics = document.getElementById("mbuttonhome");
-    			if (mathematics.value=="Mathematics") mathematics.value = "Mathematics at AUT covers Analytics, " + 
-			"Applied Mathematics, Astronomy and Computer Science."
+    			if (mathematics.value=="Mathematics") mathematics.value = "Mathematics 在AUT 涵盖了分析学, " + 
+			"应用数学, 天文学和计算机科学."
     			else mathematics.value = "Mathematics";
 		}
 	</script>
