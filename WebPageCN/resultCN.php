@@ -23,7 +23,7 @@
 	<body>
 	    <img src="../images/STEMblur.png" alt="stem" class="logo">
 	
-	    <form action="start.php">
+	    <form action="startCN.php">
 		    <button type="submit" formaction = "startCN.php">Return to start</button>
 	    </form>
 
