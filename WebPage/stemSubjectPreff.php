@@ -319,7 +319,8 @@ function SetCookies()
 
 function getCookie() 
 {
-	var name = "biology";
+	//var name = "biology";
+	var name = "physics";
 	var ca = document.cookie.split(';');
 	for(var i = 0; i < ca.length; i++) 
 	{
@@ -341,13 +342,14 @@ function checkCookie()
     	var user = getCookie();
     	if (user != "") 
 	{
-        	alert(document.getElementById("cal2").src + "Welcome again " + user);
+		alert("phisics " + user);
+        	//alert(document.getElementById("cal2").src + "Welcome again " + user);
     	}  
 }
 </script>
 
-<form action="thingsOrIdeas.php" onClick="JavaScript:SetCookies()">
-	<button type="button" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
+<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
+	<button type="submit" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
  </body>
