@@ -13,11 +13,26 @@
 			
 			var individual = 0;
 			var teamWork = 0;
-	
-			function getCookie() 
-			{
-			//var name = "biology";
-			var name = "physics";
+		function SetInividual()
+		{
+			++individual;
+			SetCookies();
+		}
+		function SetTeamWork()
+		{
+			++teamWork;
+			SetCookies();
+		}
+		function SetCookies()
+		{
+			document.cookie = "teamWork= " + teamWork;
+			document.cookie = "individual= " + individual;	
+			getCookies();
+		}
+		function getCookie() 
+		{
+		//var name = "biology";
+			var name = "individual";
 			var ca = document.cookie.split(';');
 			for(var i = 0; i < ca.length; i++) 
 			{
@@ -65,7 +80,7 @@
 		
 		<div class="container">
 			
-			<div class="split Left">
+			<div class="splitLeft">
 				<h1><span>Individual</span></h1>
 				<div id="individualdesc">
 					Hover the mouse on the image for more information.
@@ -80,12 +95,12 @@
 				
 				</div>
 				</div>
-				<form action="fourth.php">
+				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
 				<button type="submit" formaction="fourth.php">INDIVIDUAL</button>
 				</form>					
 				
 			</div>
-			<div class="split Right">
+			<div class="splitRight">
 				<h1><span>Team work</span></h1>
 				<div id="teamworkdesc">
 					Hover the mouse on the image for more information.
@@ -100,7 +115,7 @@
 				
 				</div>
 				</div>
-				<form action="fourth.php">
+				<form action="fourth.php" onSubmit="JavaScript:SetTeamWork()">
 				<button type="submit" formaction="fourth.php">TEAM WORK</button>
 				</form>					
 				
