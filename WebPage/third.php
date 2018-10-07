@@ -13,7 +13,7 @@
 			
 			var individual = 0;
 			var teamWork = 0;
-		function SetInividual()
+		function SetIndividual()
 		{
 			++individual;
 			SetCookies();
