@@ -60,9 +60,9 @@
 <div class="framedefinition">
 <body>
 	<img src="../images/STEMblur.png" alt="stem" class="logo">
-	<h1>Please rate your favourite subjects from 1 to 5</h1>
-	<h3>With 5 being your favourite subject, and 1 your least favourite subject</h3>
-	<h5>Click on the stars to assign a rating then click continue to next page *you can only assign one at 5 stars</h5>
+	<h1>请对你喜欢的学科进行评级从一颗星到5颗</h1>
+	<h3>5颗星星是你最喜欢的一个学科（限定一个选择）</h3>
+	<h5>现在来点击星星来确定你的选择吧，点击 to be continue 来继续 </h5>
 <div class="dropdown">
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
