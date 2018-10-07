@@ -23,8 +23,8 @@
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 	
-	<form action="result.php">
-		<button type="submit" formaction = "result.php">Continue to next page ►</button>
+	<form action="resultCN.php">
+		<button type="submit" formaction = "resultCN.php">Continue to next page ►</button>
 	</form>
 
 	</body>
