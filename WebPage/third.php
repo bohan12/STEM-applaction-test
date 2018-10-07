@@ -17,21 +17,25 @@
 		{
 			++individual;
 			SetCookies();
+			alert("individual " );
 		}
 		function SetTeamWork()
 		{
 			++teamWork;
 			SetCookies();
+			alert("teamwork " );
 		}
 		function SetCookies()
 		{
 			document.cookie = "teamWork= " + teamWork;
 			document.cookie = "individual= " + individual;	
+			alert("setcoockies " );
 			getCookies();
 		}
 		function getCookie() 
 		{
 		//var name = "biology";
+			alert("get cookies " );
 			var name = "individual";
 			var ca = document.cookie.split(';');
 			for(var i = 0; i < ca.length; i++) 
