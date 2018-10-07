@@ -65,7 +65,7 @@
 		
 		<div class="container">
 			
-			<div class="splitLeft">
+			<div class="split Left">
 				<h1><span>Individual</span></h1>
 				<div id="individualdesc">
 					Hover the mouse on the image for more information.
@@ -85,7 +85,7 @@
 				</form>					
 				
 			</div>
-			<div class="splitRight">
+			<div class="split Right">
 				<h1><span>Team work</span></h1>
 				<div id="teamworkdesc">
 					Hover the mouse on the image for more information.
