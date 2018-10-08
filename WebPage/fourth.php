@@ -25,13 +25,14 @@
 		
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
-	
+		<h3>Chose the work envirment where you prefer<h3>
 		<div class="container">
 			<div class="split left">
 				<h1><span>The Outside</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px";>
 				
-				<p>this is the description</p>
+				<p>For the outside that means, you could work outside the most of time you will stay outside with naturel. For example engineer， 
+					Sailing coach， Road and bridge construction and so on.</p>
 				
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
@@ -40,7 +41,8 @@
 			<div class="split right">
 				<h1><span>The inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
-				<p>this is the description</p>
+				<p>For the inside, you could work inside the most of the time you will stay in office with coputer or customer.
+					For example, the software developer, designer,officer and so on.</p>
 					
 				<form action="fifth.php">
 				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
