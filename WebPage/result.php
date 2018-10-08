@@ -131,70 +131,50 @@
 				    scienceResult == engineeringResult)
 				{
 					document.getElementById('result').innerHTML="<p>Sorry, we could not get a clear "
-					+ "result from your answers</p><p>Please try again</p><p>Scores:</p><p>Science: " + 
-					scienceResult + "</p><p>Technology: " + technologyResult + "</p><p>Engineering: "
-					+ engineeringResult + "</p><p>Mathematics: " + mathematicsResult + "</p>"
+					+ "result from your answers</p><p>Please try again</p>";
 				}
 				else if (scienceResult == technologyResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Science or Technology at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>"
+					+ "Science or Technology at AUT</p>";
 				}
 				else if (scienceResult == engineeringResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Science or Engineering at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>"
-				}
+					+ "Science or Engineering at AUT</p>";
 				else if (scienceResult == mathematicsResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Science or Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>"
+					+ "Science or Mathematics at AUT</p>";
 				}
 				else
 				{
 					document.getElementById('result').innerHTML="<p>You should look into studying "
-					+ "Science at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>"
+					+ "Science at AUT</p>";
 				}
 			}
 			else
 			{	
 				document.getElementById('result').innerHTML="<p>You should look into studying "
-				+ "Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-				"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-				"<p>Mathematics: " + mathematicsResult + "</p>"
+				+ "Mathematics at AUT</p>";
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
 		{
 			if (engineeringResult > mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>"
-				+ "<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-				"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-				"<p>Mathematics: " + mathematicsResult + "</p>";
+				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
 				document.getElementById('result').innerHTML="<p>You should look into studying " 
-				+ "Engineering or Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-				"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-				"<p>Mathematics: " + mathematicsResult + "</p>";
+				+ "Engineering or Mathematics at AUT</p>";
 			}
 		}
 		else
 		{
 			document.getElementById('result').innerHTML="<p>You should look into studying "
-			+ "Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-			"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-			"<p>Mathematics: " + mathematicsResult + "</p>";
+			+ "Mathematics at AUT</p>";
 		}
 	}
 	else
@@ -206,56 +186,41 @@
 				if (technologyResult == engineeringResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Technology or Engineering at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>";
+					+ "Technology or Engineering at AUT</p>";
 				}
 				else if (technologyResult == mathematicsResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Technology or Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>";
+					+ "Technology or Mathematics at AUT</p>";
 				}
 				else
 				{
 					document.getElementById('result').innerHTML="<p>You should look into studying "
-					+ "Technology at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-					"<p>Mathematics: " + mathematicsResult + "</p>";
+					+ "Technology at AUT</p>";
 				}
 			}
 			else
 			{	
 				document.getElementById('result').innerHTML="<p>You should look into studying "
-				+ "Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-				"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-				"<p>Mathematics: " + mathematicsResult + "</p>";
+				+ "Mathematics at AUT</p>";
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
 		{
 			if (engineeringResult > mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>"
-				+ "<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-				"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-				"<p>Mathematics: " + mathematicsResult + "</p>";
+				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
 				document.getElementById('result').innerHTML="<p>You should look into studying " 
-				+ "Engineering or Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-				"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-				"<p>Mathematics: " + mathematicsResult + "</p>";
+				+ "Engineering or Mathematics at AUT</p>";
 			}
 		}
 		else
 		{
 			document.getElementById('result').innerHTML="<p>You should look into studying "
-			+ "Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-			"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-			"<p>Mathematics: " + mathematicsResult + "</p>" + mathematicsResult  + mathematicsResult ;
+			+ "Mathematics at AUT</p>";
 		}
 	}
 </script>
