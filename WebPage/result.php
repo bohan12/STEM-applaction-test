@@ -96,14 +96,14 @@
 	
 	//PAGE 1
 	
-	scienceResult += biologyScore*2;
-	mathematicsResult += calculusScore*2;
-	engineeringResult += calculusScore;
-	scienceResult += chemistryScore*2;
-	scienceResult += physicsScore;
-	engineeringResult += physicsScore;
-	technologyResult += physicsScore;
-	mathematicsResult += statisticsScore;
+	scienceResult += (biologyScore*2 - 2);
+	mathematicsResult += (calculusScore*2 - 2);
+	engineeringResult += (calculusScore - 1);
+	scienceResult += (chemistryScore*2 - 2);
+	scienceResult += (physicsScore - 1);
+	engineeringResult += (physicsScore - 1);
+	technologyResult += (physicsScore - 1);
+	mathematicsResult += (statisticsScore - 1);
 	
 	//PAGE 2
 	
@@ -127,7 +127,14 @@
 		{	
 			if (scienceResult >= mathematicsResult)
 			{	
-				if (scienceResult == technologyResult)
+				if (scienceResult == technologyResult &&
+				    scienceResult == mathematicsResult &&
+				    scienceResult == engineeringResult)
+				{
+					document.getElementById('result').innerHTML="<p>Sorry, we could not get a clear "
+					+ "result from your answers</p><p>Please try again</p>";
+				}
+				else if (scienceResult == technologyResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Science or Technology at AUT</p>";
