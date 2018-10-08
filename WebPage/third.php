@@ -29,7 +29,7 @@
 		{
 			document.cookie = "teamWork= " + teamWork;
 			document.cookie = "individual= " + individual;	
-			alert("setcoockies " );
+			alert("setcookies " );
 			getCookies();
 		}
 		function getCookie() 
