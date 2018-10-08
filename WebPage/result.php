@@ -96,14 +96,14 @@
 	
 	//PAGE 1
 	
-	scienceResult += (biologyScore*2);
-	mathematicsResult += (calculusScore*2);
-	engineeringResult += (calculusScore);
-	scienceResult += (chemistryScore*2);
-	scienceResult += (physicsScore);
-	engineeringResult += (physicsScore);
-	technologyResult += (physicsScore);
-	mathematicsResult += (statisticsScore);
+	scienceResult += biologyScore*2;
+	mathematicsResult += calculusScore*2;
+	engineeringResult += calculusScore;
+	scienceResult += chemistryScore*2;
+	scienceResult += physicsScore;
+	engineeringResult += physicsScore;
+	technologyResult += physicsScore;
+	mathematicsResult += statisticsScore;
 	
 	//PAGE 2
 	
