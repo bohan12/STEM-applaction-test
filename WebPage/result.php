@@ -115,7 +115,7 @@
 	scienceResult += schrodingerScore*3;
 	mathematicsResult += schrodingerScore*2;
 	scienceResult += scibeakerScore*5;
-	technologyResult += engineeringScore*5;
+	technologyResult += hammerScore*5;
 	technologyResult += gearScore*5;
 	scienceResult += periodicScore*4;
 	mathematicsResult += periodicScore;
