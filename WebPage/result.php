@@ -127,8 +127,8 @@
 		{	
 			if (scienceResult >= mathematicsResult)
 			{	
-				if (//scienceResult == technologyResult //&&
-				    //scienceResult == mathematicsResult &&
+				if (scienceResult == technologyResult &&
+				    scienceResult == mathematicsResult &&
 				    scienceResult == engineeringResult)
 				{
 					document.getElementById('result').innerHTML="<p>Sorry, we could not get a clear "
