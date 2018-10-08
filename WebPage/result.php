@@ -159,7 +159,7 @@
 				else
 				{
 					document.getElementById('result').innerHTML="<p>You should look into studying "
-					+ "Technology at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
+					+ "Science at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
 					"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
 					"<p>Mathematics: " + mathematicsResult + "</p>"
 				}
