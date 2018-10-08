@@ -36,12 +36,6 @@
 
 <script>
 	
-	var recentCookie = "";
-	var scienceResult = 0;
-	var technologyResult = 0;
-	var engineeringResult = 0;
-	var mathematicsResult = 0;
-	
 	function getCookies() 
 	{
 		var name = recentCookie;
@@ -60,6 +54,12 @@
    		}
     		return "";
 	}
+	
+	var recentCookie = "";
+	var scienceResult = 0;
+	var technologyResult = 0;
+	var engineeringResult = 0;
+	var mathematicsResult = 0;
 	
 	recentCookie = "biology";	
 	var biologyScore = getCookies();
@@ -127,8 +127,8 @@
 		{	
 			if (scienceResult >= mathematicsResult)
 			{	
-				if (scienceResult == technologyResult &&
-				    scienceResult == mathematicsResult &&
+				if (//scienceResult == technologyResult //&&
+				    //scienceResult == mathematicsResult &&
 				    scienceResult == engineeringResult)
 				{
 					document.getElementById('result').innerHTML="<p>Sorry, we could not get a clear "
