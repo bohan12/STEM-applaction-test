@@ -56,10 +56,10 @@
 	}
 	
 	var recentCookie = "";
-	var scienceResult = 0;
-	var technologyResult = 0;
-	var engineeringResult = 0;
-	var mathematicsResult = 0;
+	var scienceResult == 0;
+	var technologyResult == 0;
+	var engineeringResult == 0;
+	var mathematicsResult == 0;
 	
 	recentCookie = "biology";	
 	var biologyScore = getCookies();
