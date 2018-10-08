@@ -30,3 +30,69 @@
 	</body>
 	</div>
 </html>
+
+<script>
+	
+	var recentCookie = "";
+	var scienceResult = 0;
+	var technologyResult = 0;
+	var engineeringResult = 0;
+	var mathematicsResult = 0;
+	
+	function getCookies() 
+	{
+		var name = recentCookie;
+		var ca = document.cookie.split(';');
+		for(var i = 0; i < ca.length; i++) 
+		{
+			var c = ca[i];
+        		while (c.charAt(0) == ' ')
+			{
+           			c = c.substring(1);
+       			}
+        		if (c.indexOf(name) == 0) 
+			{
+            			return c.substring(name.length, c.length);
+        		}
+   		}
+    		return "";
+	}
+	
+	recentCookie = "Biology";	
+	var biologyScore = getCookie();
+	recentCookie = "Calculus";	
+	var calculusScore = getCookie();
+	recentCookie = "Chemistry";	
+	var chemistryScore = getCookie();
+	recentCookie = "Physics";	
+	var physicsScore = getCookie();
+	recentCookie = "Statistics";	
+	var statisticsScore = getCookie();
+	
+	var recentCookie = "";
+	
+	//THE BELOW RESULTS CALCULATE THE SCORE TALLY
+	
+	//PAGE 1
+	
+	scienceResult += biologyScore*2;
+	mathematicsResult += calculusScore*2;
+	engineeringResult += calculusScore;
+	scienceResult += chemistryScore*2;
+	scienceResult += physicsScore;
+	engineeringResult += physicsScore;
+	technologyResult += physicsScore;
+	mathematicsResult += statisticsScore;
+	
+	//PAGE 2
+	
+	scienceResult += biologyScore*2;
+	mathematicsResult += calculusScore*2;
+	engineeringResult += calculusScore;
+	scienceResult += chemistryScore*2;
+	scienceResult += physicsScore;
+	engineeringResult += physicsScore;
+	technologyResult += physicsScore;
+	mathematicsResult += statisticsScore;
+}
+</script>
