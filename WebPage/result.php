@@ -129,44 +129,46 @@
 			{	
 				if (scienceResult == technologyResult)
 				{	
-					document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Science or Technology at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Science or Technology at AUT</p>";
 				}
 				else if (scienceResult == engineeringResult)
 				{	
-					document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Science or Engineering at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Science or Engineering at AUT</p>";
 				}
 				else if (scienceResult == mathematicsResult)
 				{	
-					document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Science or Mathematics at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Science or Mathematics at AUT</p>";
 				}
 				else
 				{
-					document.getElementById('result').innerHTML="You should look into studying Technology at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying "
+					+ "Technology at AUT</p>";
 				}
 			}
 			else
 			{	
-				document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+				document.getElementById('result').innerHTML="<p>You should look into studying "
+				+ "Mathematics at AUT</p>";
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
 		{
 			if (engineeringResult > mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="You should look into studying Engineering at AUT";
+				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Engineering or Mathematics at AUT";
+				document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Engineering or Mathematics at AUT</p>";
 			}
 		}
 		else
 		{
-			document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+			document.getElementById('result').innerHTML="<p>You should look into studying Mathematics at AUT</p>";
 		}
 	}
 	else
@@ -177,39 +179,40 @@
 			{	
 				if (technologyResult == engineeringResult)
 				{	
-					document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Technology or Engineering at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Technology or Engineering at AUT</p>";
 				}
 				else if (technologyResult == mathematicsResult)
 				{	
-					document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Technology or Mathematics at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Technology or Mathematics at AUT</p>";
 				}
 				else
 				{
-					document.getElementById('result').innerHTML="You should look into studying Technology at AUT";
+					document.getElementById('result').innerHTML="<p>You should look into studying "
+					+ "Technology at AUT</p>";
 				}
 			}
 			else
 			{	
-				document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+				document.getElementById('result').innerHTML="<p>You should look into studying Mathematics at AUT</p>";
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
 		{
 			if (engineeringResult > mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="You should look into studying Engineering at AUT";
+				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="You should look into studying " 
-					+ "Engineering or Mathematics at AUT";
+				document.getElementById('result').innerHTML="<p>You should look into studying " 
+					+ "Engineering or Mathematics at AUT</p>";
 			}
 		}
 		else
 		{
-			document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+			document.getElementById('result').innerHTML="<p>You should look into studying Mathematics at AUT</p>";
 		}
 	}
 </script>
