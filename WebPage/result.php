@@ -60,33 +60,33 @@
     		return "";
 	}
 	
-	recentCookie = "biology";	
+	recentCookie = "biology=";	
 	var biologyScore = getCookies();
-	recentCookie = "calculus";	
+	recentCookie = "calculus=";	
 	var calculusScore = getCookies();
-	recentCookie = "chemistry";	
+	recentCookie = "chemistry=;	
 	var chemistryScore = getCookies();
-	recentCookie = "physics";	
+	recentCookie = "physics=;	
 	var physicsScore = getCookies();
-	recentCookie = "statistics";	
+	recentCookie = "statistics=;	
 	var statisticsScore = getCookies();
-	recentCookie = "computer";	
+	recentCookie = "computer=;	
 	var computerScore = getCookies();
-	recentCookie = "pythagoras";	
+	recentCookie = "pythagoras=;	
 	var pythagorasScore = getCookies();
-	recentCookie = "cell";	
+	recentCookie = "cell=;	
 	var cellScore = getCookies();
-	recentCookie = "apple";	
+	recentCookie = "apple=;	
 	var appleScore = getCookies();
-	recentCookie = "schrodinger";	
+	recentCookie = "schrodinger=;	
 	var schrodingerScore = getCookies();
-	recentCookie = "scibeaker";	
+	recentCookie = "scibeaker=;	
 	var scibeakerScore = getCookies();
-	recentCookie = "hammer";	
+	recentCookie = "hammer=;	
 	var hammerScore = getCookies();
-	recentCookie = "gear";	
+	recentCookie = "gear=;	
 	var gearScore = getCookies();
-	recentCookie = "periodic";	
+	recentCookie = "periodic=;	
 	var periodicScore = getCookies();
 	
 	var recentCookie = "";
