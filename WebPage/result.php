@@ -96,29 +96,29 @@
 	
 	//PAGE 1
 	
-	scienceResult += biologyScore*2;
-	mathematicsResult += calculusScore*2;
-	engineeringResult += calculusScore;
-	scienceResult += chemistryScore*2;
-	scienceResult += physicsScore;
-	engineeringResult += physicsScore;
-	technologyResult += physicsScore;
-	mathematicsResult += statisticsScore;
+	scienceResult + biologyScore*2;
+	mathematicsResult + calculusScore*2;
+	engineeringResult + calculusScore;
+	scienceResult + chemistryScore*2;
+	scienceResult + physicsScore;
+	engineeringResult + physicsScore;
+	technologyResult + physicsScore;
+	mathematicsResult + statisticsScore;
 	
 	//PAGE 2
 	
-	technologyResult += computerScore*5;
-	mathematicsResult += pythagorasScore*5;
-	scienceResult += cellScore*5;
-	engineeringResult += appleScore*3;
-	scienceResult += appleScore*2;
-	scienceResult += schrodingerScore*3;
-	mathematicsResult += schrodingerScore*2;
-	scienceResult += scibeakerScore*5;
-	technologyResult += hammerScore*5;
-	technologyResult += gearScore*5;
-	scienceResult += periodicScore*4;
-	mathematicsResult += periodicScore;
+	technologyResult + computerScore*5;
+	mathematicsResult + pythagorasScore*5;
+	scienceResult + cellScore*5;
+	engineeringResult + appleScore*3;
+	scienceResult + appleScore*2;
+	scienceResult + schrodingerScore*3;
+	mathematicsResult + schrodingerScore*2;
+	scienceResult + scibeakerScore*5;
+	technologyResult + hammerScore*5;
+	technologyResult + gearScore*5;
+	scienceResult + periodicScore*4;
+	mathematicsResult + periodicScore;
 	
 	//The results are posted
 	if (scienceResult >= technologyResult)
