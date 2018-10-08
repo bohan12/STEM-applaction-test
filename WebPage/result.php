@@ -211,5 +211,4 @@
 			document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
 		}
 	}
-}
 </script>
