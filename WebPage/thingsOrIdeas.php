@@ -326,7 +326,7 @@
 				
 				function getCookie() 
 				{
-				    	var name = "computer";
+				    	var name = "physics";
   				  	var ca = document.cookie.split(';');
 				    	for(var i = 0; i < ca.length; i++) {
        				 	var c = ca[i];
