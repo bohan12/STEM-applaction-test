@@ -61,33 +61,33 @@
 	}
 	
 	recentCookie = "biology=";	
-	var biologyScore = getCookies();
+	var biologyScore = parseInt(getCookies());
 	recentCookie = "calculus=";	
-	var calculusScore = getCookies();
+	var calculusScore = parseInt(getCookies());
 	recentCookie = "chemistry=";	
-	var chemistryScore = getCookies();
+	var chemistryScore = parseInt(getCookies());
 	recentCookie = "physics=";	
-	var physicsScore = getCookies();
+	var physicsScore = parseInt(getCookies());
 	recentCookie = "statistics=";	
-	var statisticsScore = getCookies();
+	var statisticsScore = parseInt(getCookies());
 	recentCookie = "computer=";	
-	var computerScore = getCookies();
+	var computerScore = parseInt(getCookies());
 	recentCookie = "pythagoras=";	
-	var pythagorasScore = getCookies();
+	var pythagorasScore = parseInt(getCookies());
 	recentCookie = "cell=";	
-	var cellScore = getCookies();
+	var cellScore = parseInt(getCookies());
 	recentCookie = "apple=";	
-	var appleScore = getCookies();
+	var appleScore = parseInt(getCookies());
 	recentCookie = "schrodinger=";	
-	var schrodingerScore = getCookies();
+	var schrodingerScore = parseInt(getCookies());
 	recentCookie = "scibeaker=";	
-	var scibeakerScore = getCookies();
+	var scibeakerScore = parseInt(getCookies());
 	recentCookie = "hammer=";	
-	var hammerScore = getCookies();
+	var hammerScore = parseInt(getCookies());
 	recentCookie = "gear=";	
-	var gearScore = getCookies();
+	var gearScore = parseInt(getCookies());
 	recentCookie = "periodic=";	
-	var periodicScore = getCookies();
+	var periodicScore = parseInt(getCookies());
 	
 	var recentCookie = "";
 	
