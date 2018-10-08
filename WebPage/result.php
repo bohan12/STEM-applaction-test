@@ -256,7 +256,7 @@
 			document.getElementById('result').innerHTML="<p>You should look into studying "
 			+ "Mathematics at AUT</p><p>Scores:</p><p>Science: " + scienceResult + "</p>" +
 			"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-			"<p>Mathematics: " + mathematicsResult + "</p>";
+			"<p>Mathematics: " + mathematicsResult + "</p>" + mathematicsResult;
 		}
 	}
 </script>
