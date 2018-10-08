@@ -62,33 +62,33 @@
 	}
 	
 	recentCookie = "biology";	
-	var biologyScore = getCookie();
+	var biologyScore = getCookies();
 	recentCookie = "calculus";	
-	var calculusScore = getCookie();
+	var calculusScore = getCookies();
 	recentCookie = "chemistry";	
-	var chemistryScore = getCookie();
+	var chemistryScore = getCookies();
 	recentCookie = "physics";	
-	var physicsScore = getCookie();
+	var physicsScore = getCookies();
 	recentCookie = "statistics";	
-	var statisticsScore = getCookie();
+	var statisticsScore = getCookies();
 	recentCookie = "computer";	
-	var computerScore = getCookie();
+	var computerScore = getCookies();
 	recentCookie = "pythagoras";	
-	var pythagorasScore = getCookie();
+	var pythagorasScore = getCookies();
 	recentCookie = "cell";	
-	var cellScore = getCookie();
+	var cellScore = getCookies();
 	recentCookie = "apple";	
-	var appleScore = getCookie();
+	var appleScore = getCookies();
 	recentCookie = "schrodinger";	
-	var schrodingerScore = getCookie();
+	var schrodingerScore = getCookies();
 	recentCookie = "scibeaker";	
-	var scibeakerScore = getCookie();
+	var scibeakerScore = getCookies();
 	recentCookie = "hammer";	
-	var hammerScore = getCookie();
+	var hammerScore = getCookies();
 	recentCookie = "gear";	
-	var gearScore = getCookie();
+	var gearScore = getCookies();
 	recentCookie = "periodic";	
-	var periodicScore = getCookie();
+	var periodicScore = getCookies();
 	
 	var recentCookie = "";
 	
