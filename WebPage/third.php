@@ -58,7 +58,7 @@
     			var user = getCookie();
     			if (user != "") 
 			{
-			alert("phisics " + user);
+			alert("physics " + user);
         		//alert(document.getElementById("cal2").src + "Welcome again " + user);
     			}  
 		}
