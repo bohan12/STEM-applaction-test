@@ -21,11 +21,13 @@
 	</head>
 	<div class="framedefinition">
 	<body>
-	    <img src="../images/STEMblur.png" alt="stem" class="logo">
+		<img src="../images/STEMblur.png" alt="stem" class="logo">
 	
-	    <form action="start.php">
-		    <button type="submit" formaction = "start.php">Return to start</button>
-	    </form>
+		<form action="start.php">
+			<button type="submit" formaction = "start.php">Return to start</button>
+		</form>
+		<div id=result>
+		</div>
 
 	</body>
 	</div>
@@ -58,16 +60,34 @@
     		return "";
 	}
 	
-	recentCookie = "Biology";	
+	recentCookie = "biology";	
 	var biologyScore = getCookie();
-	recentCookie = "Calculus";	
+	recentCookie = "calculus";	
 	var calculusScore = getCookie();
-	recentCookie = "Chemistry";	
+	recentCookie = "chemistry";	
 	var chemistryScore = getCookie();
-	recentCookie = "Physics";	
+	recentCookie = "physics";	
 	var physicsScore = getCookie();
-	recentCookie = "Statistics";	
+	recentCookie = "statistics";	
 	var statisticsScore = getCookie();
+	recentCookie = "computer";	
+	var computerScore = getCookie();
+	recentCookie = "pythagoras";	
+	var pythagorasScore = getCookie();
+	recentCookie = "cell";	
+	var cellScore = getCookie();
+	recentCookie = "apple";	
+	var appleScore = getCookie();
+	recentCookie = "schrodinger";	
+	var schrodingerScore = getCookie();
+	recentCookie = "scibeaker";	
+	var scibeakerScore = getCookie();
+	recentCookie = "hammer";	
+	var hammerScore = getCookie();
+	recentCookie = "gear";	
+	var gearScore = getCookie();
+	recentCookie = "periodic";	
+	var periodicScore = getCookie();
 	
 	var recentCookie = "";
 	
@@ -86,13 +106,110 @@
 	
 	//PAGE 2
 	
-	scienceResult += biologyScore*2;
-	mathematicsResult += calculusScore*2;
-	engineeringResult += calculusScore;
-	scienceResult += chemistryScore*2;
-	scienceResult += physicsScore;
-	engineeringResult += physicsScore;
-	technologyResult += physicsScore;
-	mathematicsResult += statisticsScore;
+	technologyResult += computerScore*5;
+	mathematicsResult += pythagorasScore*5;
+	scienceResult += cellScore*5;
+	engineeringResult += appleScore*3;
+	scienceResult += appleScore*2;
+	scienceResult += schrodingerScore*3;
+	mathematicsResult += schrodingerScore*2;
+	scienceResult += scibeakerScore*5;
+	technologyResult += engineeringScore*5;
+	technologyResult += gearScore*5;
+	scienceResult += periodicScore*4;
+	mathematicsResult += periodicScore;
+	
+	//The results are posted
+	if (scienceResult >= technologyResult)
+	{
+		if (scienceResult >= engineeringResult)
+		{	
+			if (scienceResult >= mathematicsResult)
+			{	
+				if (scienceResult == technologyResult)
+				{	
+					document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Science or Technology at AUT";
+				}
+				else if (scienceResult == engineeringResult)
+				{	
+					document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Science or Engineering at AUT";
+				}
+				else if (scienceResult == mathematicsResult)
+				{	
+					document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Science or Mathematics at AUT";
+				}
+				else
+				{
+					document.getElementById('result').innerHTML="You should look into studying Technology at AUT";
+				}
+			}
+			else
+			{	
+				document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+			}
+		}
+		else if (engineeringResult >= mathematicsResult)
+		{
+			if (engineeringResult > mathematicsResult)
+			{
+				document.getElementById('result').innerHTML="You should look into studying Engineering at AUT";
+			}
+			else if (engineeringResult == mathematicsResult)
+			{
+				document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Engineering or Mathematics at AUT";
+			}
+		}
+		else
+		{
+			document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+		}
+	}
+	else
+	{
+		if (technologyResult >= engineeringResult)
+		{	
+			if (technologyResult >= mathematicsResult)
+			{	
+				if (technologyResult == engineeringResult)
+				{	
+					document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Technology or Engineering at AUT";
+				}
+				else if (technologyResult == mathematicsResult)
+				{	
+					document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Technology or Mathematics at AUT";
+				}
+				else
+				{
+					document.getElementById('result').innerHTML="You should look into studying Technology at AUT";
+				}
+			}
+			else
+			{	
+				document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+			}
+		}
+		else if (engineeringResult >= mathematicsResult)
+		{
+			if (engineeringResult > mathematicsResult)
+			{
+				document.getElementById('result').innerHTML="You should look into studying Engineering at AUT";
+			}
+			else if (engineeringResult == mathematicsResult)
+			{
+				document.getElementById('result').innerHTML="You should look into studying " 
+					+ "Engineering or Mathematics at AUT";
+			}
+		}
+		else
+		{
+			document.getElementById('result').innerHTML="You should look into studying Mathematics at AUT";
+		}
+	}
 }
 </script>
