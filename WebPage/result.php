@@ -27,6 +27,7 @@
 			<button type="submit" formaction = "start.php">Return to start</button>
 		</form>
 		<div id=result>
+			<p>example</p>
 		</div>
 
 	</body>
