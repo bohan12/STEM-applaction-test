@@ -20,6 +20,25 @@
 		</div>	
 
 	</head>
+	<script>
+			var inside = 0;
+			var outside = 0;
+		function SetInside()
+		{
+			++inside;
+			SetCookies();
+		}
+		function SetOutside()
+		{
+			++outside;
+			SetCookies();
+		}
+		function SetCookies()
+		{
+			document.cookie = "inside= " + inside;
+			document.cookie = "outside= " + outside;	
+		}
+	</script>
 	<div class="framedefinition">
 	
 		
@@ -33,7 +52,7 @@
 				
 				<p>You prefer to work outside in nature or at a construction site</p>
 				
-				<form action="fifth.php">
+				<form action="fifth.php" onSubmit="JavaScript:SetOutside()">
 				<button type="submit" formaction="fifth.php" align="middle">Select this option</button>
 				</form>		
 			</div>
@@ -42,7 +61,7 @@
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
 				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
-				<form action="fifth.php">
+				<form action="fifth.php "onSubmit="JavaScript:SetInside()">
 				<button type="submit" formaction="fifth.php" align="middle">Select this option</button>
 				</form>	
 			</div>
