@@ -306,8 +306,8 @@
 		}
 	}
 	
-	document.getElementById('engineeringlink').style.display='none';
-	<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
+	document.getElementById('scoreTest').innerHTML="<p>You should look into studying "
+	"<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
 	"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
 	"<p>Mathematics: " + mathematicsResult + "</p>"
 </script>
