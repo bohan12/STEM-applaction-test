@@ -31,29 +31,22 @@
 				<h1><span>The Outside</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px";>
 				
-				<p>For the outside that means, you could work outside the most of time you will stay outside with naturel. For example engineer， 
-					Sailing coach， Road and bridge construction and so on.</p>
+				<p>You prefer to work outside in nature or at a construction site</p>
 				
 				<form action="fifth.php">
-				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
+				<button type="submit" formaction="fifth.php" align="middle">Select this option</button>
 				</form>		
 			</div>
 			<div class="split right">
 				<h1><span>The inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
-				<p>For the inside, you could work inside the most of the time you will stay in office with coputer or customer.
-					For example, the software developer, designer,officer and so on.</p>
+				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
 				<form action="fifth.php">
-				<button type="submit" formaction="fifth.php" align="middel">PREFER</button>
+				<button type="submit" formaction="fifth.php" align="middle">Select this option</button>
 				</form>	
 			</div>
-		</div>		
-		
-		<form action="fifth.php">
-			<button type="submit" formaction = "fifth.php">Continue to next page ►</button>
-		</form>
-
+		</div>
 	</body>
 	</div>
 </html>
