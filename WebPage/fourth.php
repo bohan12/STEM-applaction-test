@@ -21,8 +21,8 @@
 
 	</head>
 	<script>
-			var inside = 0;
-			var outside = 0;
+		var inside = 0;
+		var outside = 0;
 		function SetInside()
 		{
 			++inside;
