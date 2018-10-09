@@ -147,33 +147,47 @@
 				    scienceResult == engineeringResult)
 				{
 					document.getElementById('result').innerHTML="<p>Sorry, we could not get a clear "
-					+ "result from your answers</p><p>Please try again</p>";
+					+ "result from your answers</p><p>Please try again or look at the following "
+					+ "pages for more information</p>";
 				}
 				else if (scienceResult == technologyResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Science or Technology at AUT</p>";
+					document.getElementById('engineeringlink').style.display='none';
+					document.getElementById('mathematicslink').style.display='none';
 				}
 				else if (scienceResult == engineeringResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Science or Engineering at AUT</p>";
+					document.getElementById('technologylink').style.display='none';
+					document.getElementById('mathematicslink').style.display='none';
 				}
 				else if (scienceResult == mathematicsResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Science or Mathematics at AUT</p>";
+					document.getElementById('technologylink').style.display='none';
+					document.getElementById('engineeringlink').style.display='none';
 				}
 				else
 				{
 					document.getElementById('result').innerHTML="<p>You should look into studying "
 					+ "Science at AUT</p>";
+					document.getElementById('technologylink').style.display='none';
+					document.getElementById('engineeringlink').style.display='none';
+					document.getElementById('mathematicslink').style.display='none';
 				}
 			}
 			else
 			{	
 				document.getElementById('result').innerHTML="<p>You should look into studying "
 				+ "Mathematics at AUT</p>";
+				document.getElementById('sciencelink').style.display='none';
+				document.getElementById('technologylink').style.display='none';
+				document.getElementById('engineeringlink').style.display='none';
+				
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
@@ -181,17 +195,25 @@
 			if (engineeringResult > mathematicsResult)
 			{
 				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
+				document.getElementById('sciencelink').style.display='none';
+				document.getElementById('technologylink').style.display='none';
+				document.getElementById('mathematicslink').style.display='none';
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
 				document.getElementById('result').innerHTML="<p>You should look into studying " 
 				+ "Engineering or Mathematics at AUT</p>";
+				document.getElementById('sciencelink').style.display='none';
+				document.getElementById('technologylink').style.display='none';
 			}
 		}
 		else
 		{
 			document.getElementById('result').innerHTML="<p>You should look into studying "
 			+ "Mathematics at AUT</p>";
+			document.getElementById('sciencelink').style.display='none';
+			document.getElementById('technologylink').style.display='none';
+			document.getElementById('engineeringlink').style.display='none';
 		}
 	}
 	else
@@ -204,23 +226,33 @@
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Technology or Engineering at AUT</p>";
+					document.getElementById('sciencelink').style.display='none';
+					document.getElementById('mathematicslink').style.display='none';
 				}
 				else if (technologyResult == mathematicsResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Technology or Mathematics at AUT</p>";
+					document.getElementById('sciencelink').style.display='none';
+					document.getElementById('engineeringlink').style.display='none';
 				}
 				else
 				{
 					document.getElementById('result').innerHTML="<p>You should look into studying "
 					+ "Technology at AUT</p>";
+					document.getElementById('sciencelink').style.display='none';
+					document.getElementById('engineeringlink').style.display='none';
+					document.getElementById('mathematicslink').style.display='none';
 				}
 			}
 			else
 			{	
 				document.getElementById('result').innerHTML="<p>You should look into studying "
-				+ "Mathematics at AUT</p><form action=https://www.aut.ac.nz/study/study-options/science>"
-				+ "<button type="submit">AUT Science ►</button></form>";
+				+ "Mathematics at AUT</p>";
+				document.getElementById('sciencelink').style.display='none';
+				document.getElementById('technologylink').style.display='none';
+				document.getElementById('engineeringlink').style.display='none';
+				
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
@@ -228,17 +260,25 @@
 			if (engineeringResult > mathematicsResult)
 			{
 				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
+				document.getElementById('sciencelink').style.display='none';
+				document.getElementById('technologylink').style.display='none';
+				document.getElementById('mathematicslink').style.display='none';
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
 				document.getElementById('result').innerHTML="<p>You should look into studying " 
 				+ "Engineering or Mathematics at AUT</p>";
+				document.getElementById('sciencelink').style.display='none';
+				document.getElementById('technologylink').style.display='none';
 			}
 		}
 		else
 		{
 			document.getElementById('result').innerHTML="<p>You should look into studying "
 			+ "Mathematics at AUT</p>";
+			document.getElementById('sciencelink').style.display='none';
+			document.getElementById('technologylink').style.display='none';
+			document.getElementById('engineeringlink').style.display='none';
 		}
 	}
 </script>
