@@ -25,10 +25,10 @@
 		
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
-		<h3>Chose the work envirment where you prefer<h3>
+		<h3>Choose your preferred work environment<h3>
 		<div class="container">
 			<div class="split left">
-				<h1><span>The Outside</span></h1>
+				<h1><span>Outside</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px";>
 				
 				<p>You prefer to work outside in nature or at a construction site</p>
@@ -38,7 +38,7 @@
 				</form>		
 			</div>
 			<div class="split right">
-				<h1><span>The inside</span></h1>
+				<h1><span>Inside</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
 				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
