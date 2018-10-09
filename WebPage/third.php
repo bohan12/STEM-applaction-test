@@ -12,7 +12,7 @@
 		<script type="text/javascript">
 			
 			var individual = 0;
-			var teamWork = 0;
+			var teamwork = 0;
 		function SetIndividual()
 		{
 			++individual;
@@ -20,12 +20,12 @@
 		}
 		function SetTeamWork()
 		{
-			++teamWork;
+			++teamwork;
 			SetCookies();
 		}
 		function SetCookies()
 		{
-			document.cookie = "teamWork= " + teamWork;
+			document.cookie = "teamwork= " + teamwork;
 			document.cookie = "individual= " + individual;	
 			alert("setcookies " );
 			getCookies();
