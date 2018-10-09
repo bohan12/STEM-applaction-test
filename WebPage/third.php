@@ -18,7 +18,7 @@
 			++individual;
 			SetCookies();
 		}
-		function SetTeamWork()
+		function SetTeamwork()
 		{
 			++teamwork;
 			SetCookies();
@@ -117,8 +117,8 @@
 				
 				</div>
 				</div>
-				<form action="fourth.php" onSubmit="JavaScript:SetTeamWork()">
-				<button type="submit" formaction="fourth.php">Team Work</button>
+				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
+				<button type="submit" formaction="fourth.php">Teamwork</button>
 				</form>					
 				
 			</div>
