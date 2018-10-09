@@ -17,13 +17,11 @@
 		{
 			++individual;
 			SetCookies();
-			alert("individual " );
 		}
 		function SetTeamWork()
 		{
 			++teamWork;
 			SetCookies();
-			alert("teamwork " );
 		}
 		function SetCookies()
 		{
@@ -58,7 +56,7 @@
     			var user = getCookie();
     			if (user != "") 
 			{
-			alert("physics " + user);
+			alert("individual= " + user);
         		//alert(document.getElementById("cal2").src + "Welcome again " + user);
     			}  
 		}
@@ -84,7 +82,7 @@
 		
 		<div class="container">
 			
-			<div class="splitLeft">
+			<div class="split Left">
 				<h1><span>Individual</span></h1>
 				<div id="individualdesc">
 					Hover the mouse on the image for more information.
@@ -100,11 +98,11 @@
 				</div>
 				</div>
 				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
-				<button type="submit" formaction="fourth.php">INDIVIDUAL</button>
+				<button type="submit" formaction="fourth.php">Choose this option</button>
 				</form>					
 				
 			</div>
-			<div class="splitRight">
+			<div class="split Right">
 				<h1><span>Team work</span></h1>
 				<div id="teamworkdesc">
 					Hover the mouse on the image for more information.
@@ -120,7 +118,7 @@
 				</div>
 				</div>
 				<form action="fourth.php" onSubmit="JavaScript:SetTeamWork()">
-				<button type="submit" formaction="fourth.php">TEAM WORK</button>
+				<button type="submit" formaction="fourth.php">Team Work</button>
 				</form>					
 				
 			</div>
