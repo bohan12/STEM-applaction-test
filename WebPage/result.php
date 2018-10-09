@@ -22,14 +22,30 @@
 	<div class="framedefinition">
 	<body>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
-	
-		<form action="start.php">
-			<button type="submit" formaction = "start.php">Return to start</button>
-		</form>
+		
 		<div id=result>
 			<p>example</p>
 		</div>
-
+		<div id=sciencelink>
+			<form action="https://www.aut.ac.nz/courses/bachelor-of-science?source=/engineering-computer-and-mathematical-sciences">
+            			<button type="submit" formaction = "https://www.aut.ac.nz/courses/bachelor-of-science?source=/engineering-computer-and-mathematical-sciences" class="button" >AUT Science Page</button>
+        		</form>
+		</div>
+		<div id=technologylink>
+			<form action="https://www.aut.ac.nz/study/study-options/engineering-computer-and-mathematical-sciences/courses/bachelor-of-computer-and-information-sciences">
+            			<button type="submit" formaction = "https://www.aut.ac.nz/study/study-options/engineering-computer-and-mathematical-sciences/courses/bachelor-of-computer-and-information-sciences" class="button" >AUT Technology Page</button>
+        		</form>
+		</div>
+		<div id=engineeringlink>
+			<form action="https://www.aut.ac.nz/study/study-options/engineering-computer-and-mathematical-sciences/courses/bachelor-of-engineering-technology">
+            			<button type="submit" formaction = "https://www.aut.ac.nz/study/study-options/engineering-computer-and-mathematical-sciences/courses/bachelor-of-engineering-technology" class="button" >AUT Engineering Page</button>
+        		</form>
+		</div>
+		<div id=mathematicslink>
+			<form action="https://www.aut.ac.nz/study/study-options/engineering-computer-and-mathematical-sciences/courses/bachelor-of-mathematical-sciences">
+            			<button type="submit" formaction = "https://www.aut.ac.nz/study/study-options/engineering-computer-and-mathematical-sciences/courses/bachelor-of-mathematical-sciences" class="button" >AUT Mathematics Page</button>
+        		</form>
+		</div>
 	</body>
 	</div>
 </html>
