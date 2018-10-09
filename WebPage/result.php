@@ -129,17 +129,19 @@
 	
 	//PAGE 2
 	
-	technologyResult = technologyResult + computerScore*5;
-	mathematicsResult = mathematicsResult + pythagorasScore*5;
-	scienceResult = scienceResult + cellScore*5;
-	engineeringResult = engineeringResult + appleScore*3;
-	scienceResult = scienceResult + appleScore*2;
-	scienceResult = scienceResult + schrodingerScore*3;
+	technologyResult = technologyResult + computerScore*6;
+	mathematicsResult = mathematicsResult + pythagorasScore*4;
+	engineeringResult = mathematicsResult + pythagorasScore*2;
+	scienceResult = scienceResult + cellScore*6;
+	scienceResult = scienceResult + appleScore*4;
+	engineeringResult = engineeringResult + appleScore*2;
+	scienceResult = scienceResult + schrodingerScore*4;
 	mathematicsResult = mathematicsResult + schrodingerScore*2;
-	scienceResult = scienceResult + scibeakerScore*5;
-	technologyResult = technologyResult + hammerScore*5;
-	technologyResult = technologyResult + gearScore*5;
-	scienceResult = scienceResult + periodicScore*4;
+	scienceResult = scienceResult + scibeakerScore*6;
+	engineeringResult = engineeringResult + hammerScore*6;
+	engineeringResult = engineeringResult + gearScore*4;
+	technologyResult = technologyResult + gearScore*2;
+	scienceResult = scienceResult + periodicScore*5;
 	mathematicsResult = mathematicsResult + periodicScore;
 	
 	//PAGE 3
@@ -148,6 +150,14 @@
 	engineeringResult = engineeringResult + individualScore*3;
 	engineeringResult = engineeringResult + teamworkScore*7;
 	technologyResult = technologyResult + teamworkScore*10;
+	
+	//PAGE 4
+	scienceResult = scienceResult + outsideScore*5;
+	engineeringResult = engineeringResult + outsideScore*10;
+	scienceResult = scienceResult + insideScore*10;
+	engineeringResult = engineeringResult + insideScore*5;
+	mathematicsResult = mathematicsResult + insideScore*10;
+	technologyResult = technologyResult + insideScore*10;
 	
 	//The results are posted
 	if (scienceResult >= technologyResult)
