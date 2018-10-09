@@ -108,9 +108,9 @@
 	recentCookie = "periodic=";	
 	var periodicScore = parseInt(getCookies());
 	recentCookie = "individual=";	
-	var individualScore = parseInt(getCookies());
+	var insideScore = parseInt(getCookies());
 	recentCookie = "teamwork=";	
-	var teamworkScore = parseInt(getCookies());
+	var outsideScore = parseInt(getCookies());
 	
 	var recentCookie = "";
 	
