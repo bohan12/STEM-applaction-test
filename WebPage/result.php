@@ -202,7 +202,8 @@
 			else
 			{	
 				document.getElementById('result').innerHTML="<p>You should look into studying "
-				+ "Mathematics at AUT</p>";
+				+ "Mathematics at AUT</p><form action=https://www.aut.ac.nz/study/study-options/science>"
+				+ "<button type="submit">AUT Science ►</button></form>";
 			}
 		}
 		else if (engineeringResult >= mathematicsResult)
