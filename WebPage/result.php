@@ -158,6 +158,7 @@
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
 					+ "Science or Engineering at AUT</p>";
+				}
 				else if (scienceResult == mathematicsResult)
 				{	
 					document.getElementById('result').innerHTML="<p>You should look into studying " 
