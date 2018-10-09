@@ -107,6 +107,10 @@
 	var gearScore = parseInt(getCookies());
 	recentCookie = "periodic=";	
 	var periodicScore = parseInt(getCookies());
+	recentCookie = "individual=";	
+	var individualScore = parseInt(getCookies());
+	recentCookie = "teamwork=";	
+	var teamworkScore = parseInt(getCookies());
 	
 	var recentCookie = "";
 	
@@ -137,6 +141,13 @@
 	technologyResult = technologyResult + gearScore*5;
 	scienceResult = scienceResult + periodicScore*4;
 	mathematicsResult = mathematicsResult + periodicScore;
+	
+	//PAGE 3
+	mathematicsResult = mathematicsResult + individualScore*10;
+	scienceResult = scienceResult + individualScore*10;
+	engineeringResult = engineeringResult + individualScore*3;
+	engineeringResult = engineeringResult + teamworkScore*7;
+	technologyResult = technologyResult + teamworkScore*10;
 	
 	//The results are posted
 	if (scienceResult >= technologyResult)
@@ -284,4 +295,9 @@
 			document.getElementById('engineeringlink').style.display='none';
 		}
 	}
+	
+	document.getElementById('engineeringlink').style.display='none';
+	<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
+	"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
+	"<p>Mathematics: " + mathematicsResult + "</p>"
 </script>
