@@ -110,6 +110,9 @@ button {
 	position: absolute; 
 	top: 0px; 
 	left: 150px;
+	border-radius: 0px;
+	vertical-align: middle;
+	opacity: 1;
 }
 
 .buttontitle {
