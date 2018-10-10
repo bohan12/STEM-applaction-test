@@ -41,7 +41,7 @@
 			<div class="rightCard">
 				<div class="rightCardFront">
 					<h1>Convergent Problem Solver</h1>
-					<img src = "../images/question5/convergent.jpg" width = "300px" height = "300px">
+					<img src = "../images/question5/convergent.jpeg" width = "300px" height = "300px">
 					<div class="content">
 					<p>Or are you a convergent problem solver? Lets see!</p>
 					</div>
