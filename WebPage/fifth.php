@@ -36,7 +36,9 @@
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves<br /></p></p>
-					<button>Click me to choose this Option</button>
+					<form action="results.php">
+            					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
+					</form>
 				</div>
 
 			</div>
@@ -57,7 +59,9 @@
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves<br /></p>
-					<button>Click me to choose this Option</button>
+					<form action="results.php">
+            					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
+					</form>
 				</div>
 			</div>
 		</div>		
