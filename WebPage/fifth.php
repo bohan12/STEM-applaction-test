@@ -16,6 +16,25 @@
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		<title>Page 5</title>
 	</head>
+	<script>
+		var creative = 0;
+		var convergent = 0;
+		function SetCreative()
+		{
+			++creative;
+			SetCookies();
+		}
+		function SetConvergent()
+		{
+			++convergent;
+			SetCookies();
+		}
+		function SetCookies()
+		{
+			document.cookie = "creative= " + creative;
+			document.cookie = "convergent= " + convergent;	
+		}
+	</script>
 	<body>	
 		<h2>Hover cursor over left and right panel for more info</h2>
 		<div class="container">
