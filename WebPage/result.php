@@ -115,6 +115,10 @@
 	var individualScore = parseInt(getCookies());
 	recentCookie = "teamwork=";	
 	var teamworkScore = parseInt(getCookies());
+	recentCookie = "creative=";	
+	var creativeScore = parseInt(getCookies());
+	recentCookie = "convergent=";	
+	var convergentScore = parseInt(getCookies());
 	
 	var recentCookie = "";
 	
@@ -162,6 +166,12 @@
 	engineeringResult = engineeringResult + insideScore*5;
 	mathematicsResult = mathematicsResult + insideScore*10;
 	technologyResult = technologyResult + insideScore*10;
+	
+	//PAGE 5
+	technologyResult = scienceResult + creativeScore*10;
+	scienceResult = scienceResult + creativeScore*10;
+	mathematicsResult = mathematicsResult + convergentScore*10;
+	engineeringResult = engineeringResult + convergentScore*10;
 	
 	//The results are posted
 	if (scienceResult >= technologyResult)
