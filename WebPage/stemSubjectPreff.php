@@ -19,13 +19,6 @@
 	    
 	<script type="text/javascript">
 		
-	/*var now = new Date();
-		now.setTime(now.getTime() + 1 * 24 * 3600 * 1000);
-		document.cookie = "scienceScore=value; expires=" + now.toUTCString() + "; path=/";
-		document.cookie = "technologyScore=value; expires=" + now.toUTCString() + "; path=/";
-		document.cookie = "engineeringScore=value; expires=" + now.toUTCString() + "; path=/";
-		document.cookie = "mathematicsScore=value; expires=" + now.toUTCString() + "; path=/";*/
-		
 	var biologyPage1 = 0;
 	var calculusPage1 = 0;
 	var chemistryPage1 = 0;
@@ -313,8 +306,6 @@ function SetCookies()
 	document.cookie = "chemistry= " + chemistryPage1;
 	document.cookie = "physics= " + physicsPage1;
 	document.cookie = "statistics= " + statisticsPage1;
-	
-	checkCookie();
 }
 
 function getCookie() 
@@ -335,16 +326,6 @@ function getCookie()
         	}
    	}
     	return "";
-}
-				
-function checkCookie() 
-{
-    	var user = getCookie();
-    	if (user != "") 
-	{
-		alert("physics " + user);
-        	//alert(document.getElementById("cal2").src + "Welcome again " + user);
-    	}  
 }
 </script>
 
