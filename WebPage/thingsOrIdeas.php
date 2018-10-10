@@ -320,8 +320,6 @@
 					document.cookie = "hammer= " + hammerPage2;
 					document.cookie = "gear= " + gearPage2;
 					document.cookie = "periodic= " + periodicPage2;	
-					
-					checkCookie();
 				}	
 				
 				function getCookie() 
@@ -339,16 +337,6 @@
    				}
     					return "";
 				}
-				
-				function checkCookie() 
-				{
-    					var user = getCookie();
-    					if (user != "") 
-					{
-        				alert("Welcome again " + user);
-    					}  
-    				}
-				
 			</script>
 		</form>
 
