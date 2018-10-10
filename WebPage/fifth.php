@@ -52,7 +52,7 @@
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves<br /></p></p>
-					<form action="results.php">
+					<form action="results.php" onSubmit="JavaScript:SetCreative()">
             					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
 				</div>
@@ -71,7 +71,7 @@
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves</p>
 					<p>* List to help user define themselves<br /></p>
-					<form action="results.php">
+					<form action="results.php" onSubmit="JavaScript:SetConvergent()">
             					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
 				</div>
