@@ -51,15 +51,6 @@
     			return "";
 		}
 				
-		function checkCookie() 
-		{
-    			var user = getCookie();
-    			if (user != "") 
-			{
-			alert("individual= " + user);
-        		//alert(document.getElementById("cal2").src + "Welcome again " + user);
-    			}  
-		}
 		</script>
 		<div class="header">
 		</div>
