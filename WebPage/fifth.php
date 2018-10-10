@@ -13,23 +13,20 @@
             			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>
+		<img src="../images/STEMblur.png" alt="stem" class="logo">
 		<title>Page 5</title>
 	</head>
-	
 	<body>	
-		<h2>Hover cursor over left and right panel for more info---------------------</h2>
+		<h2>Hover cursor over left and right panel for more info</h2>
 		<div class="container">
 			<div class="leftCard">
-
 				<div class="leftCardFront">
 					<h1>Creative Problem Solver</h1>
-					
 					<img src = "../images/question5/creative.jpg" width = "300px" height = "300px">
 					<div class="content">
 					<p>Are you a creative problem solver? Lets find out!</p>
 					</div>
 				</div>
-				
 				<div class="leftCardBack">
 					<h1>Info</h1>
 					<p>This is the back of card</p>
@@ -40,11 +37,8 @@
             					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
 				</div>
-
 			</div>
-			
 			<div class="rightCard">
-
 				<div class="rightCardFront">
 					<h1>Convergent Problem Solver</h1>
 					<img src = "../images/question5/convergent.jpg" width = "300px" height = "300px">
@@ -52,7 +46,6 @@
 					<p>Or are you a convergent problem solver? Lets see!</p>
 					</div>
 				</div>
-				
 				<div class="rightCardBack">
 					<h1>Info</h1>
 					<p>This is the back of card</p>
@@ -66,5 +59,4 @@
 			</div>
 		</div>		
 	</body>
-	
 </html>
