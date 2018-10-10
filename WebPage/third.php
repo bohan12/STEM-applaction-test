@@ -109,7 +109,7 @@
 				</div>
 				</div>
 				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
-				<button type="submit" formaction="fourth.php">Teamwork</button>
+				<button type="submit" formaction="fourth.php">Choose this option</button>
 				</form>					
 				
 			</div>
