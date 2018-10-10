@@ -2,31 +2,57 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Fifth Page</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link href="../CSS/cssquestione.css" media="screen" rel="stylesheet" type="text/css"/>
-		
-		<div class="header">
-		</div>
 
-		<div class="header2">
-			.<form action="https://www.aut.ac.nz/">
-            			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
-        		</form>
-			<form action="start.php">
-            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
-			</form>
-		</div>	
+		<link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
 
+		<title>Page 5</title>
 	</head>
-	<div class="framedefinition">
-	<body>
-		<img src="../images/STEMblur.png" alt="stem" class="logo">
 	
-	<form action="result.php">
-		<button type="submit" formaction = "result.php">Continue to next page ►</button>
-	</form>
+	<body>	
+		<h2>Hover cursor over left and right panel for more info---------------------</h2>
+		<div class="container">
+			<div class="leftCard">
 
+				<div class="leftCardFront">
+					<h1>Creative Problem Solver</h1>
+					
+					<img src = "creative.jpg" width = "300px" height = "300px">
+					<div class="content">
+					<p>Are you a creative problem solver? Lets find out!</p>
+					</div>
+				</div>
+				
+				<div class="leftCardBack">
+					<h1>Info</h1>
+					<p>This is the back of card</p>
+					<p>* List to help user define themself</p>
+					<p>* List to help user define themself</p>
+					<p>* List to help user define themself<br /></p></p>
+					<button>Click me to choose this Option</button>
+				</div>
+
+			</div>
+			
+			<div class="rightCard">
+
+				<div class="rightCardFront">
+					<h1>Convergent Problem Solver</h1>
+					<img src = "convergent.jpg" width = "300px" height = "300px">
+					<div class="content">
+					<p>Or are you a convergent problem solver? Lets see!</p>
+					</div>
+				</div>
+				
+				<div class="rightCardBack">
+					<h1>Info</h1>
+					<p>This is the back of card</p>
+					<p>* List to help user define themself</p>
+					<p>* List to help user define themself</p>
+					<p>* List to help user define themself<br /></p>
+					<button>Click me to choose this Option</button>
+				</div>
+			</div>
+		</div>		
 	</body>
-	</div>
+	
 </html>
