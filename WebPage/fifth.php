@@ -25,9 +25,9 @@
 				<div class="leftCardBack">
 					<h1>Info</h1>
 					<p>This is the back of card</p>
-					<p>* List to help user define themself</p>
-					<p>* List to help user define themself</p>
-					<p>* List to help user define themself<br /></p></p>
+					<p>* List to help user define themselves</p>
+					<p>* List to help user define themselves</p>
+					<p>* List to help user define themselves<br /></p></p>
 					<button>Click me to choose this Option</button>
 				</div>
 
@@ -46,9 +46,9 @@
 				<div class="rightCardBack">
 					<h1>Info</h1>
 					<p>This is the back of card</p>
-					<p>* List to help user define themself</p>
-					<p>* List to help user define themself</p>
-					<p>* List to help user define themself<br /></p>
+					<p>* List to help user define themselves</p>
+					<p>* List to help user define themselves</p>
+					<p>* List to help user define themselves<br /></p>
 					<button>Click me to choose this Option</button>
 				</div>
 			</div>
