@@ -16,7 +16,7 @@
 				<div class="leftCardFront">
 					<h1>Creative Problem Solver</h1>
 					
-					<img src = "creative.jpg" width = "300px" height = "300px">
+					<img src = "../images/question5/creative.jpg" width = "300px" height = "300px">
 					<div class="content">
 					<p>Are you a creative problem solver? Lets find out!</p>
 					</div>
@@ -37,7 +37,7 @@
 
 				<div class="rightCardFront">
 					<h1>Convergent Problem Solver</h1>
-					<img src = "convergent.jpg" width = "300px" height = "300px">
+					<img src = "../images/question5/convergent.jpg" width = "300px" height = "300px">
 					<div class="content">
 					<p>Or are you a convergent problem solver? Lets see!</p>
 					</div>
