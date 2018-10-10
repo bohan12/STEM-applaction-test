@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-		<link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="../CSS/cssquestione.css" media="screen" rel="stylesheet" type="text/css"/>
 
 		<title>Page 5</title>
 	</head>
