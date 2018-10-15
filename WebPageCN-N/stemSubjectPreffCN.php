@@ -12,8 +12,8 @@
 		.<form action="https://www.aut.ac.nz/">
             	<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         	</form>
-		<form action="start.php">
-            	<button type="submit" formaction = "start.php" style=" margin-top: -24px;" class="buttontitle" >Start Page</button>
+		<form action="startCN.php">
+            	<button type="submit" formaction = "startCN.php" style=" margin-top: -24px;" class="buttontitle" >起始页</button>
 		</form>
 	</div>	
 	    
@@ -55,7 +55,7 @@
 	<img src="../images/STEMblur.png" alt="stem" class="logo">
 	<h1>请对你喜欢的学科进行评级从一颗星到5颗</h1>
 	<h3>5颗星星是你最喜欢的一个学科（限定一个选择）</h3>
-	<h5>现在来点击星星来确定你的选择吧，点击 to be continue 来继续</h5>
+	<h5>现在来点击星星来确定你的选择吧，点击 下一页 来继续</h5>
 <div class="dropdown">
 
 <button onclick="biologyDropdown()" class="dropbtn">Biology</button>
@@ -324,7 +324,7 @@ function getCookie()
 </script>
 
 <form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
-	<button type="submit" formaction = "thingsOrIdeasCN.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
+	<button type="submit" formaction = "thingsOrIdeasCN.php" style="margin-bottom: 100px 0px">下一页 ►</button>
 </form>
 
  </body>
