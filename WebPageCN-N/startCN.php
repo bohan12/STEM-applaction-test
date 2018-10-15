@@ -13,6 +13,9 @@
 			.<form action="https://www.aut.ac.nz/">
             		<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
+			<form action="../WebPage/start.php">
+            		<button type="submit" formaction = "../WebPage/start.php" class="buttontitle" >English Page</button>
+			</form>
 		</div>	
 
 	</head>
