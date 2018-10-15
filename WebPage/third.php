@@ -100,7 +100,7 @@
 				</div>
 				<div class="container1">
 					
-					<img src="../images/question3/individual.png" alt="Avatar" class="image">
+					<img src="../images/question3/teamwork.jpg" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">your like to work with a team. getting everones input when itcomes tp
 						disisions. example of this may include software development. data visulisation
