@@ -80,7 +80,7 @@
 				</div>
 				<div class="container1">
 									
-					<img src="../images/question3/individual.png" alt="Avatar" class="image">
+					<img src="../images/question3/individual.jpg" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">You like to work by yourself, directed by yourself or by the
 						direction of someone else ( manager / leader ). For example
