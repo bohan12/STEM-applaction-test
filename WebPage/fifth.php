@@ -48,10 +48,10 @@
 				</div>
 				<div class="leftCardBack">
 					<h1>Info</h1>
-					<p>This is the back of card</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves<br /></p></p>
+					<p>What does this card mean?</p>
+					<p> - Do you look beyond a problem to suggest a variety of solutions</p>
+					<p> - "Thinking outside the box"</p>
+					<p> - Sherlock Holmes is a good example of this<br /></p></p>
 					<form action="results.php" onSubmit="JavaScript:SetCreative()">
             					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
@@ -67,10 +67,10 @@
 				</div>
 				<div class="rightCardBack">
 					<h1>Info</h1>
-					<p>This is the back of card</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves<br /></p>
+					<p>What does this card mean?</p>
+					<p> - Follow a process that is already defined to find solutions</p>
+					<p> - The ability to give the correct answer to tasks that do not require creativity</p>
+					<p> - "Thinking inside the box"<br /></p>
 					<form action="results.php" onSubmit="JavaScript:SetConvergent()">
             					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
