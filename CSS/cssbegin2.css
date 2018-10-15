@@ -41,51 +41,6 @@ body {
 	margin-top: 0px;
 }
 
-.dropbtn {
-    border-radius: 4px;
-    background-color: #5a3c1e;
-    color: #ffffff;
-    margin-top: 5px;
-    padding: 16px;
-    width: 110px;
-    font-size: 16px;
-    border: 8px;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    color: #ffffff;
-    border-radius: 4px;
-    margin-top: 5px;
-    padding: 16px;
-    width: 400px;
-    height: 150px;
-    font-family: Verdana;
-    font-size: 14px; 
-    display: none;
-    background-color: #364145;
-    overflow: auto;
-    
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #ffffff;
-    margin-top: 5px;
-    padding: 20px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {background-color: #785a3c;}
-
-.show {display: block;}
-
 #total_votes
 {
 	font-size:30px;
@@ -107,7 +62,7 @@ p
 }
 
 button {
-	border-radius: 4px;
+	border-radius: 8px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
@@ -127,7 +82,7 @@ button {
 .buttontitle {
 	float: right;
 	margin-right: 10px;
-	border-radius: 4px;
+	border-radius: 8px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: -8px;
@@ -195,7 +150,7 @@ button {
 	left: 400px;
 }
 .nextpagebutton {
-	border-radius: 4px;
+	border-radius: 8px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
@@ -230,25 +185,8 @@ button {
 		;
 	}
 	
-	.dropdown-content {
-    		width: 270px;
-		font-size: 12px; 
-	}
-	
-	.dropbtn {
-    		border-radius: 4px;
-    		background-color: #5a3c1e;
-    		color: #ffffff;
-    		margin-top: 5px;
-    		padding: 16px;
-   		width: 100px;
-    		font-size: 12px;
-    		border: 8px;
-    		cursor: pointer;
-	}
-	
 	button {
-		border-radius: 4px;
+		border-radius: 8px;
 		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: 5px;
@@ -262,7 +200,7 @@ button {
 	.buttontitle {
 		float: right;
 		margin-right: 5px;
-		border-radius: 4px;
+		border-radius: 8px;
 		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: -8px;
@@ -332,7 +270,7 @@ button {
 	}	
 	
 	.nextpagebutton {
-	border-radius: 4px;
+	border-radius: 8px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
