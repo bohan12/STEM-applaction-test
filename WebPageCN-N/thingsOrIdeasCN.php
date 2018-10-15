@@ -13,8 +13,8 @@
 			.<form action="https://www.aut.ac.nz/">
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
-			<form action="start.php">
-            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
+			<form action="startCN.php">
+            			<button type="submit" formaction = "startCN.php" class="buttontitle" >起始页</button>
 			</form>
 		</div>	
 		
@@ -35,7 +35,7 @@
 			<img src="../images/STEMblur.png" alt="stem" class="logo">
 			<h1>Things or Ideas </h1>
 			<h3>你喜欢什么工作？</h3>
-			<h3> 当你完事了点击 Continue to next page 来继续</h3>
+			<h3> 当你选完了点击下一页来继续</h3>
 			
 			<h5>双击来取消 *你只能选3个选项</h5>
 			
@@ -341,8 +341,8 @@
 		</form>
 
 		
-		<form action="third.php" onSubmit="JavaScript:SetCookies()">
-			<button type="submit" formaction = "thirdCN.php">Continue to next page ►</button>
+		<form action="thirdCN.php" onSubmit="JavaScript:SetCookies()">
+			<button type="submit" formaction = "thirdCN.php">下一页 ►</button>
 			
 		</form>
 
