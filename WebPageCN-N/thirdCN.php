@@ -98,7 +98,7 @@
 				</div>
 				<div class="container1">
 					
-					<img src="../images/question3/individual.png" alt="Avatar" class="image">
+					<img src="../images/question3/teamwork.jpg" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">你喜欢与团队合作。在决策时获得每个人的意见。这方面的例子可能包括软件开发。数据可视化海洋生物学家</div>
 				
