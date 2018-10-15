@@ -31,7 +31,7 @@
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="Mathematics" id="mbuttonhome"></input>
 	
 	    	<form action="stemSubjectPreffCN.php">
-			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreffCN.php">Continue to Next Page ►</button>
+			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreffCN.php">下一页 ►</button>
 		</form>
 
 	</body>
@@ -48,7 +48,7 @@
 			var technology = document.getElementById("tbuttonhome");
     			if (technology.value=="Technology") technology.value = "Technology在 AUT主攻 分析学,  " +
 			"计算机智能化, 计算机科学, 计算机服务, 网络及安全,  " +
-			"and Software Development";
+			"和软件开发";
     			else {
 				technology.value = "Technology";
 			}
