@@ -62,7 +62,7 @@ p
 }
 
 button {
-	border-radius: 8px;
+	border-radius: 16px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
@@ -82,7 +82,7 @@ button {
 .buttontitle {
 	float: right;
 	margin-right: 10px;
-	border-radius: 8px;
+	border-radius: 16px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: -8px;
@@ -150,7 +150,7 @@ button {
 	left: 400px;
 }
 .nextpagebutton {
-	border-radius: 8px;
+	border-radius: 16px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
@@ -186,7 +186,7 @@ button {
 	}
 	
 	button {
-		border-radius: 8px;
+		border-radius: 16px;
 		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: 5px;
@@ -200,7 +200,7 @@ button {
 	.buttontitle {
 		float: right;
 		margin-right: 5px;
-		border-radius: 8px;
+		border-radius: 16px;
 		background-color: #5a3c1e;
 		color: #ffffff;
 		margin-top: -8px;
@@ -270,7 +270,7 @@ button {
 	}	
 	
 	.nextpagebutton {
-	border-radius: 8px;
+	border-radius: 16px;
 	background-color: #5a3c1e;
 	color: #ffffff;
 	margin-top: 5px;
