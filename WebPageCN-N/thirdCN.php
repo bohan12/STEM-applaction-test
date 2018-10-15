@@ -80,7 +80,7 @@
 				</div>
 				<div class="container1">
 									
-					<img src="../images/question3/individual.png" alt="Avatar" class="image">
+					<img src="../images/question3/individual.jpg" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">你喜欢自己指导或由别人指导（经理/领导），这可能包括研究项目或理论工作和土木工程。</div>
 				
