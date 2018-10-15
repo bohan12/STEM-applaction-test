@@ -74,7 +74,7 @@
 		<div class="container">
 			
 			<div class="split Left">
-				<h1><span>Individual</span></h1>
+				<h1><span>个人</span></h1>
 				<div id="individualdesc">
 					鼠标移到图片上看更多信息
 				</div>
@@ -92,9 +92,9 @@
 				
 			</div>
 			<div class="split Right">
-				<h1><span>Team work</span></h1>
+				<h1><span>团队</span></h1>
 				<div id="teamworkdesc">
-					Hover the mouse on the image for more information.
+					鼠标移动到图片上看更多信息。
 				</div>
 				<div class="container1">
 					
