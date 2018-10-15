@@ -184,35 +184,35 @@
 				    scienceResult == mathematicsResult &&
 				    scienceResult == engineeringResult)
 				{
-					document.getElementById('result').innerHTML="<p>Sorry, we could not get a clear "
-					+ "result from your answers</p><p>Please try again or look at the following "
-					+ "pages for more information</p>";
+					document.getElementById('result').innerHTML="<p>抱起我们不能 "
+					+ "得到结果从你的测试</p><p>请再试试 "
+					+ "这页来得到更多信息</p>";
 				}
 				else if (scienceResult == technologyResult)
 				{	
-					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Science or Technology at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 " 
+					+ "科学 或者技术在 AUT</p>";
 					document.getElementById('engineeringlink').style.display='none';
 					document.getElementById('mathematicslink').style.display='none';
 				}
 				else if (scienceResult == engineeringResult)
 				{	
-					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Science or Engineering at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 " 
+					+ "科学或者工程在 AUT</p>";
 					document.getElementById('technologylink').style.display='none';
 					document.getElementById('mathematicslink').style.display='none';
 				}
 				else if (scienceResult == mathematicsResult)
 				{	
-					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Science or Mathematics at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 " 
+					+ "科学或者数学在 AUT</p>";
 					document.getElementById('technologylink').style.display='none';
 					document.getElementById('engineeringlink').style.display='none';
 				}
 				else
 				{
-					document.getElementById('result').innerHTML="<p>You should look into studying "
-					+ "Science at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 "
+					+ "科学在 AUT</p>";
 					document.getElementById('technologylink').style.display='none';
 					document.getElementById('engineeringlink').style.display='none';
 					document.getElementById('mathematicslink').style.display='none';
@@ -220,8 +220,8 @@
 			}
 			else
 			{	
-				document.getElementById('result').innerHTML="<p>You should look into studying "
-				+ "Mathematics at AUT</p>";
+				document.getElementById('result').innerHTML="<p>Y你应该试试 "
+				+ "数学在 AUT</p>";
 				document.getElementById('sciencelink').style.display='none';
 				document.getElementById('technologylink').style.display='none';
 				document.getElementById('engineeringlink').style.display='none';
@@ -232,23 +232,23 @@
 		{
 			if (engineeringResult > mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
+				document.getElementById('result').innerHTML="<p>你应该试试工程在AUT</p>";
 				document.getElementById('sciencelink').style.display='none';
 				document.getElementById('technologylink').style.display='none';
 				document.getElementById('mathematicslink').style.display='none';
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="<p>You should look into studying " 
-				+ "Engineering or Mathematics at AUT</p>";
+				document.getElementById('result').innerHTML="<p>你应该试试 " 
+				+ "工程或者数学在 AUT</p>";
 				document.getElementById('sciencelink').style.display='none';
 				document.getElementById('technologylink').style.display='none';
 			}
 		}
 		else
 		{
-			document.getElementById('result').innerHTML="<p>You should look into studying "
-			+ "Mathematics at AUT</p>";
+			document.getElementById('result').innerHTML="<p>你应该试试 "
+			+ "数学在 AUT</p>";
 			document.getElementById('sciencelink').style.display='none';
 			document.getElementById('technologylink').style.display='none';
 			document.getElementById('engineeringlink').style.display='none';
@@ -262,22 +262,22 @@
 			{	
 				if (technologyResult == engineeringResult)
 				{	
-					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Technology or Engineering at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 " 
+					+ "技术或者工程在 AUT</p>";
 					document.getElementById('sciencelink').style.display='none';
 					document.getElementById('mathematicslink').style.display='none';
 				}
 				else if (technologyResult == mathematicsResult)
 				{	
-					document.getElementById('result').innerHTML="<p>You should look into studying " 
-					+ "Technology or Mathematics at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 " 
+					+ "技术或者数学在 AUT</p>";
 					document.getElementById('sciencelink').style.display='none';
 					document.getElementById('engineeringlink').style.display='none';
 				}
 				else
 				{
-					document.getElementById('result').innerHTML="<p>You should look into studying "
-					+ "Technology at AUT</p>";
+					document.getElementById('result').innerHTML="<p>你应该试试 "
+					+ "技术在AUT</p>";
 					document.getElementById('sciencelink').style.display='none';
 					document.getElementById('engineeringlink').style.display='none';
 					document.getElementById('mathematicslink').style.display='none';
@@ -285,8 +285,8 @@
 			}
 			else
 			{	
-				document.getElementById('result').innerHTML="<p>You should look into studying "
-				+ "Mathematics at AUT</p>";
+				document.getElementById('result').innerHTML="<p>你应该试试 "
+				+ "数学在 AUT</p>";
 				document.getElementById('sciencelink').style.display='none';
 				document.getElementById('technologylink').style.display='none';
 				document.getElementById('engineeringlink').style.display='none';
@@ -297,30 +297,30 @@
 		{
 			if (engineeringResult > mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="<p>You should look into studying Engineering at AUT</p>";
+				document.getElementById('result').innerHTML="<p>你应该试试工程在 AUT</p>";
 				document.getElementById('sciencelink').style.display='none';
 				document.getElementById('technologylink').style.display='none';
 				document.getElementById('mathematicslink').style.display='none';
 			}
 			else if (engineeringResult == mathematicsResult)
 			{
-				document.getElementById('result').innerHTML="<p>You should look into studying " 
-				+ "Engineering or Mathematics at AUT</p>";
+				document.getElementById('result').innerHTML="<p>你应该试试 " 
+				+ "工程和数学在 AUT</p>";
 				document.getElementById('sciencelink').style.display='none';
 				document.getElementById('technologylink').style.display='none';
 			}
 		}
 		else
 		{
-			document.getElementById('result').innerHTML="<p>You should look into studying "
-			+ "Mathematics at AUT</p>";
+			document.getElementById('result').innerHTML="<p>你应该试试"
+			+ "数学在 AUT</p>";
 			document.getElementById('sciencelink').style.display='none';
 			document.getElementById('technologylink').style.display='none';
 			document.getElementById('engineeringlink').style.display='none';
 		}
 	}
 	
-	document.getElementById('scoreTest').innerHTML="<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
-	"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
-	"<p>Mathematics: " + mathematicsResult + "</p>";
+	document.getElementById('scoreTest').innerHTML="<p>Scores:</p><p>科学: " + scienceResult + "</p>" +
+	"<p>技术: " + technologyResult + "</p><p>工程: " + engineeringResult + "</p>" +
+	"<p>数学: " + mathematicsResult + "</p>";
 </script>
