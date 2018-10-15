@@ -83,8 +83,8 @@
 					<img src="../images/question3/individual.jpg" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">You like to work by yourself, directed by yourself or by the
-						direction of someone else ( manager / leader ). For example
-						research projects, therory work or civil engineering.</div>
+						direction of someone else. This includes some 
+						research projects and theory work.</div>
 				
 				</div>
 				</div>
@@ -103,8 +103,7 @@
 					<img src="../images/question3/teamwork.jpg" alt="Avatar" class="image">
 					<div class="overlay">
 					<div class="text">You like to work with a team. Get everyones work when it comes to
-						decisions. For example software development, data visualization and
-						marine biologist.</div>
+						decisions. Examples of this are software development and engineering projects.</div>
 				
 				</div>
 				</div>
