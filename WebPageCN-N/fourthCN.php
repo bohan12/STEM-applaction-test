@@ -47,7 +47,7 @@
 		<h3>选择你喜欢的工作环境<h3>
 		<div class="container">
 			<div class="split left">
-				<h1><span>Outside</span></h1>
+				<h1><span>室外</span></h1>
 				<image src="../images/question4/enviroment.png" style="width:510px;height:274px";>
 				
 				<p>你喜欢在室外工作么？</p>
@@ -57,7 +57,7 @@
 				</form>		
 			</div>
 			<div class="split right">
-				<h1><span>Inside</span></h1>
+				<h1><span>室内</span></h1>
 				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
 				<p>你喜欢室内工作么？</p>
 					
