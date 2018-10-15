@@ -15,6 +15,7 @@
 		<form action="start.php">
             	<button type="submit" formaction = "start.php" style=" margin-top: -24px;" class="buttontitle" >Start Page</button>
 		</form>
+		
 	</div>	
 	    
 	<script type="text/javascript">
