@@ -41,7 +41,7 @@ body {
 }
 
 .dropbtn {
-    border-radius: 4px;
+    border-radius: 16px;
     background-color: #457312;
     color: #ffffff;
     margin-top: 5px;
@@ -90,7 +90,7 @@ p
 }
 
 button {
-	border-radius: 4px;
+	border-radius: 16px;
 	background-color: #457312;
 	color: #ffffff;
 	margin-top: 5px;
@@ -110,7 +110,7 @@ button {
 .buttontitle {
 	float: right;
 	margin-right: 10px;
-	border-radius: 4px;
+	border-radius: 16px;
 	background-color: #457312;
 	color: #ffffff;
 	margin-top: -8px;
@@ -124,7 +124,7 @@ button {
 
 .bottomtext {
 	color: #ffffff;
-	border-radius: 4px;
+	border-radius: 16px;
 	margin-top: 5px;
 	padding: 8px;
 	width: 290px;
@@ -159,7 +159,7 @@ button {
 	}
 	
 	.dropbtn {
-    		border-radius: 4px;
+    		border-radius: 16px;
     		background-color: #457312;
     		color: #ffffff;
     		margin-top: 5px;
@@ -171,7 +171,7 @@ button {
 	}
 	
 	button {
-		border-radius: 4px;
+		border-radius: 16px;
 		background-color: #457312;
 		color: #ffffff;
 		margin-top: 5px;
@@ -185,7 +185,7 @@ button {
 	.buttontitle {
 		float: right;
 		margin-right: 5px;
-		border-radius: 4px;
+		border-radius: 16px;
 		background-color: #457312;
 		color: #ffffff;
 		margin-top: -8px;
