@@ -13,6 +13,9 @@
 			.<form action="https://www.aut.ac.nz/">
             		<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
+			<form action="../WebPageCN-N/startCN.php">
+            		<button type="submit" formaction = "../WebPageCN-N/startCN.php" style=" margin-top: -24px;" class="buttontitle" >中文页面</button>
+			</form>
 		</div>	
 
 	</head>
