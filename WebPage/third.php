@@ -102,8 +102,7 @@
 					
 					<img src="../images/question3/teamwork.jpg" alt="Avatar" class="image">
 					<div class="overlay">
-					<div class="text">You like to work with a team. Get everyones work when it comes to
-						decisions. Examples of this are software development and engineering projects.</div>
+					<div class="text">You like to work with a team. Examples of this are software development and engineering projects.</div>
 				
 				</div>
 				</div>
