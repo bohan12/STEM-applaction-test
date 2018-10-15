@@ -27,7 +27,7 @@
 		{
 			document.cookie = "teamwork= " + teamwork;
 			document.cookie = "individual= " + individual;	
-			alert("setcookies " );
+			
 			getCookies();
 		}
 		function getCookie() 
