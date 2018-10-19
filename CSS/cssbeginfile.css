@@ -285,5 +285,11 @@ button {
 	top: 465px; 
 	left: 10px;
 	}
+	.stembutton{
+		paddding:;
+		padding-left:;
+		width:;
+		height:;
+	}
 	
 }
