@@ -161,8 +161,14 @@ button {
 	cursor: pointer;
 	position: absolute; 
 	top: 675px; 
-	left: 150px;
+	left: 150px;	
 }
+	.stembutton	{
+		paddding:20vh;
+		padding-left:02vw;
+		width:95vw;
+		height:80vh;
+	}
 
 @media screen and (max-width: 768px) {
 	
@@ -285,11 +291,6 @@ button {
 	top: 465px; 
 	left: 10px;
 	}
-	.stembutton{
-		paddding:;
-		padding-left:;
-		width:;
-		height:;
-	}
+
 	
 }
