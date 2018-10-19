@@ -246,7 +246,7 @@ button {
 		white-space: normal;
 		position: absolute; 
 		top: 70vw; 
-		left: 150px;
+		left: 42vw;
 	}
 
 	.ebutton {
@@ -274,7 +274,7 @@ button {
 		white-space: normal;
 		position: absolute; 
 		top: 110vw; 
-		left: 150px;
+		left: 42vw;
 	}	
 	
 	.nextpagebutton {
@@ -288,7 +288,7 @@ button {
 	border: 8px;
 	cursor: pointer;
 	position: absolute; 
-	top: 85vh; 
+	top: 150vw; 
 	left: 10px;
 	}
 
