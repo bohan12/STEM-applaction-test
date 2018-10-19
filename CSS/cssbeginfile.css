@@ -224,14 +224,14 @@ button {
     	background-color: #0064a0;
     	color: #ffffff;
     	padding: 4px;
-		height: 125px;
-    	width: 140px;
+	height: 40vw;
+    	width: 40vw;
     	font-size: 12px;
     	cursor: pointer;
-		white-space: normal;
-		position: absolute; 
-		top: 190px; 
-		left: 10px;
+	white-space: normal;
+	position: absolute; 
+	top: 70vw; 
+	left: 10px;
 		
 	}
 
@@ -239,13 +239,13 @@ button {
     	background-color: #64007f;
     	color: #ffffff;
     	padding: 4px;
-		height: 125px;
-    	width: 140px;
+	height: 40vw;
+    	width: 40vw;
     	font-size: 12px;
     	cursor: pointer;
 		white-space: normal;
 		position: absolute; 
-		top: 190px; 
+		top: 70vw; 
 		left: 150px;
 	}
 
@@ -253,13 +253,13 @@ button {
     	background-color: #a05000;
     	color: #ffffff;
     	padding: 4px;
-		height: 125px;
-    	width: 140px;
+	height: 40vw;
+    	width: 40vw;
     	font-size: 12px;
     	cursor: pointer;
 		white-space: normal;
 		position: absolute; 
-		top: 315px; 
+		top: 110vw; 
 		left: 10px;
 	}
 
@@ -267,13 +267,13 @@ button {
     	background-color: #a00000;
     	color: #ffffff;
     	padding: 4px;
-		height: 125px;
-    	width: 140px;
+	height: 40vw;
+    	width: 40vw;
     	font-size: 12px;
     	cursor: pointer;
 		white-space: normal;
 		position: absolute; 
-		top: 315px; 
+		top: 110vw; 
 		left: 150px;
 	}	
 	
