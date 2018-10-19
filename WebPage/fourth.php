@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Outside</span></h1>
-				<image src="../images/question4/enviroment.png" style="width:510px;height:274px";>
+				<image class ="imageoutside" src="../images/question4/enviroment.png" style="width:510px;height:274px";>
 				
 				<p>You prefer to work outside in nature or at a construction site</p>
 				
@@ -58,7 +58,7 @@
 			</div>
 			<div class="split right">
 				<h1><span>Inside</span></h1>
-				<image src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
+				<image class="imageinside" src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
 				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
 				<form action="fifth.php "onSubmit="JavaScript:SetInside()">
