@@ -26,12 +26,13 @@
 		<h1>Click on the buttons to get more information</h1>
 		<h3>When ready click on  Continue to next page to begin</h3> 
 		<h3>Once you start the test you cant go back</h3>
-		
+		<div>
 		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Science" id="sbuttonhome"></input>
 		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="Technology" id="tbuttonhome"></input>
 		<br/>
 		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="Engineering" id="ebuttonhome"></input>
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="Mathematics" id="mbuttonhome"></input>
+		</div>	
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreff.php">Continue to Next Page ►</button>
