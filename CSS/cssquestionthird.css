@@ -258,6 +258,38 @@ btn {
 		border: 8px;
 		cursor: pointer;
 	}
+	.split.Left {
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	flex-grow: 1;
+	background-color: #dddd44;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+	
+
+}
+
+.split.Left:hover {
+	width: 100%;
+}
+
+.split.Right {
+  
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	flex-grow: 1;
+	background-color: #dd4444;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+}
+
+.split.Right:hover {
+	width: 100%;
+}
 	
 	.buttontitle {
 		float: right;
