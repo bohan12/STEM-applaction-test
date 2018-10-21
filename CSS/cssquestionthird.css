@@ -213,8 +213,8 @@ btn {
 		border-radius: 16px;
 		background-color: #4f1852;
 		color: #ffffff;
-		padding: 16px;
-		width: 240px;
+		padding: 0px;
+		width: -webkit-fill-available;
 		font-size: 14px;
 		border: 8px;
 		cursor: pointer;
