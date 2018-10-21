@@ -95,7 +95,7 @@
 				<h1><span>Team work</span></h1>
 				<div class= "imageteam">
 					<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:100%;height:100%; object-fit:contain>
-					<div class="textteam">	
+				         <div class="textteam">	
 			       		 <p> You like to work with a team. Examples of this are software development and engineering projects. </p>
 					</div>
 				</div>
