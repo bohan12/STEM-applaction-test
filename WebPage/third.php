@@ -77,9 +77,9 @@
 				<h1><span>Individual</span></h1>
 				
 				
-					<div class="image">				
+					<div class="imageindividual">				
 					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:80%;height:80%; object-fit:contain">
-					<div class="text">
+					<div class="textindividual">
 					<p>You like to work by yourself, directed by yourself or by the
 						direction of someone else. This includes some 
 						research projects and theory work.</p>
@@ -93,14 +93,14 @@
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-				<div class="image">
+				<div class="imageteam">
 				<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:100%;height:100%; object-fit:contain>
-				<div class="text">	
+				<div class="textteam">	
 			        <p>You like to work with a team. Examples of this are software development and engineering projects.</p>
 				</div>
 				</div>
 				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
-				<button type="submit" formaction="fourth.php" >Choose this option</button>
+				<button type="submit" formaction="fourth.php" object-fit:contain>Choose this option</button>
 			</form>
 			</div>	
 		</div>
