@@ -79,7 +79,7 @@
 				
 					<div class="image">				
 					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:80%;height:80%; object-fit:contain">
-					<div class="split left">
+					<div class="text">
 					<p>You like to work by yourself, directed by yourself or by the
 						direction of someone else. This includes some 
 						research projects and theory work.</p>
