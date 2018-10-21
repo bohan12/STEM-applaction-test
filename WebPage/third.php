@@ -96,7 +96,7 @@
 
 				
 					
-					<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:400px;height:500px;">
+					<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:100%;height:100%; object-fit:contain">
 					
 			<p>You like to work with a team. Examples of this are software development and engineering projects.</p>
 				
