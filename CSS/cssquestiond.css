@@ -170,7 +170,15 @@ btn {
 
 }
 */
+.imageoutside{
+	height : 30vw;
+	width : 50vw;
+}
 
+.imageinside{
+	height : 30vw;
+	width:50vw;
+}
 
 
 @media screen and (max-width: 768px) {
