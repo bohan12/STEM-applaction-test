@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>Outside</span></h1>
-				<image class ="imageoutside" src="../images/question4/enviroment.png" style="width:510px;height:274px";>
+				<image class ="imageoutside" src="../images/question4/enviroment.png" ;>
 				
 				<p>You prefer to work outside in nature or at a construction site</p>
 				
