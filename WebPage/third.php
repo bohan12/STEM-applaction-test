@@ -93,20 +93,15 @@
 			</div>
 			<div class="split right">
 				<h1><span>Team work</span></h1>
-
-				
-					
-					<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:100%;height:100%; object-fit:contain">
-					
-			<p>You like to work with a team. Examples of this are software development and engineering projects.</p>
-				
-				
-				
-				
+				<div class="image">
+				<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:100%;height:100%; object-fit:contain">
+				<div class="text">	
+			        <p>You like to work with a team. Examples of this are software development and engineering projects.</p>
+				</div>
+				</div>
 				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
 				<button type="submit" formaction="fourth.php">Choose this option</button>
 				</form>					
-			</div>	
 			</div>
 		</body>
 	</div>
