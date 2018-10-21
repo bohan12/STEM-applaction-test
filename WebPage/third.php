@@ -77,14 +77,14 @@
 				<h1><span>Individual</span></h1>
 				
 				
-									
-					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:400px;height:500px;">
-					
+					<div class="image">				
+					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:80%;height:80%; object-fit:contain">
+					<div class="split left">
 					<p>You like to work by yourself, directed by yourself or by the
 						direction of someone else. This includes some 
 						research projects and theory work.</p>
-				
-				
+					</div>
+					</div>
 				
 				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
 				<button type="submit" formaction="fourth.php">Choose this option</button>
