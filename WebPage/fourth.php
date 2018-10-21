@@ -58,7 +58,7 @@
 			</div>
 			<div class="split right">
 				<h1><span>Inside</span></h1>
-				<image class="imageinside" src="../images/question4/webwxgetmsgimg.jpg" style= "width:510px;height:274px";>
+				<image class="imageinside" src="../images/question4/webwxgetmsgimg.jpg" ;>
 				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
 				<form action="fifth.php "onSubmit="JavaScript:SetInside()">
