@@ -169,7 +169,14 @@ h1 span {
 btn {
 }
 */
-
+.imageindividual{
+	height:400px;
+	width:-webkit-fill-available;
+}
+.imageteam{
+	height:400px;
+	width:-webkit-fill-available;
+}
 
 
 @media screen and (max-width: 768px) {
