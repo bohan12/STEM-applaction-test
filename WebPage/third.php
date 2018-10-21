@@ -98,6 +98,7 @@
 				         <div class="textteam">	
 			       		 <p> You like to work with a team. Examples of this are software development and engineering projects. </p>
 					</div>
+					</div>
 				</div>
 				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
 				<button type="submit" formaction="fourth.php" object-fit:contain>Choose this option</button>
