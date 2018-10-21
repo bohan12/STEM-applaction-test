@@ -1,13 +1,13 @@
 {box-sizing: border-box;}
 
 .header {
-  background-color: #D93B20;
+  background-color: #4f1852;
   height: 70px;
 }
 
 .header2 {
-  background-color: #F26522;
-  color: #F26522;
+  background-color: #753b76;
+  color: #753b76;
   height: 70px;
 }
 
@@ -27,7 +27,7 @@ div {
 }
 
 body {
-    background: #FFFFFF;
+    background: #964b98;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -49,7 +49,7 @@ p
 
 button {
 	border-radius: 16px;
-	background-color: #D93B20;
+	background-color: #4f1852;
 	color: #ffffff;
 	padding: 16px;
 	width: 240px;
@@ -69,7 +69,7 @@ button {
 		float: right;
 		margin-right: 10px;
 		border-radius: 16px;
-		background-color: #D93B20;
+		background-color: #4f1852;
 		color: #ffffff;
 		margin-top: -8px;
 		padding: 0px;
@@ -90,66 +90,27 @@ button {
 	display:flex;
 
 } 
-.container1{
- position: relative;
-  width: 50%;
-}
 
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.container1:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 4vmin;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.split.Left {
+.split.left {
 	padding: 20px;
-	width: 50%;
+	width: 20%;
 	text-align: center;
 	flex-grow: 1;
-	background-color: #dddd44;
+	background-color: #4444dd;
 	background-size: cover;
 	background-position: center;
 	transition: 1s;
-	
 
 }
 
-.split.Left:hover {
+.split.left:hover {
 	width: 100%;
 }
 
-.split.Right {
+.split.right {
   
 	padding: 20px;
-	width: 50%;
+	width: 20%;
 	text-align: center;
 	flex-grow: 1;
 	background-color: #dd4444;
@@ -158,7 +119,7 @@ button {
 	transition: 1s;
 }
 
-.split.Right:hover {
+.split.right:hover {
 	width: 100%;
 }
 
@@ -166,7 +127,7 @@ h1 {
 	
 	color: #000000;	
 	font-family: Verdana;
-	font-size: 36px; 
+	font-size: 24px; 
 	background: rgba(0,0,0,.8);
 	transition: .5s;
 }
@@ -175,31 +136,32 @@ h1 span {
 	background: rgba(255,255,255,0);
 	width: 100%;
 	transition: 1s;
-	color: #fff;
-	padding: 25px 20px:
-	text-transform: uppercase;
+	color: #ffffff;
+	padding: 10px 10px;
 	letter-spacing: 2px;
 }
 
-.split.Left:hover h1 span {
+.split.left:hover h1 span {
 	color: #262626;
 	background: rgba(255,255,255,.8);
-	letter-spacing: 10px;
+	letter-spacing: 8px;
+	font-size: 36px; 
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
-.split.Left:hover h1 {
+.split.left:hover h1 {
 	background: rgba(0,0,0,0);
 }
 
-.split.Right:hover h1 span {
+.split.right:hover h1 span {
 	color: #262626;
 	background: rgba(255,255,255,.8);
-	letter-spacing: 10px;
+	letter-spacing: 8px;
+	font-size: 36px; 
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
-.split.Right:hover h1 {
+.split.right:hover h1 {
 	background: rgba(0,0,0,0);
 }
 
@@ -212,9 +174,8 @@ btn {
 
 @media screen and (max-width: 768px) {
 	
-	
 	.header {
-  		background-color: #D93B20;
+  		background-color: #4f1852;
  		height: 0px;
 	}
 	
@@ -238,7 +199,7 @@ btn {
 	
 	.dropbtn {
     		border-radius: 16px;
-    		background-color: #D93B20;
+    		background-color: #4f1852;
     		color: #ffffff;
     		margin-top: 5px;
     		padding: 16px;
@@ -250,7 +211,7 @@ btn {
 	
 	button {
 		border-radius: 16px;
-		background-color: #D93B20;
+		background-color: #4f1852;
 		color: #ffffff;
 		padding: 16px;
 		width: 240px;
@@ -258,44 +219,30 @@ btn {
 		border: 8px;
 		cursor: pointer;
 	}
-	.split.Left {
-	padding: 20px;
-	width: 50%;
-	text-align: center;
-	flex-grow: 1;
-	background-color: #dddd44;
-	background-size: cover;
-	background-position: center;
-	transition: 1s;
 	
-
-}
-
-.split.Left:hover {
-	width: 100%;
-}
-
-.split.Right {
-  
-	padding: 20px;
-	width: 50%;
-	text-align: center;
-	flex-grow: 1;
-	background-color: #dd4444;
-	background-size: cover;
-	background-position: center;
-	transition: 1s;
-}
-
-.split.Right:hover {
-	width: 100%;
-}
+	h1 {
+		color: #000000;	
+		font-family: Verdana;
+		font-size: 12px; 
+		background: rgba(0,0,0,.8);
+		transition: .5s;
+	}
+	
+	h1 span {
+		background: rgba(255,255,255,0);
+		width: 100%;
+		transition: 1s;
+		color: #ffffff;
+		font-size: 12px; 
+		padding: 10px 10px;
+		letter-spacing: 1px;
+	}
 	
 	.buttontitle {
 		float: right;
 		margin-right: 5px;
 		border-radius: 16px;
-		background-color: #D93B20;
+		background-color: #4f1852;
 		color: #ffffff;
 		margin-top: -8px;
 		padding: 0px;
@@ -304,5 +251,26 @@ btn {
 		font-size: 12px;
 		border: 8px;
 		cursor: pointer;
+	}
+	
+	.split.left:hover h1 span
+	{
+		color: #262626;
+		font-size: 14px; 
+		letter-spacing: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	}
+
+	.split.left:hover h1 
+	{
+		background: rgba(0,0,0,0);
+	}
+
+.split.right:hover h1 span 
+	{
+		color: #262626;
+		font-size: 14px; 
+		letter-spacing: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	}
 }
