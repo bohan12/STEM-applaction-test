@@ -60,7 +60,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
+            			<button type="submit" formaction = "startCN.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
 
