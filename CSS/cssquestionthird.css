@@ -280,4 +280,44 @@ btn {
 		letter-spacing: 4px;
 		box-shadow: 0 5px 15px rgba(0,0,0,.5);
 	}
+	.imageindividual{
+	height:400px;
+	width:-webkit-fill-available;
+}
+.imageteam{
+	height:250px;
+	width:-webkit-fill-available;
+}
+.split.left {
+	padding: 20px;
+	width: 30%;
+	text-align: center;
+	flex-grow: 1;
+	background-color: #4444dd;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+
+}
+
+.split.left:hover {
+	width: 100%;
+}
+
+.split.right {
+  
+	padding: 20px;
+	width: 30%;
+	text-align: center;
+	flex-grow: 1;
+	background-color: #dd4444;
+	background-size: cover;
+	background-position: center;
+	transition: 1s;
+}
+
+.split.right:hover {
+	width: 100%;
+}
+
 }
