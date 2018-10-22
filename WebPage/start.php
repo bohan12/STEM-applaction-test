@@ -16,7 +16,7 @@
 			<form action="../WebPageCN-N/startCN.php">
             		<button type="submit" formaction = "../WebPageCN-N/startCN.php" class="buttontitle" >中文页面</button>
 			</form>
-			<button id="myBtn">Open Modal</button>
+			<button id="myBtn">?</button>
 			<div id="myModal" class="modal">
   				<div class="modal-content">
    					<span class="close">&times;</span>
