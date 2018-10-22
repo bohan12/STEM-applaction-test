@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Third Page</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link href="../CSS/cssquestionthird.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="../CSS/cssquestionthird.css" media="screen" rel="stylesheet" type="text/css" media="all" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript">
 			
@@ -59,8 +59,8 @@
 			.<form action="https://www.aut.ac.nz/">
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
-			<form action="startCN.php">
-            			<button type="submit" formaction = "startCN.php" class="buttontitle" >起始页</button>
+			<form action="start.php">
+            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
 
@@ -73,42 +73,36 @@
 		
 		<div class="container">
 			
-			<div class="split Left">
+			<div class="split left">
 				<h1><span>个人</span></h1>
-				<div id="individualdesc">
-					鼠标移到图片上看更多信息
-				</div>
-				<div class="container1">
-									
-					<img src="../images/question3/individual.jpg" alt="Avatar" class="image">
-					<div class="overlay">
-					<div class="text">你喜欢自己指导或由别人指导（经理/领导），这可能包括研究项目或理论工作和土木工程。</div>
 				
-				</div>
-				</div>
-				<form action="fourthCN.php" onSubmit="JavaScript:SetIndividual()">
-				<button type="submit" formaction="fourthCN.php">选择</button>
+				
+					<div class="imageindividual">				
+					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:60%;height:60%; object-fit:contain">
+					<div class="textindividual">
+					<p>你喜欢自己指导或由别人指导（经理/领导），这可能包括研究项目或理论工作和土木工程。</p>
+					</div>
+					</div>
+				
+				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
+				<button type="submit" formaction="fourth.php" object-fit:contain>Choose this option</button>
 				</form>					
 				
 			</div>
-			<div class="split Right">
+			<div class="split right">
 				<h1><span>团队</span></h1>
-				<div id="teamworkdesc">
-					鼠标移动到图片上看更多信息。
+				<div class= "imageteam">
+					<img src="../images/question3/teamwork.jpg" alt="Avatar" style="width:60%;height:60%; object-fit:contain">
+				         <div class="textteam">	
+			       		 <p> 你喜欢与团队合作。在决策时获得每个人的意见。这方面的例子可能包括软件开发。数据可视化海洋生物学家。 </p>
+					</div>
 				</div>
-				<div class="container1">
-					
-					<img src="../images/question3/teamwork.jpg" alt="Avatar" class="image">
-					<div class="overlay">
-					<div class="text">你喜欢与团队合作。在决策时获得每个人的意见。这方面的例子可能包括软件开发。数据可视化海洋生物学家</div>
 				
-				</div>
-				</div>
-				<form action="fourthCN.php" onSubmit="JavaScript:SetTeamwork()">
-				<button type="submit" formaction="fourthCN.php">选择</button>
-				</form>					
-				
-			</div>
+				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
+				<button type="submit" formaction="fourth.php" object-fit:contain>Choose this option</button>
+				</form>
+			</div>	
+		</div>
 		</body>
 	</div>
 </html>
