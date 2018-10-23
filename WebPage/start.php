@@ -16,14 +16,14 @@
 			<form action="../WebPageCN-N/startCN.php">
             		<button type="submit" formaction = "../WebPageCN-N/startCN.php" class="buttontitle" >中文页面</button>
 			</form>
-			/* protype help buttion*/
+			/* protype help buttion
 		//	<button id="myBtn" class="buttonquestion">?</button>
 		//	<div id="myModal" class="modal">
   		//		<div class="modal-content">
    		//			<span class="close">&times;</span>
     		//			<p>Some text in the Modal</p>
   		//		</div>
-			</div>
+			</div>*/
 		</div>	
 	</head>
 	<div class="framedefinition">
@@ -33,10 +33,7 @@
 		<h1>Click on the buttons to get more information</h1>
 		<h3>When ready click on  Continue to next page to begin</h3> 
 		<h3>Once you start the test you cant go back</h3>
-		<div>
-		<P>*Please note: this is only to give you a brief overview of the area of STEM 
-			that you might want to look into. Not give you the courses to choose.</p>
-		</div>
+		
 	</div>
 		<div class="stembutton">
 		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Science" id="sbuttonhome"></input>
@@ -45,6 +42,11 @@
 		<input onclick="EngineeringDesc()" type="button" class="ebutton" value="Engineering" id="ebuttonhome"></input>
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="Mathematics" id="mbuttonhome"></input>
 		</div>	
+
+<div class="container">
+		<P>*Please note: this is only to give you a brief overview of the area of STEM 
+			that you might want to look into. Not give you the courses to choose.</p>
+		</div>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreff.php">Continue to Next Page ►</button>
