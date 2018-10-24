@@ -1,5 +1,5 @@
 <html>
 <?php
-  header("location:WebPage/start.PHP");
+  header("location:WebPage/start.php");
 ?>
 </html>
