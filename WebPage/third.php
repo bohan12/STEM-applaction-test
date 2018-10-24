@@ -78,7 +78,7 @@
 				
 				
 					<div class="imageindividual">				
-					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:60%;height:60%; object-fit:contain">
+					<img src="../images/question3/individual.jpg" alt="Avatar" style="width:60%;height:30%; object-fit:contain">
 					<div class="textindividual">
 					<p>You like to work by yourself, directed by yourself or by the
 						direction of someone else. This includes some 
