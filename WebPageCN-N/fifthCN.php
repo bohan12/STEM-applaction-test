@@ -49,9 +49,9 @@
 				<div class="leftCardBack">
 					<h1>信息</h1>
 					<p>后面</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves<br /></p></p>
+					<p>* 你是否是能够快速的解决各种问题？</p>
+					<p>* 不会被框架限制的思想</p>
+					<p>* 福尔摩斯就是个很好的例子<br /></p></p>
 					<form action="resultsCN.php" onSubmit="JavaScript:SetCreative()">
             					<button type="submit" formaction = "resultCN.php" class="buttontitle" >下一页 ►</button>
 					</form>
@@ -68,9 +68,9 @@
 				<div class="rightCardBack">
 					<h1>信息</h1>
 					<p>后面</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves</p>
-					<p>* List to help user define themselves<br /></p>
+					<p>* 照着已有的方案去解决问题</p>
+					<p>* 可以回答不需要创造思维的问题</p>
+					<p>* 在规章制度内去考虑问题<br /></p>
 					<form action="resultsCN.php" onSubmit="JavaScript:SetConvergent()">
             					<button type="submit" formaction = "resultCN.php" class="buttontitle" >下一页 ►</button>
 					</form>
