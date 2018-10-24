@@ -33,6 +33,10 @@
 		<h1>Click on the buttons to get more information</h1>
 		<h3>When ready click on  Continue to next page to begin</h3> 
 		<h3>Once you start the test you cant go back</h3>
+		<div class="container">
+		<P>*Please note: this is only to give you a brief overview of the area of STEM 
+			that you might want to look into. Not give you the courses to choose.</p>
+		</div>
 		
 	</div>
 		<div class="stembutton">
@@ -43,10 +47,6 @@
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="Mathematics" id="mbuttonhome"></input>
 		</div>	
 
-<div class="container">
-		<P>*Please note: this is only to give you a brief overview of the area of STEM 
-			that you might want to look into. Not give you the courses to choose.</p>
-		</div>
 	
 	    	<form action="stemSubjectPreff.php">
 			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreff.php">Continue to Next Page ►</button>
