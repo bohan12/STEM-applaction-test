@@ -280,7 +280,7 @@ button {
     	cursor: pointer;
 	white-space: normal;
 	position: absolute; 
-	top: 70vw; 
+	top: 83vw; 
 	left: 10px;
 		
 	}
@@ -295,7 +295,7 @@ button {
     	cursor: pointer;
 		white-space: normal;
 		position: absolute; 
-		top: 70vw; 
+		top: 83vw; 
 		left: 45vw;
 	}
 
@@ -309,7 +309,7 @@ button {
     	cursor: pointer;
 		white-space: normal;
 		position: absolute; 
-		top: 112vw; 
+		top: 125vw; 
 		left: 10px;
 	}
 
@@ -323,7 +323,7 @@ button {
     	cursor: pointer;
 		white-space: normal;
 		position: absolute; 
-		top: 112vw; 
+		top: 125vw; 
 		left: 45vw;
 	}	
 	
@@ -338,7 +338,7 @@ button {
 	border: 8px;
 	cursor: pointer;
 	position: absolute; 
-	top: 150vw; 
+	top: 166vw; 
 	left: 10px;
 	}
 
