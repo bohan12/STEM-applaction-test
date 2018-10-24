@@ -84,8 +84,8 @@
 					</div>
 					</div>
 				
-				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
-				<button type="submit" formaction="fourth.php" object-fit:contain>选择此选项</button>
+				<form action="fourthCN.php" onSubmit="JavaScript:SetIndividual()">
+				<button type="submit" formaction="fourthCN.php" object-fit:contain>选择此选项</button>
 				</form>					
 				
 			</div>
@@ -98,8 +98,8 @@
 					</div>
 				</div>
 				
-				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
-				<button type="submit" formaction="fourth.php" object-fit:contain>选择此选项</button>
+				<form action="fourthCN.php" onSubmit="JavaScript:SetTeamwork()">
+				<button type="submit" formaction="fourthCN.php" object-fit:contain>选择此选项</button>
 				</form>
 			</div>	
 		</div>
