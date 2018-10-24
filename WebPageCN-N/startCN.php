@@ -26,6 +26,7 @@
 		<h1>点击下列按钮会显示更多信息</h1>
 		<h3>当你准备好了点击下一页的按钮</h3> 
 		<h3>当你开始了就不能再回来了，做好准备。</h3>
+		<p>* 请注意这只是给你一个STEM简短的概述</p>
 		
 		<input onclick="ScienceDesc()" type="button" class="sbutton" value="Science" id="sbuttonhome"></input>
 		<input onclick="TechnologyDesc()" type="button" class="tbutton" value="Technology" id="tbuttonhome"></input>
