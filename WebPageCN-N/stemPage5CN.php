@@ -10,7 +10,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            			<button type="submit" formaction = "startCN.php" class="buttontitle" >起始页</button>
+            			<button type="submit" formaction = "stemPageStartCN.php" class="buttontitle" >起始页</button>
 			</form>
 		</div>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
@@ -72,7 +72,7 @@
 					<p>* 可以回答不需要创造思维的问题</p>
 					<p>* 在规章制度内去考虑问题<br /></p>
 					<form action="resultsCN.php" onSubmit="JavaScript:SetConvergent()">
-            					<button type="submit" formaction = "resultCN.php" class="buttontitle" >下一页 ►</button>
+            					<button type="submit" formaction = "stemPageResultCN.php" class="buttontitle" >下一页 ►</button>
 					</form>
 				</div>
 			</div>
