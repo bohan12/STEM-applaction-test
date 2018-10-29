@@ -15,7 +15,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
+            			<button type="submit" formaction = "stemPageStart.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
 
@@ -53,7 +53,7 @@
 				<p>You prefer to work outside in nature or at a construction site</p>
 				
 				<form action="fifth.php" onSubmit="JavaScript:SetOutside()">
-				<button type="submit" formaction="fifth.php" align="middle">Select this option</button>
+				<button type="submit" formaction="stemPage5.php" align="middle">Select this option</button>
 				</form>		
 			</div>
 			<div class="split right">
@@ -62,7 +62,7 @@
 				<p>You prefer to work inside at an office with a computer or customer.</p>
 					
 				<form action="fifth.php "onSubmit="JavaScript:SetInside()">
-				<button type="submit" formaction="fifth.php" align="middle">Select this option</button>
+				<button type="submit" formaction="stemPage5.php" align="middle">Select this option</button>
 				</form>	
 			</div>
 		</div>
