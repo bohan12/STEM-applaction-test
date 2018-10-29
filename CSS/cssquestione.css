@@ -352,8 +352,8 @@ img {
 	}
 	
 	.container {
-		height: 100vw;
-		width: 160vw;
+		height: 60vw;
+		width: 100vw;
 		margin: 40px auto 0 auto;   
 		background-color: #e30613;
 		box-sizing: border-box;
