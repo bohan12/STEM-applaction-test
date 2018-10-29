@@ -73,7 +73,7 @@
 					<p> - The ability to give the correct answer to tasks that do not require creativity</p>
 					<p> - "Thinking inside the box"<br /></p>
 					<form action="results.php" onSubmit="JavaScript:SetConvergent()">
-            					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
+            					<button type="submit" formaction = "result.php" class="button" >Continue to next page ►</button>
 					</form>
 				</div>
 			</div>
