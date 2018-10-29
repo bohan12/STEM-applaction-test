@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link href="../CSS/cssresult.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="../CSS/stemPageResult.css" media="screen" rel="stylesheet" type="text/css"/>
 		
 		<div class="header">
 		</div>
@@ -13,7 +13,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="startCN.php">
-            			<button type="submit" formaction = "startCN.php" class="buttontitle" >起始页</button>
+            			<button type="submit" formaction = "stemPageStartCN.php" class="buttontitle" >起始页</button>
 			</form>
 		</div>	
 
