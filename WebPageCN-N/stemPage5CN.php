@@ -53,7 +53,7 @@
 					<p>* 不会被框架限制的思想</p>
 					<p>* 福尔摩斯就是个很好的例子<br /></p></p>
 					<form action="resultsCN.php" onSubmit="JavaScript:SetCreative()">
-            					<button type="submit" formaction = "resultCN.php" class="buttontitle" >下一页 ►</button>
+            					<button type="submit" formaction = "stemPageResultCN.php" class="buttontitle" >下一页 ►</button>
 					</form>
 				</div>
 			</div>
