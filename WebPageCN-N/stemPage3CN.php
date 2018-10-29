@@ -60,7 +60,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            			<button type="submit" formaction = "startCN.php" class="buttontitle" >Start Page</button>
+            			<button type="submit" formaction = "stemPageStartCN.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
 
@@ -99,7 +99,7 @@
 				</div>
 				
 				<form action="fourthCN.php" onSubmit="JavaScript:SetTeamwork()">
-				<button type="submit" formaction="fourthCN.php" object-fit:contain>选择此选项</button>
+				<button type="submit" formaction="stemPage4.php" object-fit:contain>选择此选项</button>
 				</form>
 			</div>	
 		</div>
