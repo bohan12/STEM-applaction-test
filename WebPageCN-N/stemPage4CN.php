@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="split left">
 				<h1><span>室外</span></h1>
-				<image src="../images/question4/enviroment.png" ;>
+				<image class="imageoutside" src="../images/question4/enviroment.png" ;>
 				
 				<p>你喜欢在室外工作么？</p>
 				
@@ -58,7 +58,7 @@
 			</div>
 			<div class="split right">
 				<h1><span>室内</span></h1>
-				<image src="../images/question4/webwxgetmsgimg.jpg" ;>
+				<image class="imageinside" src="../images/question4/webwxgetmsgimg.jpg" ;>
 				<p>你喜欢室内工作么？</p>
 					
 				<form action="fifthCN.php "onSubmit="JavaScript:SetInside()">
