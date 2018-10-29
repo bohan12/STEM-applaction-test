@@ -13,7 +13,7 @@
             	<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         	</form>
 		<form action="startCN.php">
-            	<button type="submit" formaction = "stemPageStartCN.php" style=" margin-top: -24px;" class="buttontitle" >起始页</button>
+            	<button type="submit" formaction = "stemPageStartCN.php" class="buttontitle" >起始页</button>
 		</form>
 	</div>	
 	    
