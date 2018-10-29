@@ -54,7 +54,7 @@
 					<p> - "Thinking outside the box"</p>
 					<p> - Sherlock Holmes is a good example of this<br /></p></p>
 					<form action="results.php" onSubmit="JavaScript:SetCreative()">
-            					<button type="submit" formaction = "stemPageResult.php" class="buttontitle" >Continue to next page ►</button>
+            					<button type="submit" formaction = "stemPageResult.php" class="button" >Continue to next page ►</button>
 					</form>
 				</div>
 			</div>
