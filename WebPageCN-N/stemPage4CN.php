@@ -53,7 +53,7 @@
 				<p>你喜欢在室外工作么？</p>
 				
 				<form action="fifthCN.php" onSubmit="JavaScript:SetOutside()">
-				<button type="submit" formaction="fifthCN.php" align="middle">选择</button>
+				<button type="submit" formaction="stemPage5CN.php" align="middle">选择</button>
 				</form>		
 			</div>
 			<div class="split right">
