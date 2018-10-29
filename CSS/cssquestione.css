@@ -4,6 +4,7 @@
  	background-color: #7b0400;
  	height: 70px;
 	display: flex;
+	justify-content:flex-end;
 }
 
 .header2 {
@@ -11,6 +12,7 @@
  	color: #ae0f0a;
  	height: 70px;
 	display: flex;
+	justify-content:flex-end;
 }
 
 .framedefinition {
