@@ -13,7 +13,7 @@
             	<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         	</form>
 		<form action="start.php">
-            	<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
+            	<button type="submit" formaction = "stemPageStart.php" class="buttontitle" >Start Page</button>
 		</form>
 		
 	</div>	
@@ -331,7 +331,7 @@ function getCookie()
 </script>
 
 <form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
-	<button type="submit" formaction = "thingsOrIdeas.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
+	<button type="submit" formaction = "stemPage2.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
  </body>
