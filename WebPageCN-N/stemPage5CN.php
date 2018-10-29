@@ -53,7 +53,7 @@
 					<p>* 不会被框架限制的思想</p>
 					<p>* 福尔摩斯就是个很好的例子<br /></p></p>
 					<form action="resultsCN.php" onSubmit="JavaScript:SetCreative()">
-            					<button type="submit" formaction = "stemPageResultCN.php" class="buttontitle" >下一页 ►</button>
+            					<button type="submit" formaction = "stemPageResultCN.php" class="button" >下一页 ►</button>
 					</form>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 					<p>* 可以回答不需要创造思维的问题</p>
 					<p>* 在规章制度内去考虑问题<br /></p>
 					<form action="resultsCN.php" onSubmit="JavaScript:SetConvergent()">
-            					<button type="submit" formaction = "stemPageResultCN.php" class="buttontitle" >下一页 ►</button>
+            					<button type="submit" formaction = "stemPageResultCN.php" class="button" >下一页 ►</button>
 					</form>
 				</div>
 			</div>
