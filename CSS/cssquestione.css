@@ -3,13 +3,14 @@
 .header {
  	background-color: #7b0400;
  	height: 70px;
+	display: flex;
 }
 
 .header2 {
  	background-color: #ae0f0a;
  	color: #ae0f0a;
  	height: 70px;
-	margin-right: -20px;
+	display: flex;
 }
 
 .framedefinition {
