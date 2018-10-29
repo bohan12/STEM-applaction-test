@@ -136,8 +136,8 @@ button {
 }
 
 .container {
-	height: 600px;
-	width: 1000px;
+	height: 70vw;
+	width: 100vw;
 	margin: 40px auto 0 auto;   
 	background-color: #e30613;
 	box-sizing: border-box;
@@ -318,11 +318,11 @@ img {
     		background-color: #e7e5e4;
     		text-shadow: 
       		1px -1px 0 #767676, 
-      		-1px 2px 1px #737272, 
-     		-2px 4px 1px #767474, 
-      		-3px 6px 1px #787777, 
-      		-4px 8px 1px #7b7a7a
-      		/*-5px 10px 1px #7f7d7d, 
+      		-1px 0px 1px #737272, 
+     		-2px 1px 1px #767474
+      		/*-3px 2px 1px #787777, 
+      		-4px 3px 1px #7b7a7a,
+      		-5px 10px 1px #7f7d7d, 
       		-6px 12px 1px #828181, 
       		-7px 14px 1px #868585, 
       		-8px 16px 1px #8b8a89, 
@@ -356,7 +356,7 @@ img {
 	}
 	
 	.container {
-		height: 60vw;
+		height: 80vw;
 		width: 100vw;
 		margin: 40px auto 0 auto;   
 		background-color: #e30613;
