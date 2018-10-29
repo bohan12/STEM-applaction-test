@@ -1,14 +1,20 @@
 {box-sizing: border-box;}
 
 .header {
-  background-color: #457312;
-  height: 70px;
+  	background-color: #457312;
+  	height: 70px;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
 }
 
 .header2 {
-  background-color: #5c9021;
-  color: #5c9021;
-  height: 70px;
+  	background-color: #5c9021;
+  	color: #5c9021;
+  	height: 70px;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
 }
 
 .framedefinition {
