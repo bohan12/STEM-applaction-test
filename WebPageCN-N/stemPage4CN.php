@@ -15,7 +15,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="startCN.php">
-            			<button type="submit" formaction = "startCN.php" class="buttontitle" >起始页</button>
+            			<button type="submit" formaction = "stemPageStartCN.php" class="buttontitle" >起始页</button>
 			</form>
 		</div>	
 
@@ -62,7 +62,7 @@
 				<p>你喜欢室内工作么？</p>
 					
 				<form action="fifthCN.php "onSubmit="JavaScript:SetInside()">
-				<button type="submit" formaction="fifthCN.php" align="middle">选择</button>
+				<button type="submit" formaction="stemPage5CN.php" align="middle">选择</button>
 				</form>	
 			</div>
 		</div>
