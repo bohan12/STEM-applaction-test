@@ -305,7 +305,7 @@ img {
 	
 	.container {
 		height: 1200px;
-		width: 1000px;
+		width: 500px;
 		display: flex;
 		align-items:flex-end;
 	}
