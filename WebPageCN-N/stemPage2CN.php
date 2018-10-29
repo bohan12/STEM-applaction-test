@@ -14,7 +14,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="startCN.php">
-            			<button type="submit" formaction = "startCN.php" class="buttontitle" >起始页</button>
+            			<button type="submit" formaction = "stemPageStartCN.php" class="buttontitle" >起始页</button>
 			</form>
 		</div>	
 		
@@ -342,7 +342,7 @@
 
 		
 		<form action="thirdCN.php" onSubmit="JavaScript:SetCookies()">
-			<button type="submit" formaction = "thirdCN.php">下一页 ►</button>
+			<button type="submit" formaction = "stemPage3CN.php">下一页 ►</button>
 			
 		</form>
 
