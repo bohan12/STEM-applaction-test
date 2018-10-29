@@ -137,8 +137,8 @@ button {
 }
 
 .container {
-	height: 60vw;
-	width: 100vw;
+	height: 50vw;
+	width: 70vw;
 	margin: 40px auto 0 auto;   
 	background-color: #e30613;
 	box-sizing: border-box;
