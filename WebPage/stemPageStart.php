@@ -14,7 +14,7 @@
             		<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="../WebPageCN-N/startCN.php">
-            		<button type="submit" formaction = "../WebPageCN-N/startCN.php" class="buttontitle" >中文页面</button>
+            		<button type="submit" formaction = "../WebPageCN-N/stemPageStartCN.php" class="buttontitle" >中文页面</button>
 			</form>
 		<!---	 prototype help buttion
 			<button id="myBtn" class="buttonquestion">?</button>
@@ -49,7 +49,7 @@
 
 	
 	    	<form action="stemSubjectPreff.php">
-			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreff.php">Continue to Next Page ►</button>
+			<button type="submit" class="nextpagebutton" formaction = "stemPage1.php">Continue to Next Page ►</button>
 		</form>
 
 	</body>
