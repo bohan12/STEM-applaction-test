@@ -1,5 +1,5 @@
 <html>
 <?php
-  header("location:WebPage/start.php");
+  header("location:WebPage/stemPageStart.php");
 ?>
 </html>
