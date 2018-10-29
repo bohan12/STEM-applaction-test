@@ -161,7 +161,7 @@ button {
  	position: relative;
 }
 
-.leftCard:click {
+.leftCard:after {
 	transform: rotateY(180deg);
 }
 
@@ -178,7 +178,7 @@ button {
 
 
 
-.rightCard:click {
+.rightCard:after {
 	transform: rotateY(180deg);
 }
 
