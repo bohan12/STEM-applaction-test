@@ -1,8 +1,8 @@
-INDEX: Red
+INDEX: Brown
 
-DARK: #7b0400
-MED: #ae0f0a
-LIGHT: #e30613
+DARK: #5a3c1e
+MED: #785a3c
+LIGHT: #96785a
 
 PAGE 1: Blue
 
@@ -28,11 +28,11 @@ DARK: #4f1852
 MED: #753b76
 LIGHT: #964b98
 
-PAGE 5: Brown
+PAGE 5: Red
 
-DARK: #5a3c1e
-MED: #785a3c
-LIGHT: #96785a
+DARK: #7b0400
+MED: #ae0f0a
+LIGHT: #e30613
 
 RESULT: Gold
 
