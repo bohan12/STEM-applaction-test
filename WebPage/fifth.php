@@ -37,7 +37,7 @@
 		}
 	</script>
 	<body>	
-		<h2>Hover cursor over left and right panel for more info</h2>
+		<h3>Hover cursor over left and right panel for more info</h3>
 		<div class="container">
 			<div class="leftCard">
 				<div class="leftCardFront">
