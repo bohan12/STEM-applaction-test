@@ -60,7 +60,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
+            			<button type="submit" formaction = "stemPageStart.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>	
 
@@ -87,7 +87,7 @@
 					</div>
 				
 				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
-				<button type="submit" formaction="fourth.php" object-fit:contain>Choose this option</button>
+				<button type="submit" formaction="stemPage4.php" object-fit:contain>Choose this option</button>
 				</form>					
 				
 			</div>
@@ -101,7 +101,7 @@
 				</div>
 				
 				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
-				<button type="submit" formaction="fourth.php" object-fit:contain>Choose this option</button>
+				<button type="submit" formaction="stemPage4.php" object-fit:contain>Choose this option</button>
 				</form>
 			</div>	
 		</div>
