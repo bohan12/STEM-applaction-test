@@ -307,7 +307,7 @@ img {
 		font-family: Verdana;
 		text-transform: uppercase;
 		letter-spacing: 1.5px;
-		font-size: 24px; 
+		font-size: 16px; 
 		transition: .5s;
 		color: #131313;
     		background-color: #e7e5e4;
@@ -344,17 +344,15 @@ img {
 		;
 	}
 	
-	.div p
-	{
-		margin:0px;
-		font-size:16px;
-		text-align:left;
-		color:#E6E6E6;
+	p { 	
+      		text-align: center; 
+		font-size: 12px;
+		font-family: Helvetica;
 	}
 	
 	.container {
-		height: 400px;
-		width: 600px;
+		height: 300px;
+		width: 300px;
 		margin: 40px auto 0 auto;   
 		background-color: #e30613;
 		box-sizing: border-box;
