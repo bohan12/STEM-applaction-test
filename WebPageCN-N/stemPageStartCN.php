@@ -14,7 +14,7 @@
             		<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="../WebPage/start.php">
-            		<button type="submit" formaction = "../WebPage/start.php" class="buttontitle" >English Page</button>
+            		<button type="submit" formaction = "../WebPage/stemPageStart.php" class="buttontitle" >English Page</button>
 			</form>
 		</div>	
 
@@ -35,7 +35,7 @@
 		<input onclick="MathematicsDesc()" type="button" class="mbutton" value="Mathematics" id="mbuttonhome"></input>
 	
 	    	<form action="stemSubjectPreffCN.php">
-			<button type="submit" class="nextpagebutton" formaction = "stemSubjectPreffCN.php">下一页 ►</button>
+			<button type="submit" class="nextpagebutton" formaction = "stemPage1CN.php">下一页 ►</button>
 		</form>
 
 	</body>
