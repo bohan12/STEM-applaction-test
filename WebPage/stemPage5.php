@@ -11,7 +11,7 @@
             			<button type="submit" formaction = "https://www.aut.ac.nz/" class="buttontitle" >AUT Homepage</button>
         		</form>
 			<form action="start.php">
-            			<button type="submit" formaction = "start.php" class="buttontitle" >Start Page</button>
+            			<button type="submit" formaction = "stemPageStart.php" class="buttontitle" >Start Page</button>
 			</form>
 		</div>
 		<img src="../images/STEMblur.png" alt="stem" class="logo">
@@ -54,7 +54,7 @@
 					<p> - "Thinking outside the box"</p>
 					<p> - Sherlock Holmes is a good example of this<br /></p></p>
 					<form action="results.php" onSubmit="JavaScript:SetCreative()">
-            					<button type="submit" formaction = "result.php" class="buttontitle" >Continue to next page ►</button>
+            					<button type="submit" formaction = "stemPageResult.php" class="buttontitle" >Continue to next page ►</button>
 					</form>
 				</div>
 			</div>
@@ -73,7 +73,7 @@
 					<p> - The ability to give the correct answer to tasks that do not require creativity</p>
 					<p> - "Thinking inside the box"<br /></p>
 					<form action="results.php" onSubmit="JavaScript:SetConvergent()">
-            					<button type="submit" formaction = "result.php" class="button" >Continue to next page ►</button>
+            					<button type="submit" formaction = "stemPageResult.php" class="button" >Continue to next page ►</button>
 					</form>
 				</div>
 			</div>
