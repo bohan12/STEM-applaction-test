@@ -3,7 +3,6 @@
 .header {
  	background-color: #7b0400;
  	height: 70px;
-	margin-right: -20px;
 }
 
 .header2 {
@@ -354,7 +353,7 @@ img {
 	
 	.container {
 		height: 300px;
-		width: 300px;
+		width: 500px;
 		margin: 40px auto 0 auto;   
 		background-color: #e30613;
 		box-sizing: border-box;
