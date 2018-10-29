@@ -161,7 +161,7 @@ button {
  	position: relative;
 }
 
-.leftCard:hover {
+.leftCard:click {
 	transform: rotateY(180deg);
 }
 
@@ -178,7 +178,7 @@ button {
 
 
 
-.rightCard:hover {
+.rightCard:click {
 	transform: rotateY(180deg);
 }
 
@@ -264,7 +264,7 @@ h1 {
       	-1px 2px 1px #737272, 
      	-2px 4px 1px #767474, 
       	-3px 6px 1px #787777, 
-      	-4px 8px 1px #7b7a7a, 
+      	/*-4px 8px 1px #7b7a7a, 
       	-5px 10px 1px #7f7d7d, 
       	-6px 12px 1px #828181, 
       	-7px 14px 1px #868585, 
@@ -288,7 +288,8 @@ h1 {
       	-25px 50px 1px #dbdad9, 
       	-26px 52px 1px #dfdddc, 
       	-27px 54px 1px #e2e0df, 
-      	-28px 56px 1px #e4e3e2;
+      	-28px 56px 1px #e4e3e2*/
+	;
 }
 
 p { 	
