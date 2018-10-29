@@ -303,6 +303,17 @@ img {
 
 @media screen and (max-width: 768px) {
 	
+	.rightCard {
+	display: block
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	border-radius: 10px;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+	}
+	
+	
 	.container {
 		display: flex;
 	}
