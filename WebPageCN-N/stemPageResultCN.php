@@ -126,20 +126,20 @@
 	
 	//PAGE 1
 	
-	scienceResult = scienceResult + (biologyScore*2 - 2);
-	mathematicsResult = mathematicsResult + (calculusScore*2 - 2);
-	engineeringResult = engineeringResult + (calculusScore - 1);
-	scienceResult = scienceResult + (chemistryScore*2 - 2);
-	scienceResult = scienceResult + (physicsScore - 1);
-	engineeringResult = engineeringResult + (physicsScore - 1);
-	technologyResult = technologyResult + (physicsScore - 1);
-	mathematicsResult = mathematicsResult + (statisticsScore - 1);
+	scienceResult = scienceResult + (biologyScore);
+	mathematicsResult = mathematicsResult + (calculusScore);
+	engineeringResult = engineeringResult + (calculusScore*0.5);
+	scienceResult = scienceResult + (chemistryScore);
+	scienceResult = scienceResult + (physicsScore*0.5);
+	engineeringResult = engineeringResult + (physicsScore*0.5);
+	technologyResult = technologyResult + (physicsScore*0.5);
+	mathematicsResult = mathematicsResult + (statisticsScore*1.5);
 	
 	//PAGE 2
 	
-	technologyResult = technologyResult + computerScore*6;
+	technologyResult = technologyResult + computerScore*12;
 	mathematicsResult = mathematicsResult + pythagorasScore*4;
-	engineeringResult = mathematicsResult + pythagorasScore*2;
+	engineeringResult = engineeringResult + pythagorasScore*2;
 	scienceResult = scienceResult + cellScore*6;
 	scienceResult = scienceResult + appleScore*4;
 	engineeringResult = engineeringResult + appleScore*2;
@@ -149,8 +149,8 @@
 	engineeringResult = engineeringResult + hammerScore*6;
 	engineeringResult = engineeringResult + gearScore*4;
 	technologyResult = technologyResult + gearScore*2;
-	scienceResult = scienceResult + periodicScore*5;
-	mathematicsResult = mathematicsResult + periodicScore;
+	scienceResult = scienceResult + periodicScore*4;
+	mathematicsResult = mathematicsResult + periodicScore*2;
 	
 	//PAGE 3
 	mathematicsResult = mathematicsResult + individualScore*10;
@@ -162,16 +162,20 @@
 	//PAGE 4
 	scienceResult = scienceResult + outsideScore*5;
 	engineeringResult = engineeringResult + outsideScore*10;
-	scienceResult = scienceResult + insideScore*10;
-	engineeringResult = engineeringResult + insideScore*5;
+	scienceResult = scienceResult + insideScore*5;
 	mathematicsResult = mathematicsResult + insideScore*10;
 	technologyResult = technologyResult + insideScore*10;
 	
 	//PAGE 5
-	technologyResult = scienceResult + creativeScore*10;
+	technologyResult = technologyResult + creativeScore*10;
 	scienceResult = scienceResult + creativeScore*10;
 	mathematicsResult = mathematicsResult + convergentScore*10;
 	engineeringResult = engineeringResult + convergentScore*10;
+	
+	Math.trunc(scienceResult);
+	Math.trunc(technologyResult);
+	Math.trunc(engineeringResult);
+	Math.trunc(mathematicsResult);
 	
 	//The results are posted
 	if (scienceResult >= technologyResult)
@@ -320,7 +324,13 @@
 		}
 	}
 	
+	//Code here can be commented back in for the Chinese version by deleting /* and */ below
+	
+	/*
+	
 	document.getElementById('scoreTest').innerHTML="<p>Scores:</p><p>科学: " + scienceResult + "</p>" +
 	"<p>技术: " + technologyResult + "</p><p>工程: " + engineeringResult + "</p>" +
 	"<p>数学: " + mathematicsResult + "</p>";
+	
+	*/
 </script>
