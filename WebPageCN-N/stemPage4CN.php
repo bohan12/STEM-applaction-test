@@ -52,7 +52,7 @@
 				
 				<p>你喜欢在室外工作么？</p>
 				
-				<form action="fifthCN.php" onSubmit="JavaScript:SetOutside()">
+				<form action="stemPage5CN.php" onSubmit="JavaScript:SetOutside()">
 				<button type="submit" formaction="stemPage5CN.php" align="middle">选择</button>
 				</form>		
 			</div>
@@ -61,7 +61,7 @@
 				<image class="imageinside" src="../images/question4/webwxgetmsgimg.jpg" ;>
 				<p>你喜欢室内工作么？</p>
 					
-				<form action="fifthCN.php "onSubmit="JavaScript:SetInside()">
+				<form action="stemPage5CN.php "onSubmit="JavaScript:SetInside()">
 				<button type="submit" formaction="stemPage5CN.php" align="middle">选择</button>
 				</form>	
 			</div>
