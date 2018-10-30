@@ -28,29 +28,7 @@
 			document.cookie = "teamwork= " + teamwork;
 			document.cookie = "individual= " + individual;	
 			
-			getCookies();
-		}
-		function getCookie() 
-		{
-		//var name = "biology";
-			alert("get cookies " );
-			var name = "individual";
-			var ca = document.cookie.split(';');
-			for(var i = 0; i < ca.length; i++) 
-			{
-				var c = ca[i];
-        			while (c.charAt(0) == ' ')
-				{
-           				c = c.substring(1);
-       				}
-       	 			if (c.indexOf(name) == 0) 
-				{
-        	    			return c.substring(name.length, c.length);
-        			}
-   			}
-    			return "";
-		}
-				
+		}				
 		</script>
 		<div class="header">
 		</div>
@@ -86,7 +64,7 @@
 					</div>
 					</div>
 				
-				<form action="fourth.php" onSubmit="JavaScript:SetIndividual()">
+				<form action="stemPage4.php" onSubmit="JavaScript:SetIndividual()">
 				<button type="submit" formaction="stemPage4.php" object-fit:contain>Choose this option</button>
 				</form>					
 				
@@ -100,7 +78,7 @@
 					</div>
 				</div>
 				
-				<form action="fourth.php" onSubmit="JavaScript:SetTeamwork()">
+				<form action="stemPage4.php" onSubmit="JavaScript:SetTeamwork()">
 				<button type="submit" formaction="stemPage4.php" object-fit:contain>Choose this option</button>
 				</form>
 			</div>	
