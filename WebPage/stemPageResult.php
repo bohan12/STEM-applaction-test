@@ -163,7 +163,6 @@
 	scienceResult = scienceResult + outsideScore*5;
 	engineeringResult = engineeringResult + outsideScore*10;
 	scienceResult = scienceResult + insideScore*5;
-	engineeringResult = engineeringResult + insideScore*5;
 	mathematicsResult = mathematicsResult + insideScore*10;
 	technologyResult = technologyResult + insideScore*10;
 	
