@@ -303,7 +303,7 @@ function SetStars()
 	}
 }
 	
-function SetCookies 
+function SetCookies()
 {
 	document.cookie = "biology= " + biologyPage1;
 	document.cookie = "calculus= " + calculusPage1;
