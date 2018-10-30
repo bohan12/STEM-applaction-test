@@ -165,7 +165,7 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 </br>
 
-<script>
+<script type="text/javascript">
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function biologyDropdown() {
