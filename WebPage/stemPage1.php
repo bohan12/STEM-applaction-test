@@ -3,6 +3,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>First Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="../CSS/stemPage1.css" media="screen" rel="stylesheet" type="text/css" media="all" />
 	    
 	<div class="header">
