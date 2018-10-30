@@ -301,6 +301,7 @@ function SetStars()
 	{
 		++statisticsPage1;
 	}
+	SetCookies();
 }
 	
 function SetCookies()
