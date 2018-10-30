@@ -98,7 +98,7 @@
 					</div>
 				</div>
 				
-				<form action="fourthCN.php" onSubmit="JavaScript:SetTeamwork()">
+				<form action="stemPage4CN.php" onSubmit="JavaScript:SetTeamwork()">
 				<button type="submit" formaction="stemPage4CN.php" object-fit:contain>选择此选项</button>
 				</form>
 			</div>	
