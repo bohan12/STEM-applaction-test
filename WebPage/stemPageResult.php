@@ -169,7 +169,7 @@
 	
 	//PAGE 5
 	technologyResult = technologyResult + creativeScore*10;
-	scienceResult = scienceResult + scienceResult * (creativeScore*20.53);
+	scienceResult = scienceResult + (scienceResult * creativeScore*20.53);
 	mathematicsResult = mathematicsResult + convergentScore*10;
 	engineeringResult = engineeringResult + convergentScore*10;
 	
