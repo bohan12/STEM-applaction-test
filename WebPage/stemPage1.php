@@ -334,7 +334,7 @@ function GetCookies()
 }
 </script>
 
-<form action="stemPage2.php" onSubmit="JavaScript:SetCookies()">
+<form action="stemPage2.php" onSubmit="JavaScript:SetStars()">
 	<button type="submit" formaction = "stemPage2.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
