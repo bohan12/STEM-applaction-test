@@ -198,103 +198,103 @@ window.onclick = function(event) {
 }
 function SetCookies()
 {
-	if(document.getElementById("bio1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#bio1").attr("src")=="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#bio2").attr("src")=="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#bio3").attr("src")=="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#bio4").attr("src")=="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("bio5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#bio5").attr("src")=="../images/question1/staron.png")
 	{
 		++biologyPage1;
 	}
-	if(document.getElementById("cal1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#cal1").attr("src")=="../images/question1/staron.png")
 	{
 		++calculusPage1;
 	}
-	if(document.getElementById("cal2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#cal2").attr("src")=="../images/question1/staron.png")
 	{
 		++calculusPage1;
 	}
-	if(document.getElementById("cal3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#cal3").attr("src")=="../images/question1/staron.png")
 	{
 		++calculusPage1;
 	}
-	if(document.getElementById("cal4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#cal4").attr("src")=="../images/question1/staron.png")
 	{
 		++calculusPage1;
 	}
-	if(document.getElementById("cal5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#cal5").attr("src")=="../images/question1/staron.png")
 	{
 		++calculusPage1;
 	}
-	if(document.getElementById("che1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#che1").attr("src")=="../images/question1/staron.png")
 	{
 		++chemistryPage1;
 	}
-	if(document.getElementById("che2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#che2").attr("src")=="../images/question1/staron.png")
 	{
 		++chemistryPage1;
 	}
-	if(document.getElementById("che3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#che3").attr("src")=="../images/question1/staron.png")
 	{
 		++chemistryPage1;
 	}
-	if(document.getElementById("che4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#che4").attr("src")=="../images/question1/staron.png")
 	{
 		++chemistryPage1;
 	}
-	if(document.getElementById("che5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#che5").attr("src")=="../images/question1/staron.png")
 	{
 		++chemistryPage1;
 	}
-	if(document.getElementById("phy1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#phy1").attr("src")=="../images/question1/staron.png")
 	{
 		++physicsPage1;
 	}
-	if(document.getElementById("phy2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#phy2").attr("src")=="../images/question1/staron.png")
 	{
 		++physicsPage1;
 	}
-	if(document.getElementById("phy3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#phy3").attr("src")=="../images/question1/staron.png")
 	{
 		++physicsPage1;
 	}
-	if(document.getElementById("phy4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#phy4").attr("src")=="../images/question1/staron.png")
 	{
 		++physicsPage1;
 	}
-	if(document.getElementById("phy5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#phy5").attr("src")=="../images/question1/staron.png")
 	{
 		++physicsPage1;
 	}
-	if(document.getElementById("sta1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#sta1").attr("src")=="../images/question1/staron.png")
 	{
 		++statisticsPage1;
 	}
-	if(document.getElementById("sta2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#sta2").attr("src")=="../images/question1/staron.png")
 	{
 		++statisticsPage1;
 	}
-	if(document.getElementById("sta3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#sta3").attr("src")=="../images/question1/staron.png")
 	{
 		++statisticsPage1;
 	}
-	if(document.getElementById("sta4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#sta4").attr("src")=="../images/question1/staron.png")
 	{
 		++statisticsPage1;
 	}
-	if(document.getElementById("sta5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	if($("#sta5").attr("src")=="../images/question1/staron.png")
 	{
 		++statisticsPage1;
 	}
