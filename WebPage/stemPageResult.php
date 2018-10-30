@@ -173,6 +173,11 @@
 	mathematicsResult = mathematicsResult + convergentScore*10;
 	engineeringResult = engineeringResult + convergentScore*10;
 	
+	Math.trunc(scienceResult);
+	Math.trunc(technologyResult);
+	Math.trunc(engineeringResult);
+	Math.trunc(mathematicsResult);
+	
 	//The results are posted
 	if (scienceResult >= technologyResult)
 	{
