@@ -139,7 +139,7 @@
 	
 	technologyResult = technologyResult + computerScore*12;
 	mathematicsResult = mathematicsResult + pythagorasScore*4;
-	engineeringResult = mathematicsResult + pythagorasScore*2;
+	engineeringResult = engineeringResult + pythagorasScore*2;
 	scienceResult = scienceResult + cellScore*6;
 	scienceResult = scienceResult + appleScore*4;
 	engineeringResult = engineeringResult + appleScore*2;
