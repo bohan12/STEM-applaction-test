@@ -199,7 +199,7 @@ window.onclick = function(event) {
   }
 }
 
-function SetCookies()
+function SetStars()
 {
 	if($("#bio1").attr("src")=="../images/question1/staron.png")
 	{
@@ -220,7 +220,7 @@ function SetCookies()
 	if($("#bio5").attr("src")=="../images/question1/staron.png")
 	{
 		++biologyPage1;
-	}
+	}	
 	if($("#cal1").attr("src")=="../images/question1/staron.png")
 	{
 		++calculusPage1;
@@ -301,7 +301,10 @@ function SetCookies()
 	{
 		++statisticsPage1;
 	}
+}
 	
+function SetCookies 
+{
 	document.cookie = "biology= " + biologyPage1;
 	document.cookie = "calculus= " + calculusPage1;
 	document.cookie = "chemistry= " + chemistryPage1;
@@ -309,7 +312,7 @@ function SetCookies()
 	document.cookie = "statistics= " + statisticsPage1;
 }
 
-function getCookie() 
+function GetCookies() 
 {
 	//var name = "biology";
 	var name = "physics";
