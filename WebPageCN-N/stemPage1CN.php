@@ -323,7 +323,7 @@ function getCookie()
 }
 </script>
 
-<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
+<form action="stemPage2CN.php" onSubmit="JavaScript:SetCookies()">
 	<button type="submit" formaction = "stemPage2CN.php" style="margin-bottom: 100px 0px">下一页 ►</button>
 </form>
 
