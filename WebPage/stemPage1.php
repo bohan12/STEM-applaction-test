@@ -17,6 +17,39 @@
 		</form>
 		
 	</div>	
+	    
+	<script type="text/javascript">
+		
+	var biologyPage1 = 0;
+	var calculusPage1 = 0;
+	var chemistryPage1 = 0;
+	var physicsPage1 = 0;
+	var statisticsPage1 = 0;
+	
+	function change(id)
+  	{
+		if(document.getElementById(id+"_hidden").value == 5)
+		{
+			document.getElementById("bio5").src="../images/question1/staroff.png";
+			document.getElementById("cal5").src="../images/question1/staroff.png";
+			document.getElementById("che5").src="../images/question1/staroff.png";
+			document.getElementById("phy5").src="../images/question1/staroff.png";
+			document.getElementById("sta5").src="../images/question1/staroff.png";
+		}
+    		var cname=document.getElementById(id).className;
+    		var ab=document.getElementById(id+"_hidden").value;
+    		document.getElementById(cname+"rating").innerHTML=ab;
+    		for(var i=ab;i>=1;i--)
+   		{
+    			document.getElementById(cname+i).src="../images/question1/staron.png";
+    		}
+    		var id=parseInt(ab)+1;
+   		for(var j=id;j<=5;j++)
+   		{
+   			document.getElementById(cname+j).src="../images/question1/staroff.png";
+   		}
+  	}
+	</script>
 </head>
 <div class="framedefinition">
 <body>
@@ -132,40 +165,9 @@ It has two major branches, differential calculus, and integral calculus; these t
 
 </br>
 
-<script type="text/javascript">
+<script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-	
-var biologyPage1 = 0;
-var calculusPage1 = 0;
-var chemistryPage1 = 0;
-var physicsPage1 = 0;
-var statisticsPage1 = 0;
-	
-function change(id)
-{
-	if(document.getElementById(id+"_hidden").value == 5)
-	{
-		document.getElementById("bio5").src="../images/question1/staroff.png";
-		document.getElementById("cal5").src="../images/question1/staroff.png";
-		document.getElementById("che5").src="../images/question1/staroff.png";
-		document.getElementById("phy5").src="../images/question1/staroff.png";
-		document.getElementById("sta5").src="../images/question1/staroff.png";
-	}
-    	var cname=document.getElementById(id).className;
-    	var ab=document.getElementById(id+"_hidden").value;
-    	document.getElementById(cname+"rating").innerHTML=ab;
-    	for(var i=ab;i>=1;i--)
-   	{
-    		document.getElementById(cname+i).src="../images/question1/staron.png";
-    	}
-    	var id=parseInt(ab)+1;
-   	for(var j=id;j<=5;j++)
-   	{
-   		document.getElementById(cname+j).src="../images/question1/staroff.png";
-   	}
-  }
-	
 function biologyDropdown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
@@ -181,11 +183,9 @@ function physicsDropdown() {
 function statisticsDropdown() {
     document.getElementById("myDropdown5").classList.toggle("show");
 }
-
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
-
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
@@ -196,122 +196,116 @@ window.onclick = function(event) {
     }
   }
 }
-
-function SetStars()
-{
-	if($("#bio1").attr("src")=="../images/question1/staron.png")
-	{
-		++biologyPage1;
-	}
-	if($("#bio2").attr("src")=="../images/question1/staron.png")
-	{
-		++biologyPage1;
-	}
-	if($("#bio3").attr("src")=="../images/question1/staron.png")
-	{
-		++biologyPage1;
-	}
-	if($("#bio4").attr("src")=="../images/question1/staron.png")
-	{
-		++biologyPage1;
-	}
-	if($("#bio5").attr("src")=="../images/question1/staron.png")
-	{
-		++biologyPage1;
-	}	
-	if($("#cal1").attr("src")=="../images/question1/staron.png")
-	{
-		++calculusPage1;
-	}
-	if($("#cal2").attr("src")=="../images/question1/staron.png")
-	{
-		++calculusPage1;
-	}
-	if($("#cal3").attr("src")=="../images/question1/staron.png")
-	{
-		++calculusPage1;
-	}
-	if($("#cal4").attr("src")=="../images/question1/staron.png")
-	{
-		++calculusPage1;
-	}
-	if($("#cal5").attr("src")=="../images/question1/staron.png")
-	{
-		++calculusPage1;
-	}
-	if($("#che1").attr("src")=="../images/question1/staron.png")
-	{
-		++chemistryPage1;
-	}
-	if($("#che2").attr("src")=="../images/question1/staron.png")
-	{
-		++chemistryPage1;
-	}
-	if($("#che3").attr("src")=="../images/question1/staron.png")
-	{
-		++chemistryPage1;
-	}
-	if($("#che4").attr("src")=="../images/question1/staron.png")
-	{
-		++chemistryPage1;
-	}
-	if($("#che5").attr("src")=="../images/question1/staron.png")
-	{
-		++chemistryPage1;
-	}
-	if($("#phy1").attr("src")=="../images/question1/staron.png")
-	{
-		++physicsPage1;
-	}
-	if($("#phy2").attr("src")=="../images/question1/staron.png")
-	{
-		++physicsPage1;
-	}
-	if($("#phy3").attr("src")=="../images/question1/staron.png")
-	{
-		++physicsPage1;
-	}
-	if($("#phy4").attr("src")=="../images/question1/staron.png")
-	{
-		++physicsPage1;
-	}
-	if($("#phy5").attr("src")=="../images/question1/staron.png")
-	{
-		++physicsPage1;
-	}
-	if($("#sta1").attr("src")=="../images/question1/staron.png")
-	{
-		++statisticsPage1;
-	}
-	if($("#sta2").attr("src")=="../images/question1/staron.png")
-	{
-		++statisticsPage1;
-	}
-	if($("#sta3").attr("src")=="../images/question1/staron.png")
-	{
-		++statisticsPage1;
-	}
-	if($("#sta4").attr("src")=="../images/question1/staron.png")
-	{
-		++statisticsPage1;
-	}
-	if($("#sta5").attr("src")=="../images/question1/staron.png")
-	{
-		++statisticsPage1;
-	}
-	SetCookies();
-}
-	
 function SetCookies()
 {
+	if(document.getElementById("bio1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById("bio2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById("bio3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById("bio4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById("bio5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++biologyPage1;
+	}
+	if(document.getElementById("cal1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById("cal2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById("cal3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById("cal4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById("cal5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++calculusPage1;
+	}
+	if(document.getElementById("che1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById("che2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById("che3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById("che4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById("che5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++chemistryPage1;
+	}
+	if(document.getElementById("phy1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById("phy2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById("phy3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById("phy4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById("phy5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++physicsPage1;
+	}
+	if(document.getElementById("sta1").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById("sta2").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById("sta3").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById("sta4").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	if(document.getElementById("sta5").src=="https://stemapplactiontest.herokuapp.com/images/question1/staron.png")
+	{
+		++statisticsPage1;
+	}
+	
 	document.cookie = "biology= " + biologyPage1;
 	document.cookie = "calculus= " + calculusPage1;
 	document.cookie = "chemistry= " + chemistryPage1;
 	document.cookie = "physics= " + physicsPage1;
 	document.cookie = "statistics= " + statisticsPage1;
 }
-
-function GetCookies() 
+function getCookie() 
 {
 	//var name = "biology";
 	var name = "physics";
@@ -332,7 +326,7 @@ function GetCookies()
 }
 </script>
 
-<form action="stemPage2.php" onSubmit="JavaScript:SetStars()">
+<form action="thingsOrIdeas.php" onSubmit="JavaScript:SetCookies()">
 	<button type="submit" formaction = "stemPage2.php" style="margin-bottom: 100px 0px">Continue to next page ►</button>
 </form>
 
