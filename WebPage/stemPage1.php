@@ -17,39 +17,6 @@
 		</form>
 		
 	</div>	
-	    
-	<script type="text/javascript">
-		
-	var biologyPage1 = 0;
-	var calculusPage1 = 0;
-	var chemistryPage1 = 0;
-	var physicsPage1 = 0;
-	var statisticsPage1 = 0;
-	
-	function change(id)
-  	{
-		if(document.getElementById(id+"_hidden").value == 5)
-		{
-			document.getElementById("bio5").src="../images/question1/staroff.png";
-			document.getElementById("cal5").src="../images/question1/staroff.png";
-			document.getElementById("che5").src="../images/question1/staroff.png";
-			document.getElementById("phy5").src="../images/question1/staroff.png";
-			document.getElementById("sta5").src="../images/question1/staroff.png";
-		}
-    		var cname=document.getElementById(id).className;
-    		var ab=document.getElementById(id+"_hidden").value;
-    		document.getElementById(cname+"rating").innerHTML=ab;
-    		for(var i=ab;i>=1;i--)
-   		{
-    			document.getElementById(cname+i).src="../images/question1/staron.png";
-    		}
-    		var id=parseInt(ab)+1;
-   		for(var j=id;j<=5;j++)
-   		{
-   			document.getElementById(cname+j).src="../images/question1/staroff.png";
-   		}
-  	}
-	</script>
 </head>
 <div class="framedefinition">
 <body>
@@ -168,6 +135,37 @@ It has two major branches, differential calculus, and integral calculus; these t
 <script type="text/javascript">
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
+	
+var biologyPage1 = 0;
+var calculusPage1 = 0;
+var chemistryPage1 = 0;
+var physicsPage1 = 0;
+var statisticsPage1 = 0;
+	
+function change(id)
+{
+	if(document.getElementById(id+"_hidden").value == 5)
+	{
+		document.getElementById("bio5").src="../images/question1/staroff.png";
+		document.getElementById("cal5").src="../images/question1/staroff.png";
+		document.getElementById("che5").src="../images/question1/staroff.png";
+		document.getElementById("phy5").src="../images/question1/staroff.png";
+		document.getElementById("sta5").src="../images/question1/staroff.png";
+	}
+    	var cname=document.getElementById(id).className;
+    	var ab=document.getElementById(id+"_hidden").value;
+    	document.getElementById(cname+"rating").innerHTML=ab;
+    	for(var i=ab;i>=1;i--)
+   	{
+    		document.getElementById(cname+i).src="../images/question1/staron.png";
+    	}
+    	var id=parseInt(ab)+1;
+   	for(var j=id;j<=5;j++)
+   	{
+   		document.getElementById(cname+j).src="../images/question1/staroff.png";
+   	}
+  }
+	
 function biologyDropdown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
