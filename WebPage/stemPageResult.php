@@ -324,7 +324,14 @@
 		}
 	}
 	
+	//Debugging code below, uncomment the code to test algorithm scores by deleting /* and */
+	
+	/*
+	
 	document.getElementById('scoreTest').innerHTML="<p>Scores:</p><p>Science: " + scienceResult + "</p>" +
 	"<p>Technology: " + technologyResult + "</p><p>Engineering: " + engineeringResult + "</p>" +
 	"<p>Mathematics: " + mathematicsResult + "</p>";
+	
+	*/
+	
 </script>
