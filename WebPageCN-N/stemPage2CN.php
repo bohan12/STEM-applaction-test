@@ -341,7 +341,7 @@
 		</form>
 
 		
-		<form action="thirdCN.php" onSubmit="JavaScript:SetCookies()">
+		<form action="stemPage2CN.php" onSubmit="JavaScript:SetCookies()">
 			<button type="submit" formaction = "stemPage3CN.php">下一页 ►</button>
 			
 		</form>
